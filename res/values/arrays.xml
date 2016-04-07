@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<string-array name="menu_array">
+		<item>上传密码</item>
+		<item>支持团队</item>
+		<item>分享应用</item>
+		<item>检查更新</item>
+		<item>意见反馈</item>
+		<item>帮助</item>
+		<item>关于</item>
+	</string-array>
+	
+</resources>

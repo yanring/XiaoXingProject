@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@color/bar_color"
+	android:id="@+id/helpaboutviewLinearLayoutAdapter">
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:background="#FFFFFF">
+
+		<RelativeLayout
+			android:layout_height="50dip"
+			android:layout_width="match_parent"
+			android:background="@color/bar_color">
+
+			<ImageButton
+				android:layout_height="26dp"
+				android:layout_width="29dp"
+				android:src="@drawable/back"
+				android:background="#00000000"
+				android:layout_centerVertical="true"
+				android:scaleType="fitXY"
+				android:layout_marginRight="17dp"
+				android:id="@+id/helpaboutviewImageButtonBackButton"
+				android:layout_marginLeft="19dp"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="@string/app_name"
+				android:layout_toRightOf="@id/helpaboutviewImageButtonBackButton"
+				android:layout_centerVertical="true"
+				android:textSize="22dp"
+				android:textColor="@color/titlebar_title_color"
+				android:singleLine="true"
+				android:id="@+id/helpaboutviewTextViewTitleTV"/>
+
+		</RelativeLayout>
+
+		<WebView
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:id="@+id/helpaboutviewwebview">
+
+		</WebView>
+
+	</LinearLayout>
+
+</LinearLayout>
+

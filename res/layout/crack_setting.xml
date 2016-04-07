@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@color/bar_color"
+	android:id="@+id/cracksettingLinearLayoutAdapter">
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:background="#FFFFFF">
+
+		<RelativeLayout
+			android:layout_height="50dip"
+			android:layout_width="match_parent"
+			android:background="@color/bar_color"
+			android:gravity="center_vertical">
+
+			<ImageButton
+				android:layout_height="26dp"
+				android:layout_width="29dp"
+				android:src="@drawable/back"
+				android:background="#00000000"
+				android:layout_centerVertical="true"
+				android:scaleType="fitXY"
+				android:layout_marginRight="17dp"
+				android:id="@+id/cracksettingImageButtonBackButton"
+				android:layout_marginLeft="19dp"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="@string/cracksetting_title"
+				android:layout_toRightOf="@id/cracksettingImageButtonBackButton"
+				android:layout_centerVertical="true"
+				android:textSize="22dp"
+				android:singleLine="true"
+				android:id="@+id/cracksettingTextViewTitleTV"
+				android:textColor="@color/titlebar_title_color"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="@string/cracksetting_start"
+				android:layout_alignParentRight="true"
+				android:background="#00000000"
+				android:textColor="@color/titlebar_title_color"
+				android:textSize="19dp"
+				android:id="@+id/cracksetting_start"/>
+
+		</RelativeLayout>
+
+		<ScrollView
+			android:layout_height="match_parent"
+			android:layout_width="match_parent">
+
+			<LinearLayout
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:padding="10dp">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="@string/cracksetting_crackway"
+					android:textColor="@color/cracksetting_settingtab_title_color"
+					android:textSize="16dp"/>
+
+				<View
+					android:background="@color/cracksetting_settingdivideline_color"
+					android:layout_height="2dp"
+					android:layout_width="match_parent"
+					android:layout_marginTop="4dp"/>
+
+				<CheckBox
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="@string/cracksetting_flashcrack"
+					android:layout_marginTop="10dp"
+					android:id="@+id/cracksettingCheckBoxUseFlashyCrack"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="@string/cracksetting_flashcrack_introduce"
+					android:textColor="@color/cracksetting_settingtab_introduce_color"
+					android:layout_marginTop="3dp"/>
+
+				<CheckBox
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="@string/cracksetting_dictionary"
+					android:layout_marginTop="10dp"
+					android:id="@+id/cracksettingCheckBoxUseDictoryCrack"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:textColor="@color/cracksetting_settingtab_introduce_color"
+					android:text="@string/cracksetting_dictionary_introduce"
+					android:layout_marginTop="3dp"/>
+
+				<CheckBox
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="@string/cracksetting_violencecrack"
+					android:layout_marginTop="10dp"
+					android:id="@+id/cracksettingCheckBoxUseViolenceCrack"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textColor="@color/cracksetting_settingtab_introduce_color"
+					android:layout_width="wrap_content"
+					android:text="@string/cracksetting_violencecrack_introduce"
+					android:layout_marginTop="3dp"/>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:layout_marginTop="10dp"
+					android:id="@+id/cracksettingLinearLayoutViolenceGroup">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="@string/cracksetting_violencecrack_setting"
+						android:textColor="@color/cracksetting_settingtab_title_color"
+						android:textSize="16dp"/>
+
+					<View
+						android:layout_height="2dp"
+						android:background="@color/cracksetting_settingdivideline_color"
+						android:layout_width="match_parent"
+						android:layout_marginTop="4dp"/>
+
+					<LinearLayout
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:orientation="vertical"
+						android:id="@+id/choosewaytopojieLinearLayoutViolenceSuperSettingView">
+
+						<LinearLayout
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:orientation="horizontal"
+							android:gravity="center_vertical"
+							android:layout_marginTop="3dp">
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:text="@string/cracksetting_violencecracksetting_keylength"/>
+
+							<EditText
+								android:layout_height="wrap_content"
+								android:inputType="number"
+								android:layout_width="70dp"
+								android:ems="10"
+								android:hint="1"
+								android:id="@+id/cracksettingEditTextMinLength"
+								android:singleLine="true"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:text="@string/cracksetting_violencecracksetting_to"/>
+
+							<EditText
+								android:layout_height="wrap_content"
+								android:inputType="number"
+								android:layout_width="70dp"
+								android:ems="10"
+								android:hint="+∞"
+								android:id="@+id/cracksettingEditTextMaxLength"
+								android:singleLine="true"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:orientation="horizontal"
+							android:layout_marginTop="3dp">
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:text="@string/cracksetting_violencecracksetting_stringgroup"/>
+
+							<TableLayout
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content">
+
+								<TableRow
+									android:layout_height="wrap_content"
+									android:layout_width="wrap_content">
+
+									<CheckBox
+										android:layout_height="wrap_content"
+										android:layout_width="wrap_content"
+										android:layout_marginRight="20dp"
+										android:id="@+id/cracksettingCheckBoxUperCase"
+										android:text="@string/cracksetting_violencecracksetting_stringgroup_upercase"/>
+
+									<CheckBox
+										android:layout_height="wrap_content"
+										android:layout_width="wrap_content"
+										android:text="@string/cracksetting_violencecracksetting_stringgroup_number"
+										android:id="@+id/cracksettingCheckBoxNumber"/>
+
+								</TableRow>
+
+								<TableRow
+									android:layout_height="wrap_content"
+									android:layout_width="wrap_content">
+
+									<CheckBox
+										android:layout_height="wrap_content"
+										android:layout_width="wrap_content"
+										android:text="@string/cracksetting_violencecracksetting_stringgroup_lowercase"
+										android:layout_marginRight="20dp"
+										android:id="@+id/cracksettingCheckBoxLowerCase"/>
+
+									<CheckBox
+										android:layout_height="wrap_content"
+										android:layout_width="wrap_content"
+										android:text="@string/cracksetting_violencecracksetting_stringgroup_symbol"
+										android:id="@+id/cracksettingCheckBoxSymbol"/>
+
+								</TableRow>
+
+							</TableLayout>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:orientation="horizontal"
+							android:layout_marginTop="3dp">
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:text="@string/cracksetting_violencecracksetting_useprefix"/>
+
+							<EditText
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:ems="10"
+								android:singleLine="true"
+								android:hint="@string/cracksetting_violencecracksetting_notuseprefix"
+								android:id="@+id/cracksettingEditTextPrefix"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:orientation="horizontal"
+							android:layout_marginTop="3dp">
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:text="@string/cracksetting_violencecracksetting_usesuffix"/>
+
+							<EditText
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:ems="10"
+								android:singleLine="true"
+								android:hint="@string/cracksetting_violencecracksetting_notusesuffix"
+								android:id="@+id/cracksettingEditTextSuffix"/>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</ScrollView>
+
+	</LinearLayout>
+
+</LinearLayout>
+

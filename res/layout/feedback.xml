@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@color/bar_color"
+	android:id="@+id/feedbackLinearLayoutAdapter">
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:background="#FFFFFF">
+
+		<RelativeLayout
+			android:layout_height="50dip"
+			android:layout_width="match_parent"
+			android:background="@color/bar_color"
+			android:gravity="center_vertical">
+
+			<ImageButton
+				android:layout_height="26dp"
+				android:layout_width="29dp"
+				android:src="@drawable/back"
+				android:background="#00000000"
+				android:layout_centerVertical="true"
+				android:scaleType="fitXY"
+				android:layout_marginRight="17dp"
+				android:id="@+id/feedbackImageButtonBackButton"
+				android:layout_marginLeft="19dp"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="@string/feedback"
+				android:layout_toRightOf="@id/feedbackImageButtonBackButton"
+				android:layout_centerVertical="true"
+				android:textSize="22dp"
+				android:singleLine="true"
+				android:id="@+id/feedbackTextViewTitleTV"
+				android:textColor="@color/titlebar_title_color"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="@string/feedback_send"
+				android:layout_alignParentRight="true"
+				android:background="#00000000"
+				android:textColor="@color/titlebar_title_color"
+				android:textSize="19dp"
+				android:id="@+id/feedbackButtonSend"/>
+
+		</RelativeLayout>
+
+		<EditText
+			android:layout_height="160dp"
+			android:layout_width="match_parent"
+			android:layout_marginTop="20dp"
+			android:layout_margin="22dp"
+			android:id="@+id/feedbackEditTextMessage"
+			android:hint="@string/feedback_edit_hint_message"
+			android:gravity="top"
+			android:background="@drawable/feedback_edit_bg"
+			android:textSize="16dp"/>
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:ems="10"
+			android:layout_margin="22dp"
+			android:singleLine="true"
+			android:id="@+id/feedbackEditTextAttachWay"
+			android:hint="@string/feedback_edit_hint_attach_way"
+			android:background="@drawable/feedback_edit_bg"
+			android:textSize="16dp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

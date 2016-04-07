@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="@color/bar_color">
+
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:id="@+id/mainscreenviewRelativeLayoutAllViewGroup">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:background="#FFFFFF">
+
+			<RelativeLayout
+				android:layout_height="50dip"
+				android:layout_width="match_parent"
+				android:background="@color/bar_color">
+
+				<ImageButton
+					android:layout_height="26dp"
+					android:layout_width="26dp"
+					android:src="@drawable/menu_imagebutton_bg"
+					android:background="#00000000"
+					android:layout_centerVertical="true"
+					android:scaleType="fitXY"
+					android:layout_marginLeft="15dp"
+					android:id="@+id/mainscreenviewImageButtonMenuButton"
+					android:layout_marginRight="26dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="@string/app_name"
+					android:layout_toRightOf="@id/mainscreenviewImageButtonMenuButton"
+					android:layout_centerVertical="true"
+					android:textSize="22dp"
+					android:textColor="@color/titlebar_title_color"
+					android:id="@+id/mainscreenviewTextViewTitle"
+					android:singleLine="true"/>
+
+			</RelativeLayout>
+
+			<HorizontalScrollView
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:scrollbarAlwaysDrawHorizontalTrack="false"
+				android:scrollbars="none">
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:id="@+id/mainscreenviewLinearLayoutFilePath">
+
+				</LinearLayout>
+
+			</HorizontalScrollView>
+
+			<View
+				android:background="?android:attr/dividerVertical"
+				android:layout_height="1dp"
+				android:layout_width="match_parent"/>
+
+			<ListView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:id="@+id/mainscreenviewListViewFileListView"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="50dip"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:layout_alignParentBottom="true"
+			android:background="#FFFFFF"
+			android:id="@+id/mainscreenviewLinearLayoutFileClick"
+			android:visibility="gone"
+			android:gravity="center_horizontal">
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="删除"
+					android:layout_alignParentBottom="true"
+					android:layout_centerHorizontal="true"
+					android:textColor="#737273"/>
+
+				<ImageButton
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:src="@drawable/file_click_delete"
+					android:layout_centerHorizontal="true"
+					android:layout_alignParentBottom="true"
+					android:paddingBottom="17dp"
+					android:background="#00000000"
+					android:id="@+id/mainscreenviewImageButtonFileClickDelete"
+					android:adjustViewBounds="true"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:visibility="gone">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="重命名"
+					android:layout_alignParentBottom="true"
+					android:layout_centerHorizontal="true"
+					android:textColor="#737273"/>
+
+				<ImageButton
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:src="@android:drawable/ic_menu_close_clear_cancel"
+					android:layout_centerHorizontal="true"
+					android:layout_alignParentBottom="true"
+					android:paddingBottom="17dp"
+					android:background="#00000000"
+					android:id="@+id/mainscreenviewImageButtonFileClickRename"
+					android:adjustViewBounds="true"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="破解"
+					android:layout_alignParentBottom="true"
+					android:layout_centerHorizontal="true"
+					android:textColor="#737273"/>
+
+				<ImageButton
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:src="@drawable/file_click_pojie"
+					android:layout_centerHorizontal="true"
+					android:layout_alignParentBottom="true"
+					android:paddingBottom="17dp"
+					android:background="#00000000"
+					android:id="@+id/mainscreenviewImageButtonFileClickPojie"
+					android:adjustViewBounds="true"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="打开"
+					android:layout_alignParentBottom="true"
+					android:layout_centerHorizontal="true"
+					android:textColor="#737273"/>
+
+				<ImageButton
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:src="@drawable/file_click_open"
+					android:layout_centerHorizontal="true"
+					android:layout_alignParentBottom="true"
+					android:paddingBottom="17dp"
+					android:background="#00000000"
+					android:id="@+id/mainscreenviewImageButtonFileClickOpen"
+					android:adjustViewBounds="true"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="分享"
+					android:layout_alignParentBottom="true"
+					android:layout_centerHorizontal="true"
+					android:textColor="#737273"/>
+
+				<ImageButton
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:src="@drawable/file_click_share"
+					android:layout_centerHorizontal="true"
+					android:layout_alignParentBottom="true"
+					android:background="#00000000"
+					android:id="@+id/mainscreenviewImageButtonFileClickShare"
+					android:adjustViewBounds="true"
+					android:paddingBottom="17dp"/>
+
+			</RelativeLayout>
+
+		</LinearLayout>
+
+		<ImageButton
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:src="@drawable/back_imagebutton_bg"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true"
+			android:id="@+id/mainscreenviewImageButtonBackButton"
+			android:layout_marginBottom="20dp"
+			android:layout_marginRight="16dp"
+			android:background="#00000000"
+			android:visibility="gone"/>
+
+	</RelativeLayout>
+
+</RelativeLayout>
+

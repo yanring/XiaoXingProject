@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-sw550dp-large-v13\\umeng_socialize_titile_bar.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\layout-sw550dp-large-v13\\umeng_socialize_titile_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-sw550dp-large-v13\\umeng_socialize_post_share.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\layout-sw550dp-large-v13\\umeng_socialize_post_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-sw550dp-large-v13\\umeng_socialize_full_alert_dialog.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\layout-sw550dp-large-v13\\umeng_socialize_full_alert_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-sw550dp-large-v13\\umeng_socialize_oauth_dialog.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\layout-sw550dp-large-v13\\umeng_socialize_oauth_dialog.xml"
+    }
+]

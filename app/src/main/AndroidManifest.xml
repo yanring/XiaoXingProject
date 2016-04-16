@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mygps">
+
+
+
+    <!--短信的权限-->
+    <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.READ_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+
+
+    <!--百度地图的权限-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+
+    <!--Bmob数据库权限-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+
+    <!-- 使用相机 -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <!-- ###################声明SDK使用的相关权限###################### -->
+    <!-- 检测网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 获取mac地址作为用户的备用唯一标识 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 获取用户手机的IMEI，用来唯一的标识用户 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 缓存资源优先存入SDcard -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 允许应用程序联网，以便向我们的服务器端发送数据 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 定位所需的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+
+    <!-- 推送相关的权限 -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- QQ、QQ空间所需权限 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/welcome"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".MyApplication">
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="PKk8Ko2VH2GoDP3RLSHPZ5CR" />
+
+
+        <activity android:name=".test.MyMapActivity">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+-->
+        </activity>
+        <activity android:name=".TestShopWebViewActivity"/>
+
+        <activity android:name=".start.WelcomeActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".start.SigninActivity"/>
+        <activity android:name=".start.LoginActivity"/>
+        <activity android:name=".CommunityServiceActivity"/>
+        <activity android:name=".TestForumActivity"/>
+
+
+        <activity android:name=".MyEquipListActivity"/>
+        <activity android:name=".MyEquipLocationActivity" />
+        <activity android:name=".AddEquipActivity"/>
+        <activity android:name=".MyPathActivity"/>
+
+        <!-- 微博版activity组件 start -->
+
+        <!-- 发现的Activity -->
+        <activity
+            android:name="com.umeng.comm.ui.activities.FindActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <!--  -->
+        <activity
+            android:name="com.umeng.comm.ui.activities.UserInfoActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <!--  -->
+        <activity
+            android:name="com.umeng.comm.ui.activities.TopicDetailActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <!--  -->
+        <activity
+            android:name="com.umeng.comm.ui.activities.FeedsActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <!-- 搜索结果Activity -->
+        <activity
+            android:name="com.umeng.comm.ui.activities.RelativeUserActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <!--  -->
+        <activity
+            android:name="com.umeng.comm.ui.activities.PostFeedActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="true"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+
+        <!--  -->
+        <activity
+            android:name="com.umeng.comm.ui.activities.ForwardActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <!-- 搜索Activity -->
+        <activity
+            android:name="com.umeng.comm.ui.activities.SearchActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <!-- feed详情页面 -->
+        <activity
+            android:name="com.umeng.comm.ui.activities.FeedDetailActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <!-- 设置页面activity -->
+        <activity android:name="com.umeng.comm.ui.activities.SettingActivity" />
+
+        <!-- 引导页面activity -->
+        <activity android:name="com.umeng.comm.ui.activities.GuideActivity" />
+
+        <!-- 点赞用户页面 -->
+        <activity android:name="com.umeng.comm.ui.activities.LikeUsersActivity" />
+
+        <!-- 显示某个位置Feed的Activity -->
+        <activity android:name="com.umeng.comm.ui.activities.LocationFeedActivity" />
+
+        <activity
+            android:name="com.umeng.comm.ui.activities.BrowserActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+        <activity android:name="com.umeng.comm.ui.activities.AlbumActivity" />
+        <activity android:name="com.umeng.comm.ui.activities.FollowedTopicActivity" />
+        <activity android:name="com.umeng.comm.ui.activities.NotificationActivity" />
+        <activity android:name="com.umeng.comm.ui.activities.NewMsgActivity" />
+
+        <!-- 微博版activity组件 end-->
+
+
+        <!-- 论坛版activity组件 start -->
+
+        <!-- 发现的Activity -->
+        <activity
+            android:name="com.umeng.commm.ui.activities.FindActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <!--  -->
+        <activity
+            android:name="com.umeng.commm.ui.activities.UserInfoActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <!--  -->
+        <activity
+            android:name="com.umeng.commm.ui.activities.TopicDetailActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <!--  -->
+        <activity
+            android:name="com.umeng.commm.ui.activities.FeedsActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <!-- 搜索结果Activity -->
+        <activity
+            android:name="com.umeng.commm.ui.activities.RelativeUserActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <!--  -->
+        <activity
+            android:name="com.umeng.commm.ui.activities.PostFeedActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="true"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+
+        <!--  -->
+        <activity
+            android:name="com.umeng.commm.ui.activities.ForwardActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <!-- 搜索Activity -->
+        <activity
+            android:name="com.umeng.commm.ui.activities.SearchActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <!-- feed详情页面 -->
+        <activity
+            android:name="com.umeng.commm.ui.activities.FeedDetailActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <!-- 设置页面activity -->
+        <activity android:name="com.umeng.commm.ui.activities.SettingActivity" />
+
+        <!-- 引导页面activity -->
+        <activity android:name="com.umeng.commm.ui.activities.GuideActivity" />
+
+        <!-- 点赞用户页面 -->
+        <activity android:name="com.umeng.commm.ui.activities.LikeUsersActivity" />
+
+        <!-- 显示某个位置Feed的Activity -->
+        <activity android:name="com.umeng.commm.ui.activities.LocationFeedActivity" />
+
+        <activity
+            android:name="com.umeng.commm.ui.activities.BrowserActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+        <activity android:name="com.umeng.commm.ui.activities.AlbumActivity" />
+        <activity android:name="com.umeng.commm.ui.activities.FollowedTopicActivity" />
+        <activity android:name="com.umeng.commm.ui.activities.TopicActivity" />
+        <activity android:name="com.umeng.commm.ui.activities.MessageChatActivity" />
+        <activity android:name="com.umeng.commm.ui.activities.NotificationActivity" />
+        <activity android:name="com.umeng.commm.ui.activities.NewMsgActivity" />
+
+        <!-- 论坛版activity组件 end-->
+
+        <!-- 图片选择相关 -->
+        <activity android:name="com.umeng.comm.ui.imagepicker.PhotoSelectorActivity" />
+        <activity android:name="com.umeng.comm.ui.imagepicker.PhotoPreviewActivity" />
+
+        <!-- 友盟登录界面 -->
+        <activity android:name="com.umeng.community.login.LoginActivity" />
+
+
+        <meta-data android:name="UMENG_APPKEY"
+                   android:value="56f52893e0f55a79c8002cea" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="ed66bfd59f8d9d3c1e8baa2447212721" >
+        </meta-data>
+    </application>
+
+</manifest>

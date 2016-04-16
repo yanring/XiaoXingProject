@@ -3,22 +3,26 @@ package com.mygps.start;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 
 import com.mygps.CommunityServiceActivity;
 import com.mygps.MyApplication;
 import com.mygps.R;
+import com.mygps.utils.StatusBarUtils;
 
 /**
  * Created by HowieWang on 2016/3/8.
  */
-public class WelcomeActivity extends Activity {
+public class WelcomeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
+
+      //  new StatusBarUtils().setStatusBar(this);
 
         MyApplication app = (MyApplication) getApplication();
         app.setWelcome(this);

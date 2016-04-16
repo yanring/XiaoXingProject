@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:background="#ffffff"
-              android:orientation="vertical">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
 
     <ImageView
-        android:layout_marginTop="110dp"
-        android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/welcome"/>
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="110dp"
+        android:src="@drawable/welcome" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="孝行"
-        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"
+        android:text="孝行"
         android:textColor="#6f6fff"
-        android:layout_gravity="center_horizontal"/>
+        android:textSize="30sp" />
 
     <LinearLayout
         android:id="@+id/temp1"
-        android:layout_marginTop="100dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
         android:orientation="horizontal">
 
         <Button
@@ -35,18 +36,18 @@
             android:layout_height="wrap_content"
             android:background="@drawable/welcome_btn"
             android:text="注册"
-            android:textSize="20sp"
-            android:textColor="#ffffff"/>
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/welcome_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="60dp"
-            android:text="登录"
             android:background="@drawable/welcome_btn"
-            android:textSize="20sp"
-            android:textColor="#ffffff"/>
+            android:text="登录"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/welcome_test"
@@ -54,8 +55,8 @@
             android:layout_height="wrap_content"
             android:background="@drawable/welcome_btn"
             android:text="测试"
-            android:textSize="20sp"
-            android:textColor="#ffffff"/>
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
     </LinearLayout>
 
 

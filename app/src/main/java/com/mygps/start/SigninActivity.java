@@ -4,6 +4,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -20,12 +23,13 @@ import cn.bmob.v3.listener.SaveListener;
  */
 public class SigninActivity extends AppCompatActivity {
 
+    MenuItem sign;
     EditText username;
     EditText password;
 
-    Button sign;
+  /*  Button sign;
     Button reset;
-
+*/
     Toolbar mToolBar;
 
     @Override
@@ -55,7 +59,10 @@ public class SigninActivity extends AppCompatActivity {
 
         username = (EditText) findViewById(R.id.signin_username);
         password = (EditText) findViewById(R.id.signin_password);
-
+        findViewById(R.id.signInUserIM).requestFocus();
+        username.addTextChangedListener(new textWatcher());
+        password.addTextChangedListener(new textWatcher());
+/*
         sign = (Button) findViewById(R.id.signin_signin);
         reset = (Button) findViewById(R.id.signin_reset);
 
@@ -68,9 +75,9 @@ public class SigninActivity extends AppCompatActivity {
                 String pw = password.getText().toString();
 
 
-                /**
+                *//**
                  * 此处做用户名和密码的检查
-                 */
+                 *//*
 
                 BmobUser user = new BmobUser();
                 user.setUsername(un);
@@ -90,8 +97,40 @@ public class SigninActivity extends AppCompatActivity {
                 });
 
             }
-        });
+        });*/
 
+    }
+
+    class textWatcher implements TextWatcher{
+
+        @Override
+        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+        }
+
+        @Override
+        public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+        }
+
+        @Override
+        public void afterTextChanged(Editable s) {
+            if (password.getText()!=null&&username.getText()!=null&&!password.getText().toString().equals("")&&!username.getText().toString().equals("")){
+                sign.setEnabled(true);
+            }else{
+                sign.setEnabled(false);
+            }
+        }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        sign=menu.add(0,0,0,"注册");
+        sign.setTitle("注册");
+        sign.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
+        sign.setEnabled(false);
+
+        return super.onCreateOptionsMenu(menu);
     }
 
     @Override
@@ -101,6 +140,34 @@ public class SigninActivity extends AppCompatActivity {
             case android.R.id.home:
                 finish();
                 break;
+            case 0:
+                final String un = username.getText().toString();
+                String pw = password.getText().toString();
+
+
+                //用户名与密码检查
+
+                BmobUser user = new BmobUser();
+                user.setUsername(un);
+                user.setPassword(pw);
+                user.signUp(SigninActivity.this, new SaveListener() {
+                    @Override
+                    public void onSuccess() {/*
+                        Intent intent = new Intent(SigninActivity.this, LoginActivity.class);
+                        intent.putExtra("username" , un);
+                        startActivity(intent);*/
+
+                        finish();
+                    }
+
+                    @Override
+                    public void onFailure(int i, String s) {
+
+                    }
+                });
+
+                break;
+
         }
         return super.onOptionsItemSelected(item);
     }

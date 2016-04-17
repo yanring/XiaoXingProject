@@ -38,7 +38,7 @@ public class WelcomeActivity extends AppCompatActivity {
 
         //  new StatusBarUtils().setStatusBar(this);
 
-        startActivity(new Intent(WelcomeActivity.this, CommunityServiceActivity.class));
+        //startActivity(new Intent(WelcomeActivity.this, CommunityServiceActivity.class));
         app = (MyApplication) getApplication();
         app.setWelcome(this);
 

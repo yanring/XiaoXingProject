@@ -26,6 +26,12 @@ public class CommunityServiceActivity extends Activity {
                 startActivity(new Intent(CommunityServiceActivity.this, TestShopWebViewActivity.class));
             }
         });
+        findViewById(R.id.smart_device).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(CommunityServiceActivity.this, MyEquipListActivity.class));
+            }
+        });
     }
 
 }

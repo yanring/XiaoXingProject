@@ -4,8 +4,10 @@ import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.widget.SwitchCompat;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.Switch;
@@ -32,13 +34,22 @@ public class MyEquipListActivity extends Activity {
     ProgressDialog pro;
     ArrayList<Equip> equips;
 
-    Switch functionSwitch;
+    SwitchCompat functionSwitch;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_equiplist);
+        //临时添加一个跳转
+        ImageButton button = (ImageButton)findViewById(R.id.service_button);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MyEquipListActivity.this,CommunityServiceActivity.class);
+                startActivity(intent);
+            }
+        });
 
         initView();
 
@@ -56,7 +67,7 @@ public class MyEquipListActivity extends Activity {
 
         showPro();
 
-        functionSwitch = (Switch) findViewById(R.id.function_switch);
+        functionSwitch = (SwitchCompat) findViewById(R.id.function_switch);
 
 
         app = (MyApplication) getApplication();

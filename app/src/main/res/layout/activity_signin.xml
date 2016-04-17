@@ -92,5 +92,13 @@
                 android:textSize="20sp" />
 
         </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="现版本为测试版,各大功能仍在完善中,敬请期待"
+            android:layout_marginTop="40dp"
+                />
     </LinearLayout>
+
 </LinearLayout>

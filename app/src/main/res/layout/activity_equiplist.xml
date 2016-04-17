@@ -2,11 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
+              android:layout_height="match_parent"
+    >
 
     <include layout="@layout/bar_title" />
 
-    <Switch
+    <android.support.v7.widget.SwitchCompat
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textOn="实时定位"
@@ -20,5 +21,19 @@
         android:id="@+id/equiplist"
         android:layout_width="wrap_content"
         android:layout_height="400dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="提示:点击设备名称进入地图,用开关选择模式"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/service_button"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:id="@+id/service_button"
+        android:background="@color/umeng_comm_white_color"
+        />
 
 </LinearLayout>

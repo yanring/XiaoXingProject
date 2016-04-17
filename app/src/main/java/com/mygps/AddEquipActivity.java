@@ -16,8 +16,6 @@ import cn.bmob.v3.listener.SaveListener;
  */
 public class AddEquipActivity extends Activity {
 
-
-    
     EditText name;
     EditText phone;
 

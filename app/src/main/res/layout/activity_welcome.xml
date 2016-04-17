@@ -67,7 +67,8 @@
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_above="@id/welcomeActivityILUsername"
-        android:gravity="center">
+        android:gravity="center"
+        android:id="@+id/welcomeTopLayout">
 
         <ImageView
             android:layout_height="wrap_content"
@@ -129,5 +130,13 @@
             android:paddingTop="5dp" />
 
     </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试"
+        android:id="@+id/welcomeTest"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true" />
 
 </RelativeLayout>

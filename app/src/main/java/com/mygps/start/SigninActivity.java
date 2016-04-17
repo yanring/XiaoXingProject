@@ -59,7 +59,7 @@ public class SigninActivity extends AppCompatActivity {
 
         username = (EditText) findViewById(R.id.signin_username);
         password = (EditText) findViewById(R.id.signin_password);
-
+        findViewById(R.id.signInUserIM).requestFocus();
         username.addTextChangedListener(new textWatcher());
         password.addTextChangedListener(new textWatcher());
 /*
@@ -156,7 +156,7 @@ public class SigninActivity extends AppCompatActivity {
                         Intent intent = new Intent(SigninActivity.this, LoginActivity.class);
                         intent.putExtra("username" , un);
                         startActivity(intent);*/
-                        
+
                         finish();
                     }
 

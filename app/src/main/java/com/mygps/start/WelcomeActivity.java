@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.AppCompatCheckBox;
 import android.util.Log;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -38,7 +40,7 @@ public class WelcomeActivity extends AppCompatActivity {
 
         //  new StatusBarUtils().setStatusBar(this);
 
-        startActivity(new Intent(WelcomeActivity.this, CommunityServiceActivity.class));
+
         app = (MyApplication) getApplication();
         app.setWelcome(this);
 
@@ -48,6 +50,15 @@ public class WelcomeActivity extends AppCompatActivity {
 
     private void initView() {
 
+        //test
+        findViewById(R.id.welcomeTest).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(WelcomeActivity.this,CommunityServiceActivity.class));
+            }
+        });
+
+        findViewById(R.id.welcomeActivityIM).requestFocus();//获取焦点
         passportET = (EditText) findViewById(R.id.welcomeActivityETCipher);
         usernameET = (EditText) findViewById(R.id.welcomeActivityETUsername);
         loginBT = (Button) findViewById(R.id.welcomeActivityBTLogin);
@@ -121,6 +132,26 @@ public class WelcomeActivity extends AppCompatActivity {
         findViewById(R.id.temp1).setAnimation(animation);
         animation.start();
 */
+        Animation anim = AnimationUtils.loadAnimation(this, R.anim.welcome_activity_imageup);
+        findViewById(R.id.welcomeTopLayout).setAnimation(anim);
+        anim.start();
+
+        anim.setAnimationListener(new Animation.AnimationListener() {
+            @Override
+            public void onAnimationStart(Animation animation) {
+
+            }
+
+            @Override
+            public void onAnimationEnd(Animation animation) {
+
+            }
+
+            @Override
+            public void onAnimationRepeat(Animation animation) {
+
+            }
+        });
     }
 
     public void showPro() {

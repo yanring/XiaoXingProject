@@ -1,10 +1,10 @@
 package com.mygps;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.webkit.JsResult;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
@@ -13,7 +13,7 @@ import android.webkit.WebViewClient;
 /**
  * Created by Yanring on 2016/4/9.
  */
-public class TestShopWebViewActivity extends Activity {
+public class TestShopWebViewActivity extends AppCompatActivity {
     WebView web;
 
     @Override
@@ -38,8 +38,7 @@ public class TestShopWebViewActivity extends Activity {
         web.getSettings().setAppCachePath(appCacheDir);
         web.getSettings().setJavaScriptEnabled(true);
         web.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
-      //  web.getSettings().getJavaScriptEnabled();
-      //  web.getSettings().getJavaScriptCanOpenWindowsAutomatically();
+
 
 
         web.setWebChromeClient(new WebChromeClient() {
@@ -59,8 +58,6 @@ public class TestShopWebViewActivity extends Activity {
                 builder.show();
                 return true;
             }
-
-
 
             //处理javascript中的confirm
             public boolean onJsConfirm(WebView view, String url, String message, final JsResult result) {
@@ -84,25 +81,22 @@ public class TestShopWebViewActivity extends Activity {
                 builder.show();
                 return true;
             }
-
-
         });
 
         web.setWebViewClient(new WebViewClient());
-
         //WebView加载web资源
         web.loadUrl("https://chaoshi.tmall.com/");
-        //覆盖WebView默认使用第三方或系统默认浏览器打开网页的行为，使网页用WebView打开
-        /*web.setWebViewClient(new WebViewClient() {
-            @Override
-            public boolean shouldOverrideUrlLoading(WebView view, String url) {
-                // TODO Auto-generated method stub
-                //返回值是true的时候控制去WebView打开，为false调用系统浏览器或第三方浏览器
-                view.loadUrl(url);
-                return true;
-            }
-        });*/
+
     }
 
+    @Override
+    public void onBackPressed() {
+      //  super.onBackPressed();
+        if (web.canGoBack()){
+            web.goBack();
+        }else{
+            finish();
+        }
+    }
 }
 

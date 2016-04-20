@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.mygps.chiyao.chiyao;
+
 /**
  * Created by Yanring on 2016/3/20.
  * 社区服务界面
@@ -24,6 +26,12 @@ public class CommunityServiceActivity extends Activity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(CommunityServiceActivity.this, TestShopWebViewActivity.class));
+            }
+        });
+        findViewById(R.id.activityCommunityIBTakeMedicine).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(CommunityServiceActivity.this,chiyao.class));
             }
         });
     }

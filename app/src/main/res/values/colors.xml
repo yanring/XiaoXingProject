@@ -5,4 +5,21 @@
     <color name="colorAccent">#FF4081</color>
     <color name="community_background">#3c394e</color>
     <color name="community_service_color">#38c97b</color>
+
+    <color name="baise">#FFFFFF</color>
+    <color name="juhuang">#F77623</color>
+    <color name="huidi">#4B473C</color>
+    <color name="juhuangtext">#FCC605</color>
+    <color name="huang">#F67C26</color>
+    <color name="hui">#F7F7F7</color>
+    <color name="huixian">#F88339</color>
+    <color name="hei">#1E1E1E</color>
+    <color name="huixianshu">#DFE5E5</color>
+    <color name="huangse">#FFc000</color>
+    <color name="huangshen">#F7741c</color>
+    <color name="huangdi">#F7741C</color>
+    <color name="huangqian">#F7862D</color>
+    <color name="hong">#Eb4583</color>
+
+
 </resources>

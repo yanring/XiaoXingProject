@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chiyao_addremind_additem_back">
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <LinearLayout
+                android:background="@drawable/chiyao_addremaind_additem_image"
+                android:gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="200dp">
+            <LinearLayout
+                android:background="@drawable/chiyao_addremind_additem_image2"
+                android:gravity="center"
+                android:layout_width="180dp"
+                android:layout_height="180dp">
+                <ImageView
+                    android:src="@mipmap/iconfontunie645"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+            </LinearLayout>
+            </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:textColor="@color/baise"
+        android:text="时间:"
+        android:layout_marginLeft="40dp"
+        android:gravity="center_vertical"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    <TextView
+        android:paddingLeft="10dp"
+        android:id="@+id/time"
+        android:background="@drawable/chiyao_addremind_additem_text"
+        android:gravity="center_vertical"
+        android:textSize="20dp"
+        android:textColor="@color/hei"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/time_image"
+            android:src="@mipmap/iconfonticonfont74"
+            android:layout_marginRight="40dp"
+            android:layout_gravity="right|center_vertical"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+    </FrameLayout>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="@color/baise"
+        android:text="药品名称:"
+        android:layout_marginLeft="40dp"
+        android:gravity="center_vertical"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <EditText
+        android:paddingLeft="10dp"
+        android:textColor="@color/hei"
+        android:id="@+id/medision"
+        android:background="@drawable/chiyao_addremind_additem_text"
+        android:gravity="center_vertical"
+        android:textSize="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/submite"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="@drawable/shape_chiyao"
+        android:textColor="@color/baise"
+        android:textSize="24dp"
+        android:text="提交"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+</LinearLayout>

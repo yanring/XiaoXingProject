@@ -17,6 +17,7 @@ import com.mygps.CommunityServiceActivity;
 import com.mygps.MyApplication;
 import com.mygps.MyEquipListActivity;
 import com.mygps.R;
+import com.mygps.chiyao.chiyao;
 
 import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.listener.SaveListener;
@@ -45,6 +46,7 @@ public class WelcomeActivity extends AppCompatActivity {
         app.setWelcome(this);
 
         initView();
+
 
     }
 

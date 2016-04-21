@@ -138,7 +138,8 @@
             android:layout_alignParentBottom="true"
             android:layout_marginTop="@dimen/activity_vertical_margin"
             android:background="@null"
-            android:scaleType="fitXY"/>
+            android:scaleType="fitXY"
+            android:id="@+id/activityCommunityIBTakeMedicine" />
     </RelativeLayout>
 
 

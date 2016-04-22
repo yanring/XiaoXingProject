@@ -2,5 +2,6 @@
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="20" />
   <option name="CONSOLE_FONT_NAME" value="Monospaced" />
+  <option name="EDITOR_QUICK_DOC_FONT_SIZE" value="LARGE" />
   <option name="EDITOR_FONT_NAME" value="Consolas" />
 </scheme>

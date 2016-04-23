@@ -41,12 +41,12 @@ public class WelcomeActivity extends AppCompatActivity {
 
         //  new StatusBarUtils().setStatusBar(this);
 
-
         app = (MyApplication) getApplication();
         app.setWelcome(this);
 
         initView();
 
+      //  startActivity(new Intent(WelcomeActivity.this, CommunityServiceActivity.class));
 
     }
 
@@ -84,7 +84,7 @@ public class WelcomeActivity extends AppCompatActivity {
                                            user.login(WelcomeActivity.this, new SaveListener() {
                                                @Override
                                                public void onSuccess() {
-                                                   Intent intent = new Intent(WelcomeActivity.this, MyEquipListActivity.class);
+                                                   Intent intent = new Intent(WelcomeActivity.this, CommunityServiceActivity.class);
                                                    BmobUser currentUser = BmobUser.getCurrentUser(WelcomeActivity.this);
                                                    app.setUser(currentUser);
 

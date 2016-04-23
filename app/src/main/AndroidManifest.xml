@@ -2,15 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mygps">
 
+    <!-- 短信的权限 -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
 
-
-    <!--短信的权限-->
-    <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
-    <uses-permission android:name="android.permission.READ_SMS"></uses-permission>
-    <uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
-
-
-    <!--百度地图的权限-->
+    <!-- 百度地图的权限 -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
@@ -21,14 +18,13 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
 
-
-    <!--Bmob数据库权限-->
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <!-- Bmob数据库权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
 
     <!-- 使用相机 -->
     <uses-feature
@@ -60,67 +56,49 @@
     <!-- QQ、QQ空间所需权限 -->
     <uses-permission android:name="android.permission.GET_TASKS" />
 
-
-
     <application
-
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@drawable/welcome"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        android:name=".MyApplication">
-
+        android:theme="@style/AppTheme">
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="PKk8Ko2VH2GoDP3RLSHPZ5CR" />
 
-
         <activity android:name=".test.MyMapActivity">
-            <!--<intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
--->
-        </activity>
-        <activity android:name=".TestShopWebViewActivity"/>
-
-        <activity android:name=".start.WelcomeActivity">
-
+            <!--
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
+            -->
         </activity>
+        <activity android:name=".TestShopWebViewActivity" />
+        <activity android:name=".start.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <activity android:name=".chiyao.chiyao"
-           >
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-        <activity android:name=".chiyao.chiyao_addremind"
-            >
-
-        </activity>
-        <activity android:name=".chiyao.chiyao_addremind_additem"
-          >
-
-        </activity>
-
-        <activity android:name=".start.SigninActivity"/>
-        <activity android:name=".start.LoginActivity"/>
-        <activity android:name=".CommunityServiceActivity"/>
-        <activity android:name=".TestForumActivity"/>
-
-
-        <activity android:name=".MyEquipListActivity"/>
+        <activity android:name=".chiyao.chiyao"></activity>
+        <activity android:name=".chiyao.chiyao_addremind"></activity>
+        <activity android:name=".chiyao.chiyao_addremind_additem"></activity>
+        <activity android:name=".start.SigninActivity" />
+        <activity android:name=".start.LoginActivity" />
+        <activity android:name=".CommunityServiceActivity" />
+        <activity android:name=".TestForumActivity" />
+        <activity android:name=".MyEquipListActivity" />
         <activity android:name=".MyEquipLocationActivity" />
-        <activity android:name=".AddEquipActivity"/>
-        <activity android:name=".MyPathActivity"/>
+        <activity android:name=".AddEquipActivity" />
+        <activity android:name=".MyPathActivity" />
 
         <!-- 微博版activity组件 start -->
+
 
         <!-- 发现的Activity -->
         <activity
@@ -158,7 +136,7 @@
             android:name="com.umeng.comm.ui.activities.PostFeedActivity"
             android:configChanges="orientation|keyboardHidden"
             android:exported="true"
-            android:windowSoftInputMode="stateHidden|adjustResize"/>
+            android:windowSoftInputMode="stateHidden|adjustResize" />
 
         <!--  -->
         <activity
@@ -188,20 +166,19 @@
 
         <!-- 显示某个位置Feed的Activity -->
         <activity android:name="com.umeng.comm.ui.activities.LocationFeedActivity" />
-
         <activity
             android:name="com.umeng.comm.ui.activities.BrowserActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
-
         <activity android:name="com.umeng.comm.ui.activities.AlbumActivity" />
         <activity android:name="com.umeng.comm.ui.activities.FollowedTopicActivity" />
         <activity android:name="com.umeng.comm.ui.activities.NotificationActivity" />
         <activity android:name="com.umeng.comm.ui.activities.NewMsgActivity" />
 
-        <!-- 微博版activity组件 end-->
+        <!-- 微博版activity组件 end -->
 
 
         <!-- 论坛版activity组件 start -->
+
 
         <!-- 发现的Activity -->
         <activity
@@ -239,7 +216,7 @@
             android:name="com.umeng.commm.ui.activities.PostFeedActivity"
             android:configChanges="orientation|keyboardHidden"
             android:exported="true"
-            android:windowSoftInputMode="stateHidden|adjustResize"/>
+            android:windowSoftInputMode="stateHidden|adjustResize" />
 
         <!--  -->
         <activity
@@ -269,11 +246,9 @@
 
         <!-- 显示某个位置Feed的Activity -->
         <activity android:name="com.umeng.commm.ui.activities.LocationFeedActivity" />
-
         <activity
             android:name="com.umeng.commm.ui.activities.BrowserActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
-
         <activity android:name="com.umeng.commm.ui.activities.AlbumActivity" />
         <activity android:name="com.umeng.commm.ui.activities.FollowedTopicActivity" />
         <activity android:name="com.umeng.commm.ui.activities.TopicActivity" />
@@ -281,7 +256,8 @@
         <activity android:name="com.umeng.commm.ui.activities.NotificationActivity" />
         <activity android:name="com.umeng.commm.ui.activities.NewMsgActivity" />
 
-        <!-- 论坛版activity组件 end-->
+        <!-- 论坛版activity组件 end -->
+
 
         <!-- 图片选择相关 -->
         <activity android:name="com.umeng.comm.ui.imagepicker.PhotoSelectorActivity" />
@@ -290,14 +266,12 @@
         <!-- 友盟登录界面 -->
         <activity android:name="com.umeng.community.login.LoginActivity" />
 
-
-        <meta-data android:name="UMENG_APPKEY"
-                   android:value="56f52893e0f55a79c8002cea" >
-        </meta-data>
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="56f52893e0f55a79c8002cea"></meta-data>
         <meta-data
             android:name="UMENG_MESSAGE_SECRET"
-            android:value="ed66bfd59f8d9d3c1e8baa2447212721" >
-        </meta-data>
+            android:value="ed66bfd59f8d9d3c1e8baa2447212721"></meta-data>
     </application>
 
 </manifest>

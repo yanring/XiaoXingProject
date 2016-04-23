@@ -26,7 +26,6 @@ public class MyPathActivity extends Activity {
     MapView mapView = null;
     BaiduMap baiduMap = null;
 
-
     MyPathService service;
     MyApplication app;
 

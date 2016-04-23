@@ -1,148 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/community_background"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/colorPrimary"
     >
-    <RelativeLayout
+
+    <include
+        layout="@layout/include_toolbar"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:id="@+id/top_bar">
-
-        <ImageButton
-            android:layout_marginTop="10dp"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:id="@+id/menu_icon"
-            android:src="@drawable/menu_icon"
-            android:scaleType="fitXY"
-            android:background="@color/community_background"
-            android:layout_marginLeft="10dp"
-
-            />
-        <TextView
-            android:layout_width="110dp"
-            android:layout_height="60dp"
-            android:text="用户昵称"
-            android:background="@color/community_background"
-            android:textColor="#ffffff"
-            android:textSize="25dp"
-            android:gravity="center"
-            android:id="@+id/view"
-            android:layout_alignParentTop="true"
-            android:layout_toRightOf="@+id/menu_icon"
-            android:layout_toEndOf="@+id/menu_icon"/>
-        <ImageButton
-            android:layout_marginTop="10dp"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:id="@+id/notification_icon"
-            android:src="@drawable/notification_icon"
-            android:scaleType="fitXY"
-            android:background="@color/community_background"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="40dp"
-            />
-    </RelativeLayout>
-
+        android:layout_height="wrap_content" />
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="120dp"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/info_layout"
-        android:layout_below="@id/top_bar">
-
-        <ImageView
-            android:layout_margin="0dp"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_below="@+id/top_bar"
-            android:id="@+id/service_image"
-            android:src="@drawable/service_image2"
-            android:scaleType="fitXY"
-            android:background="@color/community_background"
-            android:layout_marginLeft="20dp"/>
-        <TextView
-        android:layout_marginTop="0dp"
-        android:layout_width="160dp"
-        android:layout_height="80dp"
-        android:layout_below="@+id/top_bar"
-        android:id="@+id/text_community_service"
-        android:gravity="center"
-        android:textSize="40sp"
-
-        android:textColor="@color/community_service_color"
-        android:text="社区服务"
-        android:scaleType="fitXY"
-        android:layout_toRightOf="@+id/info_layout"
-        android:background="@color/community_background"
-        android:layout_marginLeft="20dp"
-        android:textColorHighlight="@color/abc_primary_text_material_dark"
-        />
-    </LinearLayout>
-
-
-    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/info_layout"
+        android:background="#ffffff"
+        android:id="@+id/activityCommunityServiceContainer"
+        android:orientation="vertical">
 
-
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-
-        android:background="@color/community_background">
-
-        <ImageButton
-            android:layout_width="150dp"
-            android:layout_height="128dp"
-            android:src="@drawable/community_forum"
-            android:layout_marginTop="@dimen/activity_vertical_margin"
-            android:background="@null"
-            android:id="@+id/community_forum"
-
-            android:scaleType="fitXY"/>
-        <ImageButton
-            android:layout_width="150dp"
-            android:layout_height="128dp"
-            android:src="@drawable/older_service"
-            android:id="@+id/elder_service"
-            android:layout_alignParentRight="true"
-            android:layout_marginTop="@dimen/activity_vertical_margin"
-            android:background="@null"
-            android:scaleType="fitXY"/>
-        <ImageButton
-            android:layout_width="150dp"
-            android:layout_height="128dp"
-            android:src="@drawable/general_shop"
-            android:layout_below="@+id/community_forum"
-            android:layout_marginTop="@dimen/activity_vertical_margin"
-            android:id="@+id/general_shop"
-            android:background="@null"
-            android:scaleType="fitXY"/>
-        <ImageButton
-            android:layout_width="150dp"
-            android:layout_height="128dp"
-            android:src="@drawable/personal_center"
-            android:layout_below="@+id/elder_service"
-            android:layout_alignRight="@+id/elder_service"
-            android:layout_marginTop="@dimen/activity_vertical_margin"
-            android:background="@null"
-            android:scaleType="fitXY"/>
-        <ImageButton
-            android:layout_marginBottom="20dp"
-            android:layout_width="300dp"
-            android:layout_height="63dp"
-            android:src="@drawable/medication_reminder_button"
-            android:layout_centerInParent="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginTop="@dimen/activity_vertical_margin"
-            android:background="@null"
-            android:scaleType="fitXY"
-            android:id="@+id/activityCommunityIBTakeMedicine" />
-    </RelativeLayout>
-
-
-
-
-</RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

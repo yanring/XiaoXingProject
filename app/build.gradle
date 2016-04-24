@@ -27,12 +27,14 @@ dependencies {
     compile files('libs/baidumapapi_base_v3_7_1.jar')
     compile files('libs/baidumapapi_map_v3_7_1.jar')
     //bmob-sdk ：Bmob的android sdk包
-    compile 'cn.bmob.android:bmob-sdk:3.4.5'
     //okhttp（选填）：为解决弱网情况下SDK请求失败及响应慢的问题，自`V3.4.3版本`开始使用`okhttp`优化SDK的网络框架。
+    compile project(':umeng_community_library_project')
+    compile files('libs/gson-2.3.1.jar')
+    compile 'cn.bmob.android:bmob-sdk:3.4.5'
     compile 'com.squareup.okhttp:okhttp:2.4.0'
     compile 'com.squareup.okio:okio:1.4.0'
-    compile project(':umeng_community_library_project')
     compile 'com.android.support:design:23.3.0'
     compile 'com.android.support:cardview-v7:23.3.0'
-    compile files('libs/gson-2.3.1.jar')
+    compile 'com.android.support:support-v4:23.3.0'
+    compile 'com.google.android.gms:play-services:8.4.0'
 }

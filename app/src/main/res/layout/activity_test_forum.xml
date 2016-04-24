@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:tools="http://schemas.android.com/tools"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             android:id="@+id/container" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <!-- <CommunityViewPager
-        android:id="@+id/viewPager"
+    <FrameLayout
+        android:id="@+id/container2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
-    </CommunityViewPager> -->
+        android:layout_height="match_parent">
 
-
-
-</FrameLayout>
+        <!-- <CommunityViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </CommunityViewPager> -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView2"
+            android:layout_gravity="center" />
+    </FrameLayout>
+</RelativeLayout>

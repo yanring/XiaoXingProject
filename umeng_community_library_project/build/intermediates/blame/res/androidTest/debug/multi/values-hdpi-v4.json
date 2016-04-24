@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-hdpi-v4\\values-hdpi-v4.xml",
+        "outputFile": "D:\\workplace\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-hdpi-v4\\values-hdpi-v4.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 100
                 },
                 "from": {
-                    "file": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "file": "D:\\workplace\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

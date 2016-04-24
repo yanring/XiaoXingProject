@@ -31,7 +31,7 @@ public class CommunityServiceActivity extends AppCompatActivity {
     Toolbar mToolBar;
     ArrayList<Map<String, Object>> viewList = new ArrayList<>();
     TabLayout tabLayout;
-    CommunityViewPager viewPager;
+    ViewPager viewPager;
     //ViewPager viewPager;
     LocalActivityManager activityManager;
 
@@ -39,29 +39,35 @@ public class CommunityServiceActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_community_service);
+/*
 
         mToolBar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mToolBar);
 
         getSupportActionBar().setTitle("用户名");
+*/
 
         activityManager = new LocalActivityManager(this, true);
         activityManager.dispatchCreate(savedInstanceState);
 
-        containerLayout = (LinearLayout) findViewById(R.id.activityCommunityServiceContainer);
-        tabLayout = new TabLayout(this);
-        tabLayout.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
-        containerLayout.addView(tabLayout);
-        viewPager = new CommunityViewPager(this);//ViewPager(this);
-        viewPager.setId(256);
-        viewPager.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT));
-        containerLayout.addView(viewPager);
+   //     containerLayout = (LinearLayout) findViewById(R.id.activityCommunityServiceContainer);
+        tabLayout = (TabLayout)findViewById(R.id.activityCommunityTablayout);
+                //new TabLayout(this);
+       // tabLayout.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
+     //   containerLayout.addView(tabLayout);
+        viewPager =(ViewPager)findViewById(R.id.activityCommunityViewPager);
+                // new CommunityViewPager(this);//ViewPager(this);
+       // viewPager.setId(256);
+       // viewPager.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT));
+      //  containerLayout.addView(viewPager);
 
 
+/*
         Map<String, Object> map = new HashMap<>();
         map.put("title", "轨迹");
         map.put("view", getView((String) map.get("title"),new Intent(this, MyEquipListActivity.class)));
         viewList.add(map);
+*/
 
 
         Map<String, Object> map4 = new HashMap<>();
@@ -87,7 +93,7 @@ public class CommunityServiceActivity extends AppCompatActivity {
         tabLayout.setTabsFromPagerAdapter(mAdapter);
         viewPager.setAdapter(mAdapter);
         tabLayout.setupWithViewPager(viewPager);
-
+        viewPager.setOnPageChangeListener(new MyViewPagerPageChangeListener());
     }
 
     public class MyViewPagerPageChangeListener implements ViewPager.OnPageChangeListener {
@@ -116,25 +122,5 @@ public class CommunityServiceActivity extends AppCompatActivity {
         Activity activity = activityManager.getActivity((String) viewList.get(position).get("title"));
 
     }
-
-/*        findViewById(R.id.community_forum).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(CommunityServiceActivity.this, TestForumActivity.class));
-            }
-        });
-        findViewById(R.id.general_shop).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(CommunityServiceActivity.this, TestShopWebViewActivity.class));
-            }
-        });
-        findViewById(R.id.activityCommunityIBTakeMedicine).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(CommunityServiceActivity.this,chiyao.class));
-            }
-        });*/
-
 
 }

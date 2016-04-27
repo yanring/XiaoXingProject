@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.app.Application;
 
 import com.baidu.mapapi.SDKInitializer;
-import com.mygps.model.Equip;
+import com.mygps.related_to_device.map.model.Equip;
 
 import java.util.ArrayList;
 

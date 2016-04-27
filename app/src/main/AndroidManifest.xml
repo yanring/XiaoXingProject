@@ -77,25 +77,25 @@
             </intent-filter>
             -->
         </activity>
-        <activity android:name=".TestShopWebViewActivity" />
-        <activity android:name=".start.WelcomeActivity">
+        <activity android:name=".related_to_extra_function.shopping.ShopWebViewActivity" />
+        <activity android:name=".unrelated_to_function.start.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".chiyao.chiyao"></activity>
-        <activity android:name=".chiyao.chiyao_addremind"></activity>
-        <activity android:name=".chiyao.chiyao_addremind_additem"></activity>
-        <activity android:name=".start.SigninActivity" />
-        <activity android:name=".start.LoginActivity" />
-        <activity android:name=".CommunityServiceActivity" />
-        <activity android:name=".TestForumActivity" />
-        <activity android:name=".MyEquipListActivity" />
-        <activity android:name=".MyEquipLocationActivity" />
-        <activity android:name=".AddEquipActivity" />
-        <activity android:name=".MyPathActivity" />
+        <activity android:name=".related_to_device.chiyao.chiyao"></activity>
+        <activity android:name=".related_to_device.chiyao.chiyao_addremind"></activity>
+        <activity android:name=".related_to_device.chiyao.chiyao_addremind_additem"></activity>
+        <activity android:name=".unrelated_to_function.start.SigninActivity" />
+        <activity android:name=".unrelated_to_function.start.LoginActivity" />
+        <activity android:name=".unrelated_to_function.main.MainActivity" />
+        <activity android:name=".related_to_extra_function.community.TestForumActivity" />
+        <activity android:name=".related_to_device.map.MyEquipListActivity" />
+        <activity android:name=".related_to_device.map.MyEquipLocationActivity" />
+        <activity android:name=".related_to_device.map.AddEquipActivity" />
+        <activity android:name=".related_to_device.map.MyPathActivity" />
 
         <!-- 微博版activity组件 start -->
 

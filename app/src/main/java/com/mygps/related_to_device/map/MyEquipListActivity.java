@@ -1,17 +1,22 @@
 package com.mygps.related_to_device.map;
 
-import android.app.Activity;
+import android.app.Dialog;
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.design.widget.FloatingActionButton;
+import android.support.v4.app.DialogFragment;
+import android.support.v7.app.AlertDialog;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SwitchCompat;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ImageButton;
+import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.TextView;
 
-import com.mygps.unrelated_to_function.main.MainActivity;
 import com.mygps.MyApplication;
 import com.mygps.R;
 import com.mygps.related_to_device.map.adapter.MyEquipListAdapter;
@@ -20,10 +25,12 @@ import com.mygps.related_to_device.map.service.MyEquipListService;
 
 import java.util.ArrayList;
 
+import cn.bmob.v3.listener.SaveListener;
+
 /**
  * Created by HowieWang on 2016/3/9.
  */
-public class MyEquipListActivity extends Activity {
+public class MyEquipListActivity extends AppCompatActivity {
 
     MyApplication app;
     MyEquipListService service;
@@ -37,20 +44,21 @@ public class MyEquipListActivity extends Activity {
 
     SwitchCompat functionSwitch;
 
+    FloatingActionButton FABAdd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_equiplist);
         //临时添加一个跳转
-        ImageButton button = (ImageButton)findViewById(R.id.service_button);
+      /*  ImageButton button = (ImageButton)findViewById(R.id.service_button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MyEquipListActivity.this,MainActivity.class);
                 startActivity(intent);
             }
-        });
+        });*/
 
         initView();
 
@@ -64,12 +72,12 @@ public class MyEquipListActivity extends Activity {
 
     private void initView() {
 
-        ((TextView)findViewById(R.id.title)).setText("设备列表");
+       /* ((TextView)findViewById(R.id.title)).setText("设备列表");*/
 
         showPro();
 
         functionSwitch = (SwitchCompat) findViewById(R.id.function_switch);
-
+        FABAdd = (FloatingActionButton) findViewById(R.id.activityEquiplistAdd);
 
         app = (MyApplication) getApplication();
         equips = app.getEquips();
@@ -103,10 +111,19 @@ public class MyEquipListActivity extends Activity {
             }
         });
 
+        FABAdd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                /*Intent intent = new Intent(MyEquipListActivity.this, AddEquipActivity.class);
+                startActivity(intent);*/
+                new AddEquipDialog().show(getSupportFragmentManager(),null);
+            }
+        });
 
-        ImageButton add = (ImageButton) findViewById(R.id.function);
+        /*ImageButton add = (ImageButton) findViewById(R.id.function);
         add.setBackgroundResource(R.drawable.add);
         add.setVisibility(View.VISIBLE);
+
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -115,12 +132,12 @@ public class MyEquipListActivity extends Activity {
                 startActivity(intent);
 
             }
-        });
+        });*/
 
 
     }
 
-    public void notifyDataSetChanged(){
+    public void notifyDataSetChanged() {
         adp.notifyDataSetChanged();
     }
 
@@ -138,4 +155,54 @@ public class MyEquipListActivity extends Activity {
         pro.dismiss();
     }
 
+
+    class AddEquipDialog extends DialogFragment {
+        @NonNull
+        @Override
+        public Dialog onCreateDialog(Bundle savedInstanceState) {
+            super.onCreateDialog(savedInstanceState);
+            AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+            builder.setTitle("添加设备");
+            View view = LayoutInflater.from(getActivity()).inflate(R.layout.dialog_equiplist_add_view, null);
+
+            final EditText name = (EditText) view.findViewById(R.id.addequip_name);
+            final EditText phone = (EditText) view.findViewById(R.id.addequip_phone);
+            builder.setView(view);
+            builder.setPositiveButton("添加", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+
+                    String nameStr = name.getText().toString();
+                    String phoneStr = phone.getText().toString();
+
+                    /**
+                     * 这里做号码和名称的检测
+                     */
+
+                    final Equip equip = new Equip(phoneStr, nameStr, app.getUser().getUsername());
+                    equip.save(MyEquipListActivity.this, new SaveListener() {
+                        @Override
+                        public void onSuccess() {
+
+                            app.getEquips().add(equip);
+                            adp.notifyDataSetChanged();
+                        }
+
+                        @Override
+                        public void onFailure(int i, String s) {
+                            new AddEquipDialog().show(getSupportFragmentManager(),null);
+                        }
+                    });
+
+                }
+            });
+            builder.setNegativeButton("取消", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+
+                }
+            });
+            return builder.create();
+        }
+    }
 }

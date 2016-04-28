@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 import com.mygps.R;
+import com.mygps.related_to_device.map.MyEquipListActivity;
 import com.mygps.unrelated_to_function.main.adapter.MainViewPaperAdapter;
 import com.mygps.related_to_device.chiyao.chiyao;
 import com.mygps.related_to_extra_function.shopping.ShopWebViewActivity;
@@ -51,24 +52,15 @@ public class MainActivity extends AppCompatActivity {
         activityManager = new LocalActivityManager(this, true);
         activityManager.dispatchCreate(savedInstanceState);
 
-   //     containerLayout = (LinearLayout) findViewById(R.id.activityCommunityServiceContainer);
         tabLayout = (TabLayout)findViewById(R.id.activityCommunityTablayout);
-                //new TabLayout(this);
-       // tabLayout.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
-     //   containerLayout.addView(tabLayout);
+
         viewPager =(ViewPager)findViewById(R.id.activityCommunityViewPager);
-                // new CommunityViewPager(this);//ViewPager(this);
-       // viewPager.setId(256);
-       // viewPager.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT));
-      //  containerLayout.addView(viewPager);
 
 
-/*
         Map<String, Object> map = new HashMap<>();
         map.put("title", "轨迹");
         map.put("view", getView((String) map.get("title"),new Intent(this, MyEquipListActivity.class)));
         viewList.add(map);
-*/
 
 
         Map<String, Object> map4 = new HashMap<>();

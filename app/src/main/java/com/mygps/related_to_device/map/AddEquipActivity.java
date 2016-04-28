@@ -1,7 +1,12 @@
 package com.mygps.related_to_device.map;
 
-import android.app.Activity;
+import android.app.Dialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.v4.app.DialogFragment;
+import android.support.v7.app.AlertDialog;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -16,7 +21,7 @@ import cn.bmob.v3.listener.SaveListener;
 /**
  * Created by HowieWang on 2016/3/9.
  */
-public class AddEquipActivity extends Activity {
+public class AddEquipActivity extends AppCompatActivity {
 
     EditText name;
     EditText phone;
@@ -36,7 +41,7 @@ public class AddEquipActivity extends Activity {
 
     private void initView() {
 
-        ((TextView)findViewById(R.id.title)).setText("添加设备");
+        ((TextView) findViewById(R.id.title)).setText("添加设备");
 
         app = (MyApplication) getApplication();
 
@@ -57,8 +62,7 @@ public class AddEquipActivity extends Activity {
                  * 这里做号码和名称的检测
                  */
 
-
-                final Equip equip = new Equip(phoneStr , nameStr ,app.getUser().getUsername());
+                final Equip equip = new Equip(phoneStr, nameStr, app.getUser().getUsername());
                 equip.save(AddEquipActivity.this, new SaveListener() {
                     @Override
                     public void onSuccess() {
@@ -77,8 +81,6 @@ public class AddEquipActivity extends Activity {
 
             }
         });
-
-
-
     }
+
 }

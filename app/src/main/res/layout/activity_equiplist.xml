@@ -1,39 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-    >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
 
-    <include layout="@layout/bar_title" />
-
-    <android.support.v7.widget.SwitchCompat
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textOn="实时定位"
-        android:textOff="历史轨迹"
-        android:textSize="20sp"
-        android:id="@+id/function_switch"
-        android:layout_gravity="center_horizontal"/>
-
-    <ListView
-        android:padding="20dp"
-        android:id="@+id/equiplist"
-        android:layout_width="wrap_content"
-        android:layout_height="400dp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="提示:点击设备名称进入地图,用开关选择模式"/>
-    <ImageButton
+        android:text="提示:点击设备名称进入地图,用开关选择模式"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textTips" />
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/function_switch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/service_button"
-        android:layout_gravity="center"
-        android:scaleType="fitXY"
-        android:id="@+id/service_button"
-        android:background="@color/umeng_comm_white_color"
-        />
+        android:layout_gravity="center_horizontal"
+        android:textOff="历史轨迹"
+        android:textOn="实时定位"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:checked="false" />
 
-</LinearLayout>
+    <ListView
+        android:id="@+id/equiplist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/textTips"
+        android:layout_below="@id/function_switch"
+        android:padding="20dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/activityEquiplistAdd"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/add" />
+</RelativeLayout>
+
+    <!--
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/bar_title" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/function_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textOff="历史轨迹"
+            android:textOn="实时定位"
+            android:textSize="20sp" />
+
+        <ListView
+            android:id="@+id/equiplist"
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:padding="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="提示:点击设备名称进入地图,用开关选择模式" />
+
+        <ImageButton
+            android:id="@+id/service_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/umeng_comm_white_color"
+            android:scaleType="fitXY"
+            android:src="@drawable/service_button" />
+
+    </LinearLayout>-->

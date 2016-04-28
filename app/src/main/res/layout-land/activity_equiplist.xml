@@ -6,7 +6,7 @@
 
     <include layout="@layout/bar_title" />
 
-    <Switch
+    <SwitchCompat
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textOn="实时定位"

@@ -12,10 +12,10 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 import com.mygps.R;
-import com.mygps.related_to_device.map.MyEquipListActivity;
-import com.mygps.unrelated_to_function.main.adapter.MainViewPaperAdapter;
 import com.mygps.related_to_device.chiyao.chiyao;
+import com.mygps.related_to_device.map.MyEquipListActivity;
 import com.mygps.related_to_extra_function.shopping.ShopWebViewActivity;
+import com.mygps.unrelated_to_function.main.adapter.MainViewPaperAdapter;
 import com.umeng.comm.core.CommunitySDK;
 import com.umeng.comm.core.impl.CommunityFactory;
 import com.umeng.comm.ui.fragments.CommunityMainFragment;
@@ -52,14 +52,14 @@ public class MainActivity extends AppCompatActivity {
         activityManager = new LocalActivityManager(this, true);
         activityManager.dispatchCreate(savedInstanceState);
 
-        tabLayout = (TabLayout)findViewById(R.id.activityCommunityTablayout);
+        tabLayout = (TabLayout) findViewById(R.id.activityCommunityTablayout);
 
-        viewPager =(ViewPager)findViewById(R.id.activityCommunityViewPager);
+        viewPager = (ViewPager) findViewById(R.id.activityCommunityViewPager);
 
 
         Map<String, Object> map = new HashMap<>();
         map.put("title", "轨迹");
-        map.put("view", getView((String) map.get("title"),new Intent(this, MyEquipListActivity.class)));
+        map.put("view", getView((String) map.get("title"), new Intent(this, MyEquipListActivity.class)));
         viewList.add(map);
 
 

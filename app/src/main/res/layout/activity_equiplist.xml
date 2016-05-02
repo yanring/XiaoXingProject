@@ -19,10 +19,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
 
-        android:textSize="20sp"
+        android:textSize="14sp"
         android:layout_centerHorizontal="true"
         android:checked="false"
-        android:text="历史轨迹" />
+        android:text="历史轨迹"
+        android:textColor="@color/colorPrimary" />
     <!--android:textOff="历史轨迹"
     android:textOn="实时定位"-->
     <ListView

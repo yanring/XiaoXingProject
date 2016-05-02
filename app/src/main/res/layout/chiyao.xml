@@ -192,6 +192,7 @@
             android:textColor="@color/baise"
             android:textSize="24dp"
             android:text="社区服务"
+            android:layout_marginTop="0dp"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
             android:layout_width="match_parent"
@@ -200,6 +201,7 @@
     </LinearLayout>
     </ScrollView>
     <LinearLayout
+        android:visibility="invisible"
         android:paddingTop="5dp"
         android:paddingBottom="5dp"
         android:background="@color/huidi"

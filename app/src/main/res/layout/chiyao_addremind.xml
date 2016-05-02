@@ -8,7 +8,7 @@
         layout="@layout/include_toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-<!--
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -32,7 +32,7 @@
             android:layout_centerVertical="true"
             android:layout_marginRight="10dp"
             android:src="@mipmap/iconfontjiahao" />
-    </RelativeLayout>-->
+    </RelativeLayout>
 
     <ScrollView
         android:layout_width="match_parent"

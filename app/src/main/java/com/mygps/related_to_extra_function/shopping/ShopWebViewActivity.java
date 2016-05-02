@@ -88,7 +88,7 @@ public class ShopWebViewActivity extends AppCompatActivity {
 
         web.setWebViewClient(new WebViewClient());
         //WebView加载web资源
-        web.loadUrl("https://chaoshi.tmall.com/");
+        web.loadUrl("http://www.jianianle.com/");
 
     }
 

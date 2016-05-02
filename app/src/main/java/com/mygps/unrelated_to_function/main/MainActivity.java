@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         Map<String, Object> map = new HashMap<>();
-        map.put("title", "轨迹");
+        map.put("title", "我的设备");
         map.put("view", getView((String) map.get("title"), new Intent(this, MyEquipListActivity.class)));
         viewList.add(map);
 

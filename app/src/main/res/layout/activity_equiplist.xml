@@ -18,12 +18,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:textOff="历史轨迹"
-        android:textOn="实时定位"
+
         android:textSize="20sp"
         android:layout_centerHorizontal="true"
-        android:checked="false" />
-
+        android:checked="false"
+        android:text="历史轨迹" />
+    <!--android:textOff="历史轨迹"
+    android:textOn="实时定位"-->
     <ListView
         android:id="@+id/equiplist"
         android:layout_width="match_parent"

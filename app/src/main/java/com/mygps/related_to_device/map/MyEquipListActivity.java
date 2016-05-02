@@ -14,6 +14,7 @@ import android.support.v7.widget.SwitchCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.ListView;
 
@@ -91,7 +92,16 @@ public class MyEquipListActivity extends AppCompatActivity {
         service.getEquips(app.getUser().getUsername());
         adp.notifyDataSetChanged();
 
-
+        functionSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked){
+                    functionSwitch.setText("实时定位");
+                }else {
+                    functionSwitch.setText("历史轨迹");
+                }
+            }
+        });
         equipList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {

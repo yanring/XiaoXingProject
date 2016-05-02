@@ -6,8 +6,11 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -30,45 +33,58 @@ import java.util.List;
 /**
  * Created by zy on 2016/3/31.
  */
-public class chiyao_addremind extends AppCompatActivity implements AdapterView.OnItemLongClickListener,OnItemClickListener{
+public class chiyao_addremind extends AppCompatActivity implements AdapterView.OnItemLongClickListener, OnItemClickListener {
     private chiyao_addremind_adapter madapter;
     private ListView listview;
     private Handler handler;
     private ImageView imageView;
     private List<chiyao_addremind_entity> chiyao_enity;
     int id_position;
+    Toolbar mToolBar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.chiyao_addremind);
-        listview= (ListView) findViewById(R.id.chiyao_addremind_list);
-        imageView= (ImageView) findViewById(R.id.chiyao_addremind_addimage);
+
+        mToolBar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(mToolBar);
+        try {
+            getSupportActionBar().setDisplayOptions(android.support.v7.app.ActionBar.DISPLAY_HOME_AS_UP, android.support.v7.app.ActionBar.DISPLAY_HOME_AS_UP);
+        } catch (Exception e) {
+        }
+
+        getSupportActionBar().setHomeButtonEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        getSupportActionBar().setTitle("吃药时间");
+
+        listview = (ListView) findViewById(R.id.chiyao_addremind_list);
+        /*imageView = (ImageView) findViewById(R.id.chiyao_addremind_addimage);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(chiyao_addremind.this,chiyao_addremind_additem.class);
-                Bundle bundle=new Bundle();
-                bundle.putString("time",null);
-                bundle.putString("medision",null);
-                bundle.putString("id",null);
+                Intent intent = new Intent(chiyao_addremind.this, chiyao_addremind_additem.class);
+                Bundle bundle = new Bundle();
+                bundle.putString("time", null);
+                bundle.putString("medision", null);
+                bundle.putString("id", null);
                 intent.putExtras(bundle);
                 startActivity(intent);
             }
-        });
+        });*/
         listview.setOnItemLongClickListener(this);
         listview.setOnItemClickListener(this);
-        handler=new Handler(){
+        handler = new Handler() {
             @Override
             public void handleMessage(Message msg) {
-                switch (msg.what){
-                    case 1:
-                    {
+                switch (msg.what) {
+                    case 1: {
                         listview.setAdapter(madapter);
                         setListViewHeightBasedOnChildren(listview);
                         break;
                     }
-                    case 2:
-                    {
+                    case 2: {
                         deleteInformation();
                         break;
                     }
@@ -82,7 +98,7 @@ public class chiyao_addremind extends AppCompatActivity implements AdapterView.O
         new AsyncTask<Void, Void, Boolean>() {
             @Override
             protected Boolean doInBackground(Void... params) {
-                chiyao_service mService=new chiyao_service();
+                chiyao_service mService = new chiyao_service();
                 return chiyao_service.deleteUserInfo(chiyao_enity.get(id_position).getId().toString());
 
             }
@@ -92,11 +108,10 @@ public class chiyao_addremind extends AppCompatActivity implements AdapterView.O
                 chiyao_enity.remove(id_position);
                 madapter.notifyDataSetChanged();
                 listview.setAdapter(madapter);
-                if(result==true){
-                    Toast.makeText(chiyao_addremind.this,"删除成功！",Toast.LENGTH_SHORT).show();
-                }
-                else {
-                    Toast.makeText(chiyao_addremind.this,"删除失败！",Toast.LENGTH_SHORT).show();
+                if (result == true) {
+                    Toast.makeText(chiyao_addremind.this, "删除成功！", Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(chiyao_addremind.this, "删除失败！", Toast.LENGTH_SHORT).show();
                 }
                 super.onPostExecute(result);
             }
@@ -114,17 +129,17 @@ public class chiyao_addremind extends AppCompatActivity implements AdapterView.O
 
             @Override
             protected List<chiyao_addremind_entity> doInBackground(Void... arg0) {
-                chiyao_service mService=new chiyao_service();
+                chiyao_service mService = new chiyao_service();
                 return chiyao_service.downloadUserInfo("shen", "zheng");
             }
 
             @Override
             protected void onPostExecute(List<chiyao_addremind_entity> result) {
-                chiyao_enity=result;
-                madapter=new chiyao_addremind_adapter(chiyao_addremind.this,chiyao_enity);
+                chiyao_enity = result;
+                madapter = new chiyao_addremind_adapter(chiyao_addremind.this, chiyao_enity);
                 madapter.notifyDataSetChanged();
-                Message message=new Message();
-                message.what=1;
+                Message message = new Message();
+                message.what = 1;
                 handler.sendMessage(message);
             }
         }.execute();
@@ -135,9 +150,10 @@ public class chiyao_addremind extends AppCompatActivity implements AdapterView.O
         chiyao_addremind.this.finish();
         super.onBackPressed();
     }
+
     /**
      * 计算listView高度
-     * */
+     */
     private void setListViewHeightBasedOnChildren(ListView listView) {
 
         ListAdapter listAdapter = listView.getAdapter();
@@ -160,10 +176,11 @@ public class chiyao_addremind extends AppCompatActivity implements AdapterView.O
 
     @Override
     public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
-        id_position=position;
+        id_position = position;
         showPopup(view);
         return true;
     }
+
     /*
     * 弹出pupWindows
     * */
@@ -172,7 +189,7 @@ public class chiyao_addremind extends AppCompatActivity implements AdapterView.O
         View contentView = LayoutInflater.from(this).inflate(
                 R.layout.chiyao_deletepopup, null);
 
-        TextView delete= (TextView) contentView.findViewById(R.id.chiyao_popup_delete);
+        TextView delete = (TextView) contentView.findViewById(R.id.chiyao_popup_delete);
 
         final PopupWindow popupWindow = new PopupWindow(contentView,
                 ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT, true);
@@ -210,18 +227,46 @@ public class chiyao_addremind extends AppCompatActivity implements AdapterView.O
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        TextView time= (TextView) view.findViewById(R.id.chiyao_addremind_item_text1);
-        TextView medision= (TextView) view.findViewById(R.id.chiyao_addremind_item_text2);
-        TextView id_text= (TextView) view.findViewById(R.id.id_text);
-        String mtime=time.getText().toString();
-        String mmedision=medision.getText().toString();
-        String mid=id_text.getText().toString();
-        Intent intent=new Intent(chiyao_addremind.this,chiyao_addremind_additem.class);
-        Bundle bundle=new Bundle();
-        bundle.putString("id",mid);
-        bundle.putString("time",mtime);
+        TextView time = (TextView) view.findViewById(R.id.chiyao_addremind_item_text1);
+        TextView medision = (TextView) view.findViewById(R.id.chiyao_addremind_item_text2);
+        TextView id_text = (TextView) view.findViewById(R.id.id_text);
+        String mtime = time.getText().toString();
+        String mmedision = medision.getText().toString();
+        String mid = id_text.getText().toString();
+        Intent intent = new Intent(chiyao_addremind.this, chiyao_addremind_additem.class);
+        Bundle bundle = new Bundle();
+        bundle.putString("id", mid);
+        bundle.putString("time", mtime);
         bundle.putString("medision", mmedision);
         intent.putExtras(bundle);
         startActivity(intent);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuItem addItem = menu.add(0, 0, 0, "添加");
+        addItem.setIcon(R.mipmap.ic_add_circle_outline_white_36dp);
+        addItem.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                break;
+            case 0:
+                Intent intent = new Intent(chiyao_addremind.this, chiyao_addremind_additem.class);
+                Bundle bundle = new Bundle();
+                bundle.putString("time", null);
+                bundle.putString("medision", null);
+                bundle.putString("id", null);
+                intent.putExtras(bundle);
+                startActivity(intent);
+                break;
+
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

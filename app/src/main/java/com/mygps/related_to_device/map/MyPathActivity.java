@@ -1,8 +1,10 @@
 package com.mygps.related_to_device.map;
 
-import android.app.Activity;
 import android.app.ProgressDialog;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 import android.widget.TextView;
 
 import com.baidu.mapapi.map.BaiduMap;
@@ -23,7 +25,7 @@ import java.util.ArrayList;
 /**
  * Created by HowieWang on 2016/3/10.
  */
-public class MyPathActivity extends Activity {
+public class MyPathActivity extends AppCompatActivity {
 
     MapView mapView = null;
     BaiduMap baiduMap = null;
@@ -35,6 +37,7 @@ public class MyPathActivity extends Activity {
 
     ProgressDialog pro;
 
+    Toolbar mToolBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,18 +48,27 @@ public class MyPathActivity extends Activity {
         service = new MyPathService(this);
         curEquip = app.getEquips().get(getIntent().getIntExtra("equipPos", -1));
 
+        mToolBar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(mToolBar);
+        try {
+            getSupportActionBar().setDisplayOptions(android.support.v7.app.ActionBar.DISPLAY_HOME_AS_UP, android.support.v7.app.ActionBar.DISPLAY_HOME_AS_UP);
+        } catch (Exception e) {
+        }
+
+        getSupportActionBar().setHomeButtonEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        getSupportActionBar().setTitle("历史轨迹");
+
         initMapView();
         initData();
         initOtherView();
-
 
     }
 
     private void initOtherView() {
 
-        ((TextView)findViewById(R.id.title)).setText("历史轨迹");
-
-
+       // ((TextView)findViewById(R.id.title)).setText("历史轨迹");
     }
 
     private void initData() {
@@ -114,5 +126,14 @@ public class MyPathActivity extends Activity {
 
     public void disPro() {
         pro.dismiss();
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case android.R.id.home:finish();break;
+
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

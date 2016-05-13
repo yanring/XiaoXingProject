@@ -89,7 +89,6 @@ public class MyEquipLocationActivity extends AppCompatActivity{
             }
         });
 */
-
     }
 
     private void initMap() {

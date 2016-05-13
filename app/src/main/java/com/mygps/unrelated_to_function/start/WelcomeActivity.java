@@ -13,9 +13,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.mygps.related_to_device.map.MyEquipPen;
 import com.mygps.unrelated_to_function.main.MainActivity;
 import com.mygps.MyApplication;
 import com.mygps.R;
+import com.mygps.utils.PositionDateFromHttp;
 
 import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.listener.SaveListener;
@@ -37,6 +39,8 @@ public class WelcomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome_new);
 
+      //  new PositionDateFromHttp(this,"1").getPreviousDate();
+        startActivity(new Intent(this, MyEquipPen.class));
         //  new StatusBarUtils().setStatusBar(this);
 
         app = (MyApplication) getApplication();

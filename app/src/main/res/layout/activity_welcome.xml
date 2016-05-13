@@ -21,7 +21,8 @@
             android:singleLine="true"
             android:hint="@string/welcome_cipher"
             android:maxLength="25"
-            android:textSize="16sp"/>
+            android:textSize="16sp"
+            android:text="1111" />
 
     </android.support.design.widget.TextInputLayout>
 
@@ -44,7 +45,8 @@
             android:inputType="textEmailAddress"
             android:singleLine="true"
             android:hint="用户名"
-            android:textSize="16sp"/>
+            android:textSize="16sp"
+            android:text="1111" />
 
     </android.support.design.widget.TextInputLayout>
     <android.support.v7.widget.AppCompatCheckBox

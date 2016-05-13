@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import com.baidu.mapapi.map.BaiduMap;
 import com.baidu.mapapi.map.BitmapDescriptor;
@@ -135,10 +136,14 @@ public class MyEquipLocationActivity extends AppCompatActivity{
     }
     public LatLng QueryCurrentLocation(){
         ContentResolver contentResolver = getContentResolver();
+
         Uri CurrentGPSUri = Uri.parse(URIList.GPS_URI);
-        Cursor cursor = contentResolver.query(CurrentGPSUri, null, null, null, "time");
+
+
         try {
+            Cursor cursor = contentResolver.query(CurrentGPSUri, null, null, null, "time");
             cursor.moveToLast();
+            cursor.close();
             String time = cursor.getString(cursor.getColumnIndex("time"));
             double lat = Double.parseDouble(cursor.getString(cursor.getColumnIndex("lat")));
             double lng = Double.parseDouble(cursor.getString(cursor.getColumnIndex("lng")));
@@ -146,9 +151,13 @@ public class MyEquipLocationActivity extends AppCompatActivity{
             LatLng sourceLatLng = new LatLng(lat,lng);
             return sourceLatLng;
 
+
         }catch (Exception e){
-            return null;
+            Toast.makeText(MyEquipLocationActivity.this,"无数据",Toast.LENGTH_LONG).show();
+            LatLng sourceLatLng = new LatLng(0,0);
+            return sourceLatLng;
         }
+
     }
 
 

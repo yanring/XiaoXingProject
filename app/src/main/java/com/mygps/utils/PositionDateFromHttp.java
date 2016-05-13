@@ -6,6 +6,7 @@ import android.content.Context;
 import android.net.Uri;
 import android.util.Log;
 
+import com.android.volley.Response;
 import com.mygps.related_to_device.map.provider.URIList;
 
 import org.json.JSONArray;
@@ -96,7 +97,8 @@ public class PositionDateFromHttp {
             JSONObject jsonObject=(JSONObject)jsonArray.get(i);
             System.out.println("time"+jsonObject.get("time"));
             //Map<String,Object> map=new HashMap<>();
-            contentValues.put("id",jsonObject.get("id").toString());
+            int id = (int) jsonObject.get("id");
+            contentValues.put("id",id);
             contentValues.put("time",jsonObject.get("time").toString());
             contentValues.put("lat",jsonObject.get("lat").toString());
             contentValues.put("lng",jsonObject.get("lng").toString());
@@ -104,7 +106,12 @@ public class PositionDateFromHttp {
             contentValues.put("eId",jsonObject.get("eId").toString());
             //Log.i("TAG2",jsonObject.get("eId").toString());
             //Log.i("TAG2",jsonObject.get("time").toString());
-            contentResolver.insert(insertUri, contentValues);
+            if((contentResolver.query(insertUri, null,"id="+id , null, null).getCount()==0)){
+                contentResolver.insert(insertUri, contentValues);
+                Log.i("TAG2,count:", String.valueOf(contentResolver.query(insertUri, null,"id="+id , null, null).getCount()));
+
+            }
+            //contentResolver.insert(insertUri, contentValues);
         }
 
 

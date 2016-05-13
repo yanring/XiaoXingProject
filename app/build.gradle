@@ -45,4 +45,5 @@ dependencies {
     compile 'com.google.android.gms:play-services-auth:8.4.0'
     compile 'com.google.android.gms:play-services-gcm:8.4.0'
     compile files('libs/BaiduLBS_Android.jar')
+    compile 'com.github.erd:android-volley:1.0.0'
 }

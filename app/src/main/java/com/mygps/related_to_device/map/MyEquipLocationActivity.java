@@ -26,7 +26,7 @@ import java.util.ArrayList;
 /**
  * Created by HowieWang on 2016/3/8.
  */
-public class MyEquipLocationActivity extends AppCompatActivity implements MyLocationMsgReceiver.ARInteraction {
+public class MyEquipLocationActivity extends AppCompatActivity{
 
     MapView mapView = null;
     BaiduMap baiduMap = null;
@@ -39,6 +39,7 @@ public class MyEquipLocationActivity extends AppCompatActivity implements MyLoca
     private MyLocationMsgReceiver mReceiver;
     Toolbar mToolBar;
     MenuItem menuItemFresh;
+    private BitmapDescriptor mBitmap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,10 +53,10 @@ public class MyEquipLocationActivity extends AppCompatActivity implements MyLoca
 
         curEquip = app.getEquips().get(getIntent().getIntExtra("equipPos", -1));
 
-        msgThread = new SendMsgThread(curEquip.getPhoneID(), app.getSleepTime());
-        msgThread.start();
+       // msgThread = new SendMsgThread(curEquip.getPhoneID(), app.getSleepTime());
+        //msgThread.start();
 
-        initReceiver();
+        //initReceiver();
         initMap();
         initOtherView();
     }
@@ -107,46 +108,16 @@ public class MyEquipLocationActivity extends AppCompatActivity implements MyLoca
          */
         baiduMap.setMyLocationEnabled(true);
         //构建Marker图标
-        BitmapDescriptor bitmap = BitmapDescriptorFactory.fromResource(R.drawable.icon_marka);
-        MyLocationConfiguration config = new MyLocationConfiguration(MyLocationConfiguration.LocationMode.FOLLOWING, true, null);
+        mBitmap = BitmapDescriptorFactory.fromResource(R.drawable.icon_marka);
+        MyLocationData locationData = new MyLocationData.Builder().latitude(39.231403).longitude(117.053139).build();
+        baiduMap.setMyLocationData(locationData);
+        MyLocationConfiguration config = new MyLocationConfiguration(MyLocationConfiguration.LocationMode.FOLLOWING, true, mBitmap);
         baiduMap.setMyLocationConfigeration(config);
 
     }
 
-    private void initReceiver() {
-
-        mReceiver = new MyLocationMsgReceiver();
-        IntentFilter intentFilter = new IntentFilter("android.provider.Telephony.SMS_RECEIVED");
-        intentFilter.setPriority(1000);
-        registerReceiver(mReceiver, intentFilter);
-        mReceiver.setARInteraction(this);
-
-    }
-
-    @Override
-    public void setLocation(String phoneID, double latitude, double longitude) {
-
-        /**
-         * 判断是不是这个设备发来的短信
-         */
-        if (!phoneID.equals(curEquip.getPhoneID())) {
-            return;
-        }
 
 
-        MyLocationData locationData = new MyLocationData.Builder().latitude(latitude).longitude(longitude).build();
-        baiduMap.setMyLocationData(locationData);
-
-    }
-
-
-    @Override
-    public void updateLocation(String phoneID, double latitude, double longitude) {
-
-        Location location = new Location(phoneID, System.currentTimeMillis(), latitude, longitude);
-        location.save(this);
-
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

@@ -3,11 +3,15 @@
     <option name="visitedUrls">
       <list>
         <UrlAndUserName>
-          <option name="url" value="https://github.com/yanring/XiaoXingProject.git" />
+          <option name="url" value="https://git.coding.net/Yanring/XiaoXing.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:yanring/XiaoXingProject.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\workplace" />
+    <option name="cloneParentDir" value="C:\Users\Yanring\Desktop\XiaoXING" />
   </component>
 </application>

@@ -1,0 +1,9 @@
+<application>
+  <component name="FileTypeManager" version="16">
+    <extensionMap>
+      <mapping ext="mp3" type="Native" />
+      <mapping ext="so" type="PLAIN_TEXT" />
+      <removed_mapping ext="so" type="UNKNOWN" />
+    </extensionMap>
+  </component>
+</application>

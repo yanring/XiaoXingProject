@@ -1,0 +1,15 @@
+<application>
+  <component name="libraryTable">
+    <library name="api">
+      <CLASSES />
+      <JAVADOC>
+        <root url="file://$USER_HOME$/Desktop/umeng_community_android_social_sdk_2.4_arm64_custom (4)/umeng_community_android_social_sdk_2.4_arm64_custom/umeng_community_android_sdk_library/api_doc/api" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="file://$USER_HOME$/Desktop/umeng_community_android_social_sdk_2.4_arm64_custom (4)/umeng_community_android_social_sdk_2.4_arm64_custom/umeng_community_android_sdk_library/umeng_community_demo_discuss/gen" />
+        <root url="file://$USER_HOME$/Desktop/umeng_community_android_social_sdk_2.4_arm64_custom (4)/umeng_community_android_social_sdk_2.4_arm64_custom/umeng_community_android_sdk_library/umeng_community_demo_discuss/src" />
+        <root url="file://$USER_HOME$/Desktop/umeng_community_android_social_sdk_2.4_arm64_custom (4)/umeng_community_android_social_sdk_2.4_arm64_custom/umeng_community_android_sdk_library/umeng_community_library_project/gen" />
+      </SOURCES>
+    </library>
+  </component>
+</application>

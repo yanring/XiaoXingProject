@@ -33,7 +33,6 @@ dependencies {
     //okhttp（选填）：为解决弱网情况下SDK请求失败及响应慢的问题，自`V3.4.3版本`开始使用`okhttp`优化SDK的网络框架。
     compile project(':umeng_community_library_project')
     compile project(':FloatActionButtonMenu')
-
     compile files('libs/gson-2.3.1.jar')
     compile 'cn.bmob.android:bmob-sdk:3.4.5'
     compile 'com.squareup.okhttp:okhttp:2.4.0'
@@ -45,4 +44,5 @@ dependencies {
     compile 'com.google.android.gms:play-services-ads:8.4.0'
     compile 'com.google.android.gms:play-services-auth:8.4.0'
     compile 'com.google.android.gms:play-services-gcm:8.4.0'
+    compile files('libs/BaiduLBS_Android.jar')
 }

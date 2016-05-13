@@ -138,25 +138,34 @@ public class MyEquipLocationActivity extends AppCompatActivity{
         ContentResolver contentResolver = getContentResolver();
 
         Uri CurrentGPSUri = Uri.parse(URIList.GPS_URI);
+        Cursor cursor = contentResolver.query(CurrentGPSUri, null, null, null, "time");
+        cursor.moveToLast();
+
+        String time = cursor.getString(cursor.getColumnIndex("time"));
+        double lat = Double.parseDouble(cursor.getString(cursor.getColumnIndex("lat")));
+        double lng = Double.parseDouble(cursor.getString(cursor.getColumnIndex("lng")));
+        Log.i("TAG2","time:"+time+"坐标:"+lat+","+lng);
+        LatLng sourceLatLng = new LatLng(lat,lng);
+        return sourceLatLng;
 
 
-        try {
-            Cursor cursor = contentResolver.query(CurrentGPSUri, null, null, null, "time");
-            cursor.moveToLast();
-            cursor.close();
-            String time = cursor.getString(cursor.getColumnIndex("time"));
-            double lat = Double.parseDouble(cursor.getString(cursor.getColumnIndex("lat")));
-            double lng = Double.parseDouble(cursor.getString(cursor.getColumnIndex("lng")));
-            Log.i("TAG2","time:"+time+"坐标:"+lat+","+lng);
-            LatLng sourceLatLng = new LatLng(lat,lng);
-            return sourceLatLng;
-
-
-        }catch (Exception e){
-            Toast.makeText(MyEquipLocationActivity.this,"无数据",Toast.LENGTH_LONG).show();
-            LatLng sourceLatLng = new LatLng(0,0);
-            return sourceLatLng;
-        }
+//        try {
+//            Cursor cursor = contentResolver.query(CurrentGPSUri, null, null, null, "time");
+//            cursor.moveToLast();
+//            cursor.close();
+//            String time = cursor.getString(cursor.getColumnIndex("time"));
+//            double lat = Double.parseDouble(cursor.getString(cursor.getColumnIndex("lat")));
+//            double lng = Double.parseDouble(cursor.getString(cursor.getColumnIndex("lng")));
+//            Log.i("TAG2","time:"+time+"坐标:"+lat+","+lng);
+//            LatLng sourceLatLng = new LatLng(lat,lng);
+//            return sourceLatLng;
+//
+//
+//        }catch (Exception e){
+//            Toast.makeText(MyEquipLocationActivity.this,"无数据",Toast.LENGTH_LONG).show();
+//            LatLng sourceLatLng = new LatLng(0,0);
+//            return sourceLatLng;
+//        }
 
     }
 

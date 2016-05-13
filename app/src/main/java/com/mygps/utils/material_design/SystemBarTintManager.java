@@ -15,6 +15,8 @@ import java.lang.reflect.*;
  * Created by Silen on 2016/4/16.
  */
 
+
+@SuppressWarnings("ResourceType")
 public class SystemBarTintManager {
 
     static {

@@ -33,7 +33,6 @@ public class MyApplication extends Application {
         Bmob.initialize(this , APPID);
         SDKInitializer.initialize(this);
 
-
     }
 
     public Activity getWelcome() {

@@ -14,6 +14,7 @@ import android.widget.LinearLayout;
 import com.mygps.R;
 import com.mygps.related_to_device.chiyao.chiyao;
 import com.mygps.related_to_device.map.MyEquipListActivity;
+import com.mygps.related_to_device.map.MyEquipLocationActivity;
 import com.mygps.related_to_extra_function.shopping.ShopWebViewActivity;
 import com.mygps.unrelated_to_function.main.adapter.MainViewPaperAdapter;
 import com.umeng.comm.core.CommunitySDK;
@@ -61,7 +62,6 @@ public class MainActivity extends AppCompatActivity {
         map.put("title", "我的设备");
         map.put("view", getView((String) map.get("title"), new Intent(this, MyEquipListActivity.class)));
         viewList.add(map);
-
 
         Map<String, Object> map4 = new HashMap<>();
         CommunitySDK mCommSDK = CommunityFactory.getCommSDK(this);

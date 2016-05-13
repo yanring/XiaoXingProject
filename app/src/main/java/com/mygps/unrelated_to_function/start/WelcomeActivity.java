@@ -35,7 +35,7 @@ public class WelcomeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_welcome);
+        setContentView(R.layout.activity_welcome_new);
 
         //  new StatusBarUtils().setStatusBar(this);
 
@@ -58,7 +58,7 @@ public class WelcomeActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.welcomeActivityIM).requestFocus();//获取焦点
+        findViewById(R.id.welcomeIconIV).requestFocus();//获取焦点
         passportET = (EditText) findViewById(R.id.welcomeActivityETCipher);
         usernameET = (EditText) findViewById(R.id.welcomeActivityETUsername);
         loginBT = (Button) findViewById(R.id.welcomeActivityBTLogin);

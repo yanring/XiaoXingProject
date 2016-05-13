@@ -1,5 +1,6 @@
 package com.mygps.related_to_device.map;
 
+import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
@@ -165,10 +166,11 @@ public class MyEquipListActivity extends AppCompatActivity {
         pro.dismiss();
     }
 
-
+    @SuppressLint("ValidFragment")
     class AddEquipDialog extends DialogFragment {
         @NonNull
         @Override
+
         public Dialog onCreateDialog(Bundle savedInstanceState) {
             super.onCreateDialog(savedInstanceState);
             AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());

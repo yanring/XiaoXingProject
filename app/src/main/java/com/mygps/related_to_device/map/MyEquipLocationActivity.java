@@ -18,7 +18,10 @@ import com.mygps.MyApplication;
 import com.mygps.R;
 import com.mygps.related_to_device.map.model.Equip;
 import com.mygps.related_to_device.map.model.Location;
+import com.mygps.related_to_device.map.service.MyEquipListService;
 import com.mygps.utils.material_design.StatusBarUtils;
+
+import java.util.ArrayList;
 
 /**
  * Created by HowieWang on 2016/3/8.
@@ -46,6 +49,7 @@ public class MyEquipLocationActivity extends AppCompatActivity implements MyLoca
         new StatusBarUtils().setStatusBar(this);
 
         app = (MyApplication) getApplication();
+
         curEquip = app.getEquips().get(getIntent().getIntExtra("equipPos", -1));
 
         msgThread = new SendMsgThread(curEquip.getPhoneID(), app.getSleepTime());

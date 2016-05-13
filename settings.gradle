@@ -1,1 +1,2 @@
-include ':app', ':umeng_community_library_project'
+include ':app', ':umeng_community_library_project', ':FloatActionButtonMenu'
+

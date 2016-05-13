@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f4ecec">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/view2"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="90dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="#ffffff"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="8dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/view2"
+            android:layout_centerHorizontal="true"
+           >
+
+            <include layout="@layout/activity_welcome"/>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+  <!--  <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:id="@+id/view3"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:src="@mipmap/icon2"
+        android:elevation="8dp"
+       />-->
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/welcomeIconIV"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentBottom="false"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="110dp"
+            android:src="@drawable/welcome"
+            android:elevation="8dp"
+            android:background="@mipmap/ic_circle_bg"
+            android:padding="20dp" />
+
+</RelativeLayout>

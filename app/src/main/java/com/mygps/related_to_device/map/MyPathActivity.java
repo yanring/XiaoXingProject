@@ -86,7 +86,7 @@ public class MyPathActivity extends AppCompatActivity {
         mapView = (MapView) findViewById(R.id.pathmap);
         baiduMap = mapView.getMap();
         baiduMap.setMyLocationEnabled(true);
-        LatLng desLatLng = ConvertGPS2Baidu(39.231403,117.053139);
+        LatLng desLatLng = ConvertGPS2Baidu(new LatLng(112,222));
         MyLocationData locationData = new MyLocationData.Builder().latitude(desLatLng.latitude).longitude(desLatLng.longitude).build();
         baiduMap.setMyLocationData(locationData);
         MyLocationConfiguration config = new MyLocationConfiguration(MyLocationConfiguration.LocationMode.FOLLOWING, true, null);

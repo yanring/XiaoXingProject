@@ -70,6 +70,8 @@ public class WelcomeActivity extends AppCompatActivity {
                                        public void onClick(View v) {
 
                                            showPro();
+                                           usernameET.setText("1111");
+                                           passportET.setText("1111");
                                            String un = usernameET.getText().toString();
                                            String pw = passportET.getText().toString();
 

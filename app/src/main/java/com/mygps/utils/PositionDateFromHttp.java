@@ -102,8 +102,8 @@ public class PositionDateFromHttp {
             contentValues.put("lng",jsonObject.get("lng").toString());
             contentValues.put("speed",jsonObject.get("speed").toString());
             contentValues.put("eId",jsonObject.get("eId").toString());
-            Log.i("TAG2",jsonObject.get("eId").toString());
-            Log.i("TAG2",jsonObject.get("time").toString());
+            //Log.i("TAG2",jsonObject.get("eId").toString());
+            //Log.i("TAG2",jsonObject.get("time").toString());
             contentResolver.insert(insertUri, contentValues);
         }
 

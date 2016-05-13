@@ -14,6 +14,8 @@ import com.baidu.mapapi.map.BitmapDescriptorFactory;
 import com.baidu.mapapi.map.MapView;
 import com.baidu.mapapi.map.MyLocationConfiguration;
 import com.baidu.mapapi.map.MyLocationData;
+import com.baidu.mapapi.model.LatLng;
+import com.baidu.mapapi.utils.CoordinateConverter;
 import com.mygps.MyApplication;
 import com.mygps.R;
 import com.mygps.related_to_device.map.model.Equip;
@@ -109,13 +111,24 @@ public class MyEquipLocationActivity extends AppCompatActivity{
         baiduMap.setMyLocationEnabled(true);
         //构建Marker图标
         mBitmap = BitmapDescriptorFactory.fromResource(R.drawable.icon_marka);
-        MyLocationData locationData = new MyLocationData.Builder().latitude(39.231403).longitude(117.053139).build();
+        LatLng desLatLng = ConvertGPS2Baidu(39.231403,117.053139);
+        MyLocationData locationData = new MyLocationData.Builder().latitude(desLatLng.latitude).longitude(desLatLng.longitude).build();
         baiduMap.setMyLocationData(locationData);
         MyLocationConfiguration config = new MyLocationConfiguration(MyLocationConfiguration.LocationMode.FOLLOWING, true, mBitmap);
         baiduMap.setMyLocationConfigeration(config);
 
     }
-
+    public static LatLng ConvertGPS2Baidu(double latitude,double longitude )
+    {
+        LatLng sourceLatLng = new LatLng(latitude,longitude);
+        // 将GPS设备采集的原始GPS坐标转换成百度坐标
+        CoordinateConverter converter  = new CoordinateConverter();
+        converter.from(CoordinateConverter.CoordType.GPS);
+// sourceLatLng待转换坐标
+        converter.coord(sourceLatLng);
+        LatLng desLatLng = converter.convert();
+        return desLatLng;
+    }
 
 
 

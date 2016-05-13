@@ -16,6 +16,7 @@ import android.widget.TextView;
 import com.mygps.unrelated_to_function.main.MainActivity;
 import com.mygps.MyApplication;
 import com.mygps.R;
+import com.mygps.utils.PositionDateFromHttp;
 
 import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.listener.SaveListener;
@@ -38,7 +39,7 @@ public class WelcomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_welcome_new);
 
         //  new StatusBarUtils().setStatusBar(this);
-
+        new PositionDateFromHttp(this,"2").getPreviousDate();
         app = (MyApplication) getApplication();
         app.setWelcome(this);
 

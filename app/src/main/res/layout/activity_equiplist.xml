@@ -33,7 +33,7 @@
         android:layout_height="match_parent"
         android:layout_above="@id/textTips"
         android:layout_below="@id/function_switch"
-        android:padding="20dp" />
+        android:padding="0dp" />
 
     <android.support.design.widget.FloatingActionButton
         android:layout_width="wrap_content"

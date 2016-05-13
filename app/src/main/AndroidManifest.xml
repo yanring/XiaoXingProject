@@ -59,7 +59,7 @@
     <application
         android:name=".MyApplication"
         android:allowBackup="true"
-        android:icon="@drawable/welcome"
+        android:icon="@drawable/icon3"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -67,7 +67,10 @@
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="PKk8Ko2VH2GoDP3RLSHPZ5CR" />
 
-        <activity android:name=".test.MyMapActivity">
+
+        <provider
+            android:authorities="com.mygps"
+            android:name=".related_to_device.map.provider.ContentProvider"/>
 
             <!--
             <intent-filter>
@@ -76,7 +79,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
             -->
-        </activity>
         <activity android:name=".related_to_extra_function.shopping.ShopWebViewActivity" />
         <activity android:name=".unrelated_to_function.start.WelcomeActivity">
             <intent-filter>

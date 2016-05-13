@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
     LinearLayout containerLayout;
     Toolbar mToolBar;
     ArrayList<Map<String, Object>> viewList = new ArrayList<>();
-    TabLayout tabLayout;
-    ViewPager viewPager;
+    TabLayout tabLayout = null;
+    ViewPager viewPager = null;
     //ViewPager viewPager;
     LocalActivityManager activityManager;
 

@@ -44,7 +44,10 @@ public class MyPathService {
 
                 latitudes /= list.size();
                 longitudes /= list.size();
-
+                points.add(new LatLng(39.231403,117.053139));
+                points.add(new LatLng(39.231403,118.053139));
+                points.add(new LatLng(39.231403,119.053139));
+                points.add(new LatLng(39.231403,111.053139));
                 act.showArea(latitudes, longitudes);
                 act.addOverlay(points);
                 act.disPro();

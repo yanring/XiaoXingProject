@@ -22,6 +22,8 @@ import com.mygps.related_to_device.map.service.MyPathService;
 
 import java.util.ArrayList;
 
+import static com.mygps.related_to_device.map.MyEquipLocationActivity.ConvertGPS2Baidu;
+
 /**
  * Created by HowieWang on 2016/3/10.
  */
@@ -73,7 +75,7 @@ public class MyPathActivity extends AppCompatActivity {
 
     private void initData() {
 
-        showPro();
+        //showPro();
         service.getPoints(curEquip.getPhoneID());
 
 
@@ -83,11 +85,14 @@ public class MyPathActivity extends AppCompatActivity {
 
         mapView = (MapView) findViewById(R.id.pathmap);
         baiduMap = mapView.getMap();
-
         baiduMap.setMyLocationEnabled(true);
-        MyLocationConfiguration config = new MyLocationConfiguration(MyLocationConfiguration
-                .LocationMode.FOLLOWING, true, null);
+        LatLng desLatLng = ConvertGPS2Baidu(new LatLng(112,222));
+        MyLocationData locationData = new MyLocationData.Builder().latitude(desLatLng.latitude).longitude(desLatLng.longitude).build();
+        baiduMap.setMyLocationData(locationData);
+        MyLocationConfiguration config = new MyLocationConfiguration(MyLocationConfiguration.LocationMode.FOLLOWING, true, null);
         baiduMap.setMyLocationConfigeration(config);
+        //baiduMap.setMyLocationEnabled(true);
+
 
     }
 

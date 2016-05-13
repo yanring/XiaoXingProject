@@ -1,6 +1,13 @@
 package com.mygps.utils;
 
+import android.content.ContentResolver;
+import android.content.ContentValues;
 import android.content.Context;
+import android.net.Uri;
+import android.util.Log;
+
+import com.android.volley.Response;
+import com.mygps.related_to_device.map.provider.URIList;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -23,12 +30,14 @@ public class PositionDateFromHttp {
     private static String previousPositionUri="http://123.206.30.177/GPSServer/position/previous.do?eld=";
     private String eld=null;
     Context context;
-    PositionDatabaseUtils databaseUtils;
+
     public PositionDateFromHttp(Context context,String eld) {
         this.eld=eld;
         this.context=context;
 
     }
+
+
 
 
     class DataThread extends Thread{
@@ -76,22 +85,36 @@ public class PositionDateFromHttp {
 
 
     private void parseJson(String jsonString) throws JSONException {
-        List<Map<String,Object>> data=new ArrayList<>();
+        //
+        ContentResolver contentResolver = context.getContentResolver();
+        Uri insertUri = Uri.parse(URIList.GPS_URI);
+        ContentValues contentValues = new ContentValues();
+
+
+        //List<Map<String,Object>> data=new ArrayList<>();
         JSONArray jsonArray=new JSONArray(jsonString);
         for (int i=0;i<jsonArray.length();i++){
             JSONObject jsonObject=(JSONObject)jsonArray.get(i);
             System.out.println("time"+jsonObject.get("time"));
-            Map<String,Object> map=new HashMap<>();
-            map.put("id",jsonObject.get("id"));
-            map.put("time",jsonObject.get("time"));
-            map.put("lat",jsonObject.get("lat"));
-            map.put("lng",jsonObject.get("lng"));
-            map.put("speed",jsonObject.get("speed"));
-            map.put("eId",jsonObject.get("eId"));
-            data.add(map);
+            //Map<String,Object> map=new HashMap<>();
+            int id = (int) jsonObject.get("id");
+            contentValues.put("id",id);
+            contentValues.put("time",jsonObject.get("time").toString());
+            contentValues.put("lat",jsonObject.get("lat").toString());
+            contentValues.put("lng",jsonObject.get("lng").toString());
+            contentValues.put("speed",jsonObject.get("speed").toString());
+            contentValues.put("eId",jsonObject.get("eId").toString());
+            //Log.i("TAG2",jsonObject.get("eId").toString());
+            //Log.i("TAG2",jsonObject.get("time").toString());
+            if((contentResolver.query(insertUri, null,"id="+id , null, null).getCount()==0)){
+                contentResolver.insert(insertUri, contentValues);
+                Log.i("TAG2,count:", String.valueOf(contentResolver.query(insertUri, null,"id="+id , null, null).getCount()));
+
+            }
+            //contentResolver.insert(insertUri, contentValues);
         }
-        databaseUtils=new PositionDatabaseUtils(context);
-        databaseUtils.insertHistory(data);
+
+
     }
 
     public void getPreviousDate(){

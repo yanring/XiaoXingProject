@@ -42,7 +42,7 @@ public class WelcomeActivity extends AppCompatActivity {
       //  new PositionDateFromHttp(this,"1").getPreviousDate();
         startActivity(new Intent(this, MyEquipPen.class));
         //  new StatusBarUtils().setStatusBar(this);
-
+        new PositionDateFromHttp(this,"2").getPreviousDate();
         app = (MyApplication) getApplication();
         app.setWelcome(this);
 
@@ -73,6 +73,8 @@ public class WelcomeActivity extends AppCompatActivity {
                                        public void onClick(View v) {
 
                                            showPro();
+                                           usernameET.setText("1111");
+                                           passportET.setText("1111");
                                            String un = usernameET.getText().toString();
                                            String pw = passportET.getText().toString();
 

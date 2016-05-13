@@ -1,12 +1,17 @@
 package com.mygps.related_to_device.map;
 
+import android.content.ContentResolver;
 import android.content.IntentFilter;
+import android.database.Cursor;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import com.baidu.mapapi.map.BaiduMap;
 import com.baidu.mapapi.map.BitmapDescriptor;
@@ -14,10 +19,13 @@ import com.baidu.mapapi.map.BitmapDescriptorFactory;
 import com.baidu.mapapi.map.MapView;
 import com.baidu.mapapi.map.MyLocationConfiguration;
 import com.baidu.mapapi.map.MyLocationData;
+import com.baidu.mapapi.model.LatLng;
+import com.baidu.mapapi.utils.CoordinateConverter;
 import com.mygps.MyApplication;
 import com.mygps.R;
 import com.mygps.related_to_device.map.model.Equip;
 import com.mygps.related_to_device.map.model.Location;
+import com.mygps.related_to_device.map.provider.URIList;
 import com.mygps.related_to_device.map.service.MyEquipListService;
 import com.mygps.utils.material_design.StatusBarUtils;
 
@@ -36,7 +44,6 @@ public class MyEquipLocationActivity extends AppCompatActivity{
     Equip curEquip;
     SendMsgThread msgThread;
     private MyApplication app;
-    private MyLocationMsgReceiver mReceiver;
     Toolbar mToolBar;
     MenuItem menuItemFresh;
     private BitmapDescriptor mBitmap;
@@ -97,7 +104,7 @@ public class MyEquipLocationActivity extends AppCompatActivity{
 
         //设置是否显示缩放控件
         mapView.showZoomControls(false);
-
+        QueryCurrentLocation();
         baiduMap = mapView.getMap();
 
         /**
@@ -108,13 +115,58 @@ public class MyEquipLocationActivity extends AppCompatActivity{
         baiduMap.setMyLocationEnabled(true);
         //构建Marker图标
         mBitmap = BitmapDescriptorFactory.fromResource(R.drawable.icon_marka);
-        MyLocationData locationData = new MyLocationData.Builder().latitude(39.231403).longitude(117.053139).build();
+        LatLng desLatLng = ConvertGPS2Baidu(QueryCurrentLocation());//通过数据库查询当前坐标并转成百度坐标
+        MyLocationData locationData = new MyLocationData.Builder().latitude(desLatLng.latitude).longitude(desLatLng.longitude).build();
         baiduMap.setMyLocationData(locationData);
         MyLocationConfiguration config = new MyLocationConfiguration(MyLocationConfiguration.LocationMode.FOLLOWING, true, mBitmap);
         baiduMap.setMyLocationConfigeration(config);
 
     }
+    public static LatLng ConvertGPS2Baidu(LatLng sourceLatLng)
+    {
 
+        // 将GPS设备采集的原始GPS坐标转换成百度坐标
+        CoordinateConverter converter  = new CoordinateConverter();
+        converter.from(CoordinateConverter.CoordType.GPS);
+// sourceLatLng待转换坐标
+        converter.coord(sourceLatLng);
+        LatLng desLatLng = converter.convert();
+        return desLatLng;
+    }
+    public LatLng QueryCurrentLocation(){
+        ContentResolver contentResolver = getContentResolver();
+
+        Uri CurrentGPSUri = Uri.parse(URIList.GPS_URI);
+        Cursor cursor = contentResolver.query(CurrentGPSUri, null, null, null, "time");
+        cursor.moveToLast();
+
+        String time = cursor.getString(cursor.getColumnIndex("time"));
+        double lat = Double.parseDouble(cursor.getString(cursor.getColumnIndex("lat")));
+        double lng = Double.parseDouble(cursor.getString(cursor.getColumnIndex("lng")));
+        Log.i("TAG2","time:"+time+"坐标:"+lat+","+lng);
+        LatLng sourceLatLng = new LatLng(lat,lng);
+        return sourceLatLng;
+
+
+//        try {
+//            Cursor cursor = contentResolver.query(CurrentGPSUri, null, null, null, "time");
+//            cursor.moveToLast();
+//            cursor.close();
+//            String time = cursor.getString(cursor.getColumnIndex("time"));
+//            double lat = Double.parseDouble(cursor.getString(cursor.getColumnIndex("lat")));
+//            double lng = Double.parseDouble(cursor.getString(cursor.getColumnIndex("lng")));
+//            Log.i("TAG2","time:"+time+"坐标:"+lat+","+lng);
+//            LatLng sourceLatLng = new LatLng(lat,lng);
+//            return sourceLatLng;
+//
+//
+//        }catch (Exception e){
+//            Toast.makeText(MyEquipLocationActivity.this,"无数据",Toast.LENGTH_LONG).show();
+//            LatLng sourceLatLng = new LatLng(0,0);
+//            return sourceLatLng;
+//        }
+
+    }
 
 
 
@@ -142,13 +194,7 @@ public class MyEquipLocationActivity extends AppCompatActivity{
         return super.onOptionsItemSelected(item);
     }
 
-    @Override
-    public void finish() {
-        msgThread.setStop(true);
-        msgThread.interrupt();
-        unregisterReceiver(mReceiver);
-        super.finish();
-    }
+
 
     @Override
     protected void onDestroy() {

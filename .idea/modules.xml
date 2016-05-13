@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/FloatActionButtonMenu/FloatActionButtonMenu.iml" filepath="$PROJECT_DIR$/FloatActionButtonMenu/FloatActionButtonMenu.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyGPS.iml" filepath="$PROJECT_DIR$/MyGPS.iml" />
-      <module fileurl="file://$PROJECT_DIR$/XiaoXingProject.iml" filepath="$PROJECT_DIR$/XiaoXingProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/umeng_community_library_project/umeng_community_library_project.iml" filepath="$PROJECT_DIR$/umeng_community_library_project/umeng_community_library_project.iml" />
     </modules>

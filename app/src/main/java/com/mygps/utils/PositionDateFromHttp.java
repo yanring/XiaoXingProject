@@ -1,5 +1,7 @@
 package com.mygps.utils;
 
+import android.content.Context;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -9,6 +11,7 @@ import java.net.HttpURLConnection;
 import java.net.ProtocolException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -19,9 +22,12 @@ public class PositionDateFromHttp {
     private static String currentPositionUri="http://123.206.30.177/GPSServer/position/current.do?eld=";
     private static String previousPositionUri="http://123.206.30.177/GPSServer/position/previous.do?eld=";
     private String eld=null;
-    public PositionDateFromHttp(String eld) {
+    Context context;
+    PositionDatabaseUtils databaseUtils;
+    public PositionDateFromHttp(Context context,String eld) {
         this.eld=eld;
-        System.out.println("测试Class++++++++++++++++++++++++++++++++");
+        this.context=context;
+
     }
 
 
@@ -35,7 +41,7 @@ public class PositionDateFromHttp {
         @Override
         public void run() {
             try {
-                System.out.println("测试run++++++++++++++++++++++++++++++++");
+
                 parseJson(getJsonString(url));
             } catch (Exception e) {
                 e.printStackTrace();
@@ -47,7 +53,6 @@ public class PositionDateFromHttp {
 
 
     private String getJsonString(String urlPath) throws Exception {
-        System.out.println("测试mothed++++++++++++++++++++++++++++++++");
         String jsonString = null;
         HttpURLConnection connection = (HttpURLConnection) new URL(urlPath).openConnection();
         connection.setRequestMethod("GET");
@@ -70,14 +75,23 @@ public class PositionDateFromHttp {
     }
 
 
-    private List<Map<String,String>> parseJson(String jsonString) throws JSONException {
-        List<Map<String,String>> data=new ArrayList<>();
+    private void parseJson(String jsonString) throws JSONException {
+        List<Map<String,Object>> data=new ArrayList<>();
         JSONArray jsonArray=new JSONArray(jsonString);
         for (int i=0;i<jsonArray.length();i++){
             JSONObject jsonObject=(JSONObject)jsonArray.get(i);
             System.out.println("time"+jsonObject.get("time"));
+            Map<String,Object> map=new HashMap<>();
+            map.put("id",jsonObject.get("id"));
+            map.put("time",jsonObject.get("time"));
+            map.put("lat",jsonObject.get("lat"));
+            map.put("lng",jsonObject.get("lng"));
+            map.put("speed",jsonObject.get("speed"));
+            map.put("eId",jsonObject.get("eId"));
+            data.add(map);
         }
-        return data;
+        databaseUtils=new PositionDatabaseUtils(context);
+        databaseUtils.insertHistory(data);
     }
 
     public void getPreviousDate(){

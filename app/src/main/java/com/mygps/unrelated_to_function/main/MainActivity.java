@@ -17,6 +17,7 @@ import com.mygps.related_to_device.map.MyEquipListActivity;
 import com.mygps.related_to_device.map.MyEquipLocationActivity;
 import com.mygps.related_to_extra_function.shopping.ShopWebViewActivity;
 import com.mygps.unrelated_to_function.main.adapter.MainViewPaperAdapter;
+import com.mygps.utils.PositionDateFromHttp;
 import com.umeng.comm.core.CommunitySDK;
 import com.umeng.comm.core.impl.CommunityFactory;
 import com.umeng.comm.ui.fragments.CommunityMainFragment;
@@ -42,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_community_service);
+
+
 /*
 
         mToolBar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);

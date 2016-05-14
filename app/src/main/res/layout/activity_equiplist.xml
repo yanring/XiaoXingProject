@@ -44,7 +44,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginBottom="10dp"
         android:src="@drawable/add" />
-
+<!--
     <com.github.clans.fab.FloatingActionMenu
         android:id="@+id/menu"
         android:layout_width="wrap_content"
@@ -90,7 +90,7 @@
         fab:menu_backgroundColor="@android:color/transparent"
 
         fab:menu_fab_show_animation="@anim/jump_from_down"
-        fab:menu_fab_hide_animation="@anim/jump_to_down"/>
+        fab:menu_fab_hide_animation="@anim/jump_to_down"/>-->
 </RelativeLayout>
 
     <!--

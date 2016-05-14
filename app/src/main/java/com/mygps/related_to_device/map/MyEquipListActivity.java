@@ -74,7 +74,7 @@ public class MyEquipListActivity extends AppCompatActivity {
 
     private void initView() {
 
-       /* ((TextView)findViewById(R.id.title)).setText("设备列表");*/
+
 
         showPro();
 

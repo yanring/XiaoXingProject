@@ -4,6 +4,7 @@
     <option name="SHOW_MAIN_TOOLBAR" value="true" />
     <option name="IDE_AA_TYPE" value="Greyscale" />
     <option name="EDITOR_AA_TYPE" value="Greyscale" />
+    <option name="COLOR_BLINDNESS" value="deuteranopia" />
     <option name="PRESENTATION_MODE_FONT_SIZE" value="36" />
   </component>
 </application>

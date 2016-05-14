@@ -39,7 +39,6 @@ public class WelcomeActivity extends AppCompatActivity {
 
         //  new StatusBarUtils().setStatusBar(this);
         app = (MyApplication) getApplication();
-        app.setWelcome(this);
 
         initView();
 
@@ -96,7 +95,6 @@ public class WelcomeActivity extends AppCompatActivity {
                                                    disPro();
                                                    startActivity(intent);
                                                    finish();
-                                                   app.getWelcome().finish();//yanring:这边2个finish是用来优化占用内存的吗?
                                                }
 
                                                @Override

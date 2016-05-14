@@ -12,11 +12,9 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
 import com.mygps.unrelated_to_function.main.MainActivity;
 import com.mygps.MyApplication;
 import com.mygps.R;
-
 import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.listener.SaveListener;
 
@@ -38,13 +36,12 @@ public class WelcomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_welcome_new);
 
         //  new StatusBarUtils().setStatusBar(this);
+       // startActivity(new Intent(WelcomeActivity.this, MyEquipPen.class));
         app = (MyApplication) getApplication();
 
         initView();
 
       //  startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
-
-
 
     }
 

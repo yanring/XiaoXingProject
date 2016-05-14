@@ -1,31 +1,74 @@
 package com.mygps.related_to_device.map.adapter;
 
 import android.content.Context;
-
-import com.mygps.R;
-import com.mygps.utils.adapter.MyCommonAdapter;
-import com.mygps.utils.adapter.MyViewHolder;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
 import com.mygps.related_to_device.map.model.Equip;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by HowieWang on 2016/3/9.
  */
-public class MyEquipListAdapter extends MyCommonAdapter<Equip> {
+public class MyEquipListAdapter extends BaseAdapter {
 
-
-    public MyEquipListAdapter(Context context, int itemLayoutId, List<Equip> myDatas) {
-        super(context, itemLayoutId, myDatas);
+    List<Equip> equipList=new ArrayList<>();
+    Context context;
+    OnViewClickListener onViewClickListener;
+    public MyEquipListAdapter(Context context, List<Equip> myDatas) {
+        this.context=context;
+        this.equipList=myDatas;
     }
 
     @Override
-    public void setContent(MyViewHolder holder, Equip bean) {
+    public int getCount() {
+        return equipList.size();
+    }
 
-        try {
-            holder.setText(R.id.item_equiplist_name , bean.getName()).setText(R.id.item_equiplist_phone , bean.getPhoneID());
-        } catch (Exception e) {
-            e.printStackTrace();
+    @Override
+    public Object getItem(int position) {
+        return null;
+    }
+
+    @Override
+    public long getItemId(int position) {
+        return 0;
+    }
+
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        EquipListAdapterViewHolder holder=null;
+        if (null==convertView){
+            holder=new EquipListAdapterViewHolder(context,equipList.get(position),position);
+            convertView=holder.getView();
+            convertView.setTag(holder);
+        }else {
+            holder = (EquipListAdapterViewHolder) convertView.getTag();
         }
+
+        holder.setOnThisClickListener(new EquipListAdapterViewHolder.OnThisClickListener() {
+            @Override
+            public void onButtonClick(int position) {
+                onViewClickListener.onButtonClick(position);
+            }
+
+            @Override
+            public void onItemClick(int position) {
+                onViewClickListener.onItemClick(position);
+            }
+        });
+
+        return convertView;
+    }
+
+    public interface OnViewClickListener{
+        void onItemClick(int postion);
+        void onButtonClick(int position);
+    }
+    public void setOnViewClickListener(OnViewClickListener onViewClickListener){
+        this.onViewClickListener=onViewClickListener;
     }
 }
+

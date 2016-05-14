@@ -3,11 +3,10 @@ package com.mygps.related_to_device.map;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Button;
 import android.widget.SeekBar;
-import android.widget.Toast;
 
 import com.baidu.mapapi.map.BaiduMap;
 import com.baidu.mapapi.map.BitmapDescriptor;
@@ -43,16 +42,28 @@ public class MyEquipPen extends AppCompatActivity {
     private BitmapDescriptor mBitmap;
     SeekBar radiusSeekbar;
 
-    int radius=0;
+    int radius = 0;
+
+    Marker centerMarker;
+    MarkerOptions centerOptions;
+    Marker radiusMacker;
+    MarkerOptions radiusOptions;
+    CircleOptions circleOptions;
+    Overlay circleOverlay;
+    PolygonOptions lineOption;
+    Overlay lineOverlay;
+    List<LatLng> linePointsist = new ArrayList<>();
+
+    boolean isTouchAlarmByPerson=false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_equippen);
         new StatusBarUtils().setStatusBar(this);
-        initMap();
-        initOtherView();
 
+        initOtherView();
+        initMap();
     }
 
     private void initOtherView() {
@@ -69,7 +80,7 @@ public class MyEquipPen extends AppCompatActivity {
 
         getSupportActionBar().setTitle("实时定位");
 
-        radiusSeekbar=(SeekBar)findViewById(R.id.activityEquipPenSeekbar);
+        radiusSeekbar = (SeekBar) findViewById(R.id.activityEquipPenSeekbar);
 
     }
 
@@ -82,7 +93,7 @@ public class MyEquipPen extends AppCompatActivity {
 
         baiduMap = mapView.getMap();
 
-        MapStatusUpdate u = MapStatusUpdateFactory.zoomTo((float)15.5);
+        MapStatusUpdate u = MapStatusUpdateFactory.zoomTo((float) 15.5);
         baiduMap.animateMapStatus(u);
         /**
          * 定位功能
@@ -100,73 +111,69 @@ public class MyEquipPen extends AppCompatActivity {
 
 
         final LatLng centerPoint = new LatLng(39.231403, 117.053139);
-//构建Marker图标
+        //构建Marker图标
         BitmapDescriptor centerBitmap = BitmapDescriptorFactory.fromResource(R.mipmap.center_position_icon);
 
-        final MarkerOptions centerOptions = new MarkerOptions()
+        centerOptions = new MarkerOptions()
                 .position(centerPoint)  //设置marker的位置
                 .icon(centerBitmap)  //设置marker图标
                 .zIndex(9)  //设置marker所在层级
                 .draggable(true);  //设置手势拖拽
-//将marker添加到地图上
+        //将marker添加到地图上
 
-        final Marker centerMarker = (Marker) (baiduMap.addOverlay(centerOptions));
+        centerMarker = (Marker) (baiduMap.addOverlay(centerOptions));
 
         LatLng radiusPoint = new LatLng(centerMarker.getPosition().latitude, centerMarker.getPosition().longitude + 0.01);
-//构建Marker图标
+        //构建Marker图标
         BitmapDescriptor radiusBitmap = BitmapDescriptorFactory.fromResource(R.mipmap.radius_position_icon);
 
-        final MarkerOptions radiusOptions = new MarkerOptions()
+        radiusOptions = new MarkerOptions()
                 .position(radiusPoint)  //设置marker的位置
                 .icon(radiusBitmap)  //设置marker图标
                 .zIndex(9)  //设置marker所在层级
                 .draggable(true);  //设置手势拖拽
 //将marker添加到地图上
 
-        final Marker radiusMacker = (Marker) (baiduMap.addOverlay(radiusOptions));
-        final CircleOptions circleOptions = new CircleOptions().center(centerMarker.getPosition()).stroke(new Stroke(2, 0x44000000)).fillColor(0x15000000).radius((int) DistanceUtil.getDistance(centerMarker.getPosition(), radiusMacker.getPosition()));
-        final Overlay[] circleOverlay = {baiduMap.addOverlay(circleOptions)};
-        final List<LatLng> list = new ArrayList<>();
-        list.add(centerMarker.getPosition());
-        list.add(new LatLng((centerMarker.getPosition().latitude + radiusMacker.getPosition().latitude) / 2, (centerMarker.getPosition().longitude + radiusMacker.getPosition().longitude) / 2));
-        list.add(radiusMacker.getPosition());
+        radiusMacker = (Marker) (baiduMap.addOverlay(radiusOptions));
+        circleOptions = new CircleOptions().center(centerMarker.getPosition()).stroke(new Stroke(2, 0x44000000)).fillColor(0x15000000).radius((int) DistanceUtil.getDistance(centerMarker.getPosition(), radiusMacker.getPosition()));
+        circleOverlay = baiduMap.addOverlay(circleOptions);
 
-        final PolygonOptions lineOption = new PolygonOptions()
-                .points(list)
+        linePointsist.add(centerMarker.getPosition());
+        linePointsist.add(new LatLng((centerMarker.getPosition().latitude + radiusMacker.getPosition().latitude) / 2, (centerMarker.getPosition().longitude + radiusMacker.getPosition().longitude) / 2));
+        linePointsist.add(radiusMacker.getPosition());
+
+        lineOption = new PolygonOptions()
+                .points(linePointsist)
                 .stroke(new Stroke(3, 0xAA00FF00))
                 .fillColor(0xAAFFFF00);
-        final Overlay[] lineOverlay = {baiduMap.addOverlay(lineOption)};
+        lineOverlay = baiduMap.addOverlay(lineOption);
+
+
+        setSeekBarProgressByDistance();
 
         baiduMap.setOnMarkerDragListener(new BaiduMap.OnMarkerDragListener() {
             public void onMarkerDrag(Marker marker) {
-                circleOptions.center(centerMarker.getPosition());
-                circleOptions.radius((int) DistanceUtil.getDistance(centerMarker.getPosition(), radiusMacker.getPosition()));
-                circleOverlay[0].remove();
-                circleOverlay[0] = baiduMap.addOverlay(circleOptions);
-
-                list.clear();
-                list.add(centerMarker.getPosition());
-                list.add(new LatLng((centerMarker.getPosition().latitude + radiusMacker.getPosition().latitude) / 2, (centerMarker.getPosition().longitude + radiusMacker.getPosition().longitude) / 2));
-                list.add(radiusMacker.getPosition());
-                lineOption.points(list);
-                lineOverlay[0].remove();
-                lineOverlay[0] = baiduMap.addOverlay(lineOption);
+                freshView();
+                setSeekBarProgressByDistance();
             }
 
             public void onMarkerDragEnd(Marker marker) {
-                //拖拽结束
+                isTouchAlarmByPerson=false;
+
             }
 
             public void onMarkerDragStart(Marker marker) {
-                //开始拖拽
+                isTouchAlarmByPerson=true;
             }
         });
 
-       /* radiusSeekbar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+       radiusSeekbar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                radius=(int)Math.pow(1.1,progress);
-
+                if (!isTouchAlarmByPerson) {
+                    radius = (int) Math.pow(1.05, progress + 100);
+                    freshView(radius);
+                }
             }
 
             @Override
@@ -178,7 +185,50 @@ public class MyEquipPen extends AppCompatActivity {
             public void onStopTrackingTouch(SeekBar seekBar) {
 
             }
-        });*/
+        });
+    }
+
+    private void freshView(){
+        circleOptions.center(centerMarker.getPosition());
+        circleOptions.radius((int)getDistance());
+        circleOverlay.remove();
+        circleOverlay = baiduMap.addOverlay(circleOptions);
+
+        linePointsist.clear();
+        linePointsist.add(centerMarker.getPosition());
+        linePointsist.add(new LatLng((centerMarker.getPosition().latitude + radiusMacker.getPosition().latitude) / 2, (centerMarker.getPosition().longitude + radiusMacker.getPosition().longitude) / 2));
+        linePointsist.add(radiusMacker.getPosition());
+        lineOption.points(linePointsist);
+        lineOverlay.remove();
+        lineOverlay = baiduMap.addOverlay(lineOption);
+
+
+        Log.i("distance",getDistanceString());
+    }
+
+    private void freshView(int radius){
+        Log.i("Seekbar",radius+"");
+        radiusOptions.position(new LatLng(centerMarker.getPosition().latitude,centerMarker.getPosition().longitude+radius/(double)111000));
+        radiusMacker.remove();
+        radiusMacker=(Marker) (baiduMap.addOverlay(radiusOptions));
+        freshView();
+    }
+
+    private double getDistance(){
+        return DistanceUtil.getDistance(centerMarker.getPosition(), radiusMacker.getPosition());
+    }
+
+    private String getDistanceString(){
+        double distance=getDistance();
+        if ((int)distance/1000>0){
+            return ((double)((int)(distance/10)))/100+"千米";
+        }else {
+            return (int)distance+"米";
+        }
+    }
+
+    private void setSeekBarProgressByDistance(){
+        radiusSeekbar.setProgress((int)(Math.log(getDistance())/Math.log(1.05)-100));
     }
 
     @Override

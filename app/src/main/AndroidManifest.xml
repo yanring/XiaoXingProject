@@ -80,6 +80,7 @@
             </intent-filter>
             -->
         <activity android:name=".related_to_extra_function.shopping.ShopWebViewActivity" />
+        <activity android:name=".related_to_device.map.MyHistoryPathActivity"/>
         <activity android:name=".unrelated_to_function.start.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

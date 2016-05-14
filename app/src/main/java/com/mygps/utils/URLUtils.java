@@ -13,11 +13,12 @@ public class URLUtils {
     private static String previous = "previous.do?eId=";
 
     public static String getPreviousURL(){
-        return server+position+current;
+        return server+position+previous;
+
     }
 
     public static String getCurrentURL(){
-        return server+position+previous;
+        return server+position+current;
     }
 
 

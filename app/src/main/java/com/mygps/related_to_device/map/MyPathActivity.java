@@ -4,9 +4,12 @@ import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.MenuItem;
 
 import com.baidu.mapapi.map.BaiduMap;
+import com.baidu.mapapi.map.BitmapDescriptor;
+import com.baidu.mapapi.map.BitmapDescriptorFactory;
 import com.baidu.mapapi.map.MapView;
 import com.baidu.mapapi.map.MyLocationConfiguration;
 import com.baidu.mapapi.map.MyLocationData;
@@ -20,8 +23,8 @@ import com.mygps.related_to_device.map.model.Equip;
 import com.mygps.related_to_device.map.service.LocationService;
 
 import java.util.ArrayList;
+import java.util.List;
 
-import static com.mygps.related_to_device.map.MyEquipLocationActivity.ConvertGPS2Baidu;
 
 /**
  * Created by HowieWang on 2016/3/10.
@@ -39,11 +42,12 @@ public class MyPathActivity extends AppCompatActivity {
     ProgressDialog pro;
 
     Toolbar mToolBar;
-
+    BitmapDescriptor mRedTexture = BitmapDescriptorFactory.fromResource(R.mipmap.icon_road_red_arrow);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_path);
+        service = new LocationService(this);
 
         app = (MyApplication) getApplication();
         service = new LocationService(this);
@@ -69,13 +73,14 @@ public class MyPathActivity extends AppCompatActivity {
 
     private void initOtherView() {
 
-       // ((TextView)findViewById(R.id.title)).setText("历史轨迹");
+        // ((TextView)findViewById(R.id.title)).setText("历史轨迹");
     }
 
     private void initData() {
 
         //showPro();
-        service.getPreviousPostion(curEquip.getPhoneID());
+        Log.i("LocationService","准备访问");
+        service.getPreviousPostion("23123",this);
 
 
     }
@@ -85,7 +90,7 @@ public class MyPathActivity extends AppCompatActivity {
         mapView = (MapView) findViewById(R.id.pathmap);
         baiduMap = mapView.getMap();
         baiduMap.setMyLocationEnabled(true);
-        LatLng desLatLng = ConvertGPS2Baidu(new LatLng(112,222));
+        LatLng desLatLng = new LatLng(39.231403,117.053139);
         MyLocationData locationData = new MyLocationData.Builder().latitude(desLatLng.latitude).longitude(desLatLng.longitude).build();
         baiduMap.setMyLocationData(locationData);
         MyLocationConfiguration config = new MyLocationConfiguration(MyLocationConfiguration.LocationMode.FOLLOWING, true, null);
@@ -98,17 +103,24 @@ public class MyPathActivity extends AppCompatActivity {
     public void addOverlay(ArrayList<LatLng> points) {
 
         //构建文字Option对象，用于在地图上添加文字
-        OverlayOptions textOption = new TextOptions().bgColor(0xAAFFFF00).fontSize(30).fontColor
-                (0xFFFF00FF).text("起点").position(points.get(0));
+        OverlayOptions textOption = new TextOptions().bgColor(0xAAFFFF00).fontSize(60).fontColor
+                (0xFFFF00FF).text("起点").position(points.get(points.size()-1));
         baiduMap.addOverlay(textOption);
 
-        textOption = new TextOptions().bgColor(0xAAFFFF00).fontSize(30).fontColor
-                (0xFFFF00FF).text("终点").position(points.get(points.size()-1));
+        textOption = new TextOptions().bgColor(0xAAFFFF00).fontSize(60).fontColor
+                (0xFFFF00FF).text("终点").position(points.get(0));
         baiduMap.addOverlay(textOption);
 
-        //添加路线
-        OverlayOptions ooPolyline = new PolylineOptions().width(15).color(0xAAFF0000).points
-                (points);
+        //添加有纹理的路线
+        List<BitmapDescriptor> textureList = new ArrayList<BitmapDescriptor>();
+
+        textureList.add(mRedTexture);
+        List<Integer> textureIndexs = new ArrayList<Integer>();
+        textureIndexs.add(0);
+        OverlayOptions ooPolyline = new PolylineOptions().width(20)
+                .points(points).dottedLine(true).customTextureList(textureList).textureIndex(textureIndexs);
+//        OverlayOptions ooPolyline = new PolylineOptions().width(15).color(0xAAFF0000).points
+//                (points);
         baiduMap.addOverlay(ooPolyline);
     }
 

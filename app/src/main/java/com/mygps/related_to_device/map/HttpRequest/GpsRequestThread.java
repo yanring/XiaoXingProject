@@ -11,6 +11,8 @@ import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.Volley;
+import com.baidu.mapapi.model.LatLng;
+import com.baidu.mapapi.utils.CoordinateConverter;
 import com.mygps.related_to_device.map.provider.URIList;
 
 import org.json.JSONArray;
@@ -81,10 +83,13 @@ public class GpsRequestThread extends Thread {//异步请求GPS数据
             int id = (int) jsonObject.get("id");
             contentValues.put("id", id);
             contentValues.put("time", jsonObject.get("time").toString());
-            contentValues.put("lat", jsonObject.get("lat").toString());
-            contentValues.put("lng", jsonObject.get("lng").toString());
+            LatLng BaiduLat = ConvertGPS2Baidu(new LatLng(Double.parseDouble(jsonObject.get("lat").toString()),Double.parseDouble(jsonObject.get("lng").toString())));
+            Log.i("Convert",BaiduLat.toString() );
+            contentValues.put("lat", BaiduLat.latitude);
+            contentValues.put("lng", BaiduLat.longitude);
             contentValues.put("speed", jsonObject.get("speed").toString());
             contentValues.put("eId", jsonObject.get("eId").toString());
+
             //Log.i("TAG2",jsonObject.get("eId").toString());
             //Log.i("TAG2",jsonObject.get("time").toString());
             if ((contentResolver.query(insertUri, null, "id=" + id, null, null).getCount() == 0)) {
@@ -94,5 +99,17 @@ public class GpsRequestThread extends Thread {//异步请求GPS数据
             }
             //contentResolver.insert(insertUri, contentValues);
         }
+    }
+    public static LatLng ConvertGPS2Baidu(LatLng sourceLatLng)
+    {
+
+        // 将GPS设备采集的原始GPS坐标转换成百度坐标
+        CoordinateConverter converter  = new CoordinateConverter();
+        converter.from(CoordinateConverter.CoordType.GPS);
+// sourceLatLng待转换坐标
+        converter.coord(sourceLatLng);
+        LatLng desLatLng = converter.convert();
+
+        return desLatLng;
     }
 }

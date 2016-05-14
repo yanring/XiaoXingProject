@@ -42,7 +42,7 @@ public class MyPathActivity extends AppCompatActivity {
     ProgressDialog pro;
 
     Toolbar mToolBar;
-    BitmapDescriptor mRedTexture = BitmapDescriptorFactory.fromResource(R.mipmap.icon_road_red_arrow);
+    BitmapDescriptor mRedTexture = BitmapDescriptorFactory.fromResource(R.drawable.icon_road_red_arrow);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -90,7 +90,9 @@ public class MyPathActivity extends AppCompatActivity {
         mapView = (MapView) findViewById(R.id.pathmap);
         baiduMap = mapView.getMap();
         baiduMap.setMyLocationEnabled(true);
-        LatLng desLatLng = new LatLng(39.231403,117.053139);
+        //LatLng desLatLng = new LatLng(39.231403,117.053139);
+        String eId = "";
+        LatLng desLatLng = LocationService.getCurrentPosition(eId,this);
         MyLocationData locationData = new MyLocationData.Builder().latitude(desLatLng.latitude).longitude(desLatLng.longitude).build();
         baiduMap.setMyLocationData(locationData);
         MyLocationConfiguration config = new MyLocationConfiguration(MyLocationConfiguration.LocationMode.FOLLOWING, true, null);
@@ -115,10 +117,24 @@ public class MyPathActivity extends AppCompatActivity {
         List<BitmapDescriptor> textureList = new ArrayList<BitmapDescriptor>();
 
         textureList.add(mRedTexture);
+        textureList.add(mRedTexture);
+        textureList.add(mRedTexture);
+
         List<Integer> textureIndexs = new ArrayList<Integer>();
         textureIndexs.add(0);
-        OverlayOptions ooPolyline = new PolylineOptions().width(20)
-                .points(points).dottedLine(true).customTextureList(textureList).textureIndex(textureIndexs);
+        textureIndexs.add(1);
+        textureIndexs.add(2);
+//        LatLng p111 = new LatLng(39.865, 116.444);
+//        LatLng p211 = new LatLng(49.825, 116.494);
+//        LatLng p311 = new LatLng(39.855, 116.534);
+//        LatLng p411 = new LatLng(39.805, 116.594);
+//        List<LatLng> points11 = new ArrayList<LatLng>();
+//        points11.add(p111);
+//        points11.add(p211);
+//        points11.add(p311);
+//        points11.add(p411);
+        OverlayOptions ooPolyline = new PolylineOptions().width(40)
+                .points(points).dottedLine(true).customTexture(mRedTexture).keepScale(false);
 //        OverlayOptions ooPolyline = new PolylineOptions().width(15).color(0xAAFF0000).points
 //                (points);
         baiduMap.addOverlay(ooPolyline);

@@ -98,7 +98,7 @@
         <activity android:name=".related_to_device.map.MyEquipLocationActivity" />
         <activity android:name=".related_to_device.map.AddEquipActivity" />
         <activity android:name=".related_to_device.map.MyPathActivity" />
-        <activity android:name=".related_to_device.map.MyEquipPen"/>
+        <activity android:name=".related_to_device.map.MyEquipPenActivity"/>
         <!-- 微博版activity组件 start -->
 
 

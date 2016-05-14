@@ -25,6 +25,7 @@ import com.baidu.mapapi.map.Stroke;
 import com.baidu.mapapi.model.LatLng;
 import com.baidu.mapapi.utils.DistanceUtil;
 import com.mygps.R;
+import com.mygps.related_to_device.map.service.LocationService;
 import com.mygps.utils.material_design.StatusBarUtils;
 
 import java.util.ArrayList;
@@ -33,7 +34,7 @@ import java.util.List;
 /**
  * Created by 10397 on 2016/5/13.
  */
-public class MyEquipPen extends AppCompatActivity {
+public class MyEquipPenActivity extends AppCompatActivity {
     MapView mapView = null;
     BaiduMap baiduMap = null;
 
@@ -109,8 +110,8 @@ public class MyEquipPen extends AppCompatActivity {
         MyLocationConfiguration config = new MyLocationConfiguration(MyLocationConfiguration.LocationMode.FOLLOWING, true, mBitmap);
         baiduMap.setMyLocationConfigeration(config);
 
-
-        final LatLng centerPoint = new LatLng(39.231403, 117.053139);
+        String eId="";
+        final LatLng centerPoint = LocationService.getCurrentPosition(eId,this);
         //构建Marker图标
         BitmapDescriptor centerBitmap = BitmapDescriptorFactory.fromResource(R.mipmap.center_position_icon);
 

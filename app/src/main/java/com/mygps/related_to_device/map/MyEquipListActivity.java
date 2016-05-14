@@ -14,7 +14,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SwitchCompat;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.ListView;
@@ -25,7 +24,6 @@ import com.mygps.related_to_device.map.HttpRequest.GpsRequestThread;
 import com.mygps.related_to_device.map.adapter.MyEquipListAdapter;
 import com.mygps.related_to_device.map.model.Equip;
 import com.mygps.related_to_device.map.service.MyEquipListService;
-import com.mygps.unrelated_to_function.main.MainActivity;
 
 import java.util.ArrayList;
 
@@ -127,7 +125,7 @@ public class MyEquipListActivity extends AppCompatActivity {
 
             @Override
             public void onButtonClick(int position) {
-                startActivity(new Intent(MyEquipListActivity.this,MyEquipPen.class));
+                startActivity(new Intent(MyEquipListActivity.this,MyEquipPenActivity.class));
             }
         });
 

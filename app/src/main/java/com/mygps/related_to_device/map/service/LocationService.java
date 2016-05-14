@@ -78,6 +78,7 @@ public class LocationService {
             latLngs.add(new LatLng(lat, lng));
 
         }
+        Log.i("latLngs",latLngs.toString());
         act.addOverlay(latLngs);
         cursor.close();
 

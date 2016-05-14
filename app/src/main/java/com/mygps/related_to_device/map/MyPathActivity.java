@@ -42,7 +42,7 @@ public class MyPathActivity extends AppCompatActivity {
     ProgressDialog pro;
 
     Toolbar mToolBar;
-    BitmapDescriptor mRedTexture = BitmapDescriptorFactory.fromResource(R.drawable.icon_road_red_arrow);
+    BitmapDescriptor mRedTexture = BitmapDescriptorFactory.fromResource(R.mipmap.icon_road_blue_arrow);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -133,7 +133,7 @@ public class MyPathActivity extends AppCompatActivity {
 //        points11.add(p211);
 //        points11.add(p311);
 //        points11.add(p411);
-        OverlayOptions ooPolyline = new PolylineOptions().width(40)
+        OverlayOptions ooPolyline = new PolylineOptions().width(30)
                 .points(points).dottedLine(true).customTexture(mRedTexture).keepScale(false);
 //        OverlayOptions ooPolyline = new PolylineOptions().width(15).color(0xAAFF0000).points
 //                (points);

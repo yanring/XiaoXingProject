@@ -25,21 +25,29 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
-    compile files('libs/baidumapapi_base_v3_7_1.jar')
-    compile files('libs/baidumapapi_map_v3_7_1.jar')
     //bmob-sdk ：Bmob的android sdk包
     //okhttp（选填）：为解决弱网情况下SDK请求失败及响应慢的问题，自`V3.4.3版本`开始使用`okhttp`优化SDK的网络框架。
     compile project(':umeng_community_library_project')
     compile project(':FloatActionButtonMenu')
     compile files('libs/gson-2.3.1.jar')
     compile 'cn.bmob.android:bmob-sdk:3.4.5'
+    //compile files('libs/BaiduLBS_Android.jar')
     compile 'com.squareup.okhttp:okhttp:2.4.0'
     compile 'com.squareup.okio:okio:1.4.0'
     compile 'com.android.support:design:24.0.0-alpha2'
     compile 'com.android.support:cardview-v7:24.0.0-alpha2'
     compile 'com.android.support:support-v4:24.0.0-alpha2'
-    compile files('libs/BaiduLBS_Android.jar')
     compile 'com.github.erd:android-volley:1.0.0'
+//    compile files('libs/baidumapapi_base_v3_7_3.jar')
+//    compile files('libs/baidumapapi_map_v3_7_3.jar')
+//    compile files('libs/baidumapapi_search_v3_7_3.jar')
+    compile 'com.baidu.mapapi:base:3.7.1'
+    compile 'com.baidu.mapapi:map:3.7.1'
+    compile 'com.baidu.mapapi:cloud:3.7.1'
+    compile 'com.baidu.mapapi:radar:3.7.1'
+    compile 'com.baidu.mapapi:search:3.7.1'
+    compile 'com.baidu.mapapi:util:3.7.1'
+    //compile 'com.baidu.mapapi:location:6.2.3'
 }

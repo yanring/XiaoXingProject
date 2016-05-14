@@ -12,8 +12,18 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.baidu.mapapi.map.BitmapDescriptorFactory;
+import com.baidu.mapapi.map.MapStatusUpdateFactory;
+import com.baidu.mapapi.map.MarkerOptions;
 import com.baidu.mapapi.model.LatLng;
+import com.baidu.mapapi.search.core.SearchResult;
+import com.baidu.mapapi.search.geocode.GeoCodeResult;
+import com.baidu.mapapi.search.geocode.GeoCoder;
+import com.baidu.mapapi.search.geocode.OnGetGeoCoderResultListener;
+import com.baidu.mapapi.search.geocode.ReverseGeoCodeOption;
+import com.baidu.mapapi.search.geocode.ReverseGeoCodeResult;
 import com.google.gson.Gson;
+
 import com.google.gson.reflect.TypeToken;
 import com.mygps.related_to_device.map.MyPathActivity;
 import com.mygps.related_to_device.map.model.Position;
@@ -25,16 +35,22 @@ import java.util.ArrayList;
 /**
  * Created by HowieWang on 2016/3/10.
  */
-public class LocationService {
+public class LocationService implements OnGetGeoCoderResultListener {
 
     MyPathActivity act;
     RequestQueue reqQue;
     Gson gson;
+    private String mAddress;
+    private GeoCoder mSearch;
 
     public LocationService(MyPathActivity act) {
         this.act = act;
         reqQue = Volley.newRequestQueue(act);
         gson = new Gson();
+
+    }
+    public LocationService(){
+
     }
 
     public static LatLng getCurrentPosition(String eId,Context context){
@@ -56,6 +72,7 @@ public class LocationService {
         LatLng sourceLatLng = new LatLng(lat,lng);
         cursor.close();
         return sourceLatLng;
+
 
 
     }
@@ -82,6 +99,30 @@ public class LocationService {
         act.addOverlay(latLngs);
         cursor.close();
 
+    }
+    public String getAddress (String eId,Context context)
+    {
+        LatLng ptCenter = getCurrentPosition(eId,context);
+        mSearch = GeoCoder.newInstance();
+        mSearch.reverseGeoCode(new ReverseGeoCodeOption().location(ptCenter));
+        mSearch.setOnGetGeoCodeResultListener(this);
+        //mAddress = "";
+
+        return mAddress;
+    }
+
+    @Override
+    public void onGetGeoCodeResult(GeoCodeResult geoCodeResult) {
+
+    }
+
+    @Override
+    public void onGetReverseGeoCodeResult(ReverseGeoCodeResult result) {
+        if (result == null || result.error != SearchResult.ERRORNO.NO_ERROR) {
+
+            return;
+        }
+        mAddress = result.getAddress();
 
 
     }

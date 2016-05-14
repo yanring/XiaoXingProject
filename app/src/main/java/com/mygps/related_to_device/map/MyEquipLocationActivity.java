@@ -36,13 +36,13 @@ import java.util.ArrayList;
 /**
  * Created by HowieWang on 2016/3/8.
  */
-public class MyEquipLocationActivity extends AppCompatActivity{
+public class MyEquipLocationActivity extends AppCompatActivity {
 
     MapView mapView = null;
     BaiduMap baiduMap = null;
     String eid="0";
     ImageButton fresh;
-
+    LocationService mLocationService;
     Equip curEquip;
     SendMsgThread msgThread;
     private MyApplication app;
@@ -63,7 +63,9 @@ public class MyEquipLocationActivity extends AppCompatActivity{
 
         curEquip = app.getEquips().get(getIntent().getIntExtra("equipPos", -1));
 
-
+        mLocationService = new LocationService();
+        String address = mLocationService.getAddress(eid,this);
+        Log.i("address",address+"1");
         initMap();
         initOtherView();
     }

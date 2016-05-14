@@ -21,6 +21,7 @@ import android.widget.ListView;
 
 import com.mygps.MyApplication;
 import com.mygps.R;
+import com.mygps.related_to_device.map.HttpRequest.GpsRequestThread;
 import com.mygps.related_to_device.map.adapter.MyEquipListAdapter;
 import com.mygps.related_to_device.map.model.Equip;
 import com.mygps.related_to_device.map.service.MyEquipListService;
@@ -64,6 +65,10 @@ public class MyEquipListActivity extends AppCompatActivity {
 
         initView();
 
+        //测试thread
+        GpsRequestThread gpsRequestThread = new GpsRequestThread(this,"867967020452449");
+        gpsRequestThread.start();
+
     }
 
     @Override
@@ -87,7 +92,7 @@ public class MyEquipListActivity extends AppCompatActivity {
 
         equipList = (ListView) findViewById(R.id.equiplist);
 
-        adp = new MyEquipListAdapter(this, R.layout.item_equiplist, equips);//yanring:有bug
+        adp = new MyEquipListAdapter(this, R.layout.item_equiplist, equips);
         equipList.setAdapter(adp);
 
         service.getEquips(app.getUser().getUsername());

@@ -39,13 +39,12 @@ public class WelcomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_welcome_new);
 
         //  new StatusBarUtils().setStatusBar(this);
-        new PositionDateFromHttp(this,"2").getPreviousDate();
+        new PositionDateFromHttp(this, "2").getPreviousDate();
         app = (MyApplication) getApplication();
-        app.setWelcome(this);
 
         initView();
 
-      //  startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
+        //  startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
 
     }
 
@@ -55,7 +54,7 @@ public class WelcomeActivity extends AppCompatActivity {
         findViewById(R.id.welcomeTest).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(WelcomeActivity.this,MainActivity.class));
+                startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
             }
         });
 
@@ -64,63 +63,55 @@ public class WelcomeActivity extends AppCompatActivity {
         usernameET = (EditText) findViewById(R.id.welcomeActivityETUsername);
         loginBT = (Button) findViewById(R.id.welcomeActivityBTLogin);
         registerTV = (TextView) findViewById(R.id.welcomeActivityRegiter);
-        remeberCB=(AppCompatCheckBox)findViewById(R.id.welcomeActivityCBRemeberCipher);
+        remeberCB = (AppCompatCheckBox) findViewById(R.id.welcomeActivityCBRemeberCipher);
         loginBT.setOnClickListener(new View.OnClickListener() {
-                                       @Override
-                                       public void onClick(View v) {
+           @Override
+           public void onClick(View v) {
 
-                                           showPro();
-                                           usernameET.setText("1111");
-                                           passportET.setText("1111");
-                                           String un = usernameET.getText().toString();
-                                           String pw = passportET.getText().toString();
+               showPro();
+               usernameET.setText("1111");
+               passportET.setText("1111");
+               String un = usernameET.getText().toString();
+               String pw = passportET.getText().toString();
 
-                                           /**
-                                            * 此处做用户名和密码的检查
-                                            */
+               /**
+                * 此处做用户名和密码的检查
+                */
 
-                                           BmobUser user = new BmobUser();
-                                           user.setUsername(un);
-                                           user.setPassword(pw);
-                                           user.login(WelcomeActivity.this, new SaveListener() {
-                                               @Override
-                                               public void onSuccess() {
-                                                   Intent intent = new Intent(WelcomeActivity.this, MainActivity.class);
-                                                   BmobUser currentUser = BmobUser.getCurrentUser(WelcomeActivity.this);
-                                                   app.setUser(currentUser);
+               BmobUser user = new BmobUser();
+               user.setUsername(un);
+               user.setPassword(pw);
+               user.login(WelcomeActivity.this, new SaveListener() {
+                   @Override
+                   public void onSuccess() {
+                       Intent intent = new Intent(WelcomeActivity.this, MainActivity.class);
 
-                                                   if (remeberCB.isChecked()){
-                                                       //记录密码
-                                                   }
+                       if (remeberCB.isChecked()) {
+                           //记录密码
+                       }
 
-                                                   disPro();
-                                                   startActivity(intent);
-                                                   finish();
-                                                   app.getWelcome().finish();//yanring:这边2个finish是用来优化占用内存的吗?
-                                               }
+                       disPro();
+                       startActivity(intent);
+                       finish();
+                   }
 
-                                               @Override
-                                               public void onFailure(int i, String s) {
-                                                   disPro();
-                                                   Log.i("aaa", i + "   " + s);
+                   @Override
+                   public void onFailure(int i, String s) {
+                       disPro();
+                       Log.i("aaa", i + "   " + s);
 
-                                               }
-                                           });
+                   }
+               });
 
 
-                                       }
-                                   }
-
-
-        );
+           }
+       });
         registerTV.setOnClickListener(new View.OnClickListener() {
-                                          @Override
-                                          public void onClick(View v) {
-                                              startActivity(new Intent(WelcomeActivity.this,SigninActivity.class));
-                                          }
-                                      }
-
-        );
+              @Override
+              public void onClick(View v) {
+                  startActivity(new Intent(WelcomeActivity.this, SigninActivity.class));
+              }
+        });
 
       /*  *//**
          * 渐变动画

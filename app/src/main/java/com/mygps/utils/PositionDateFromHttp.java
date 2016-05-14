@@ -6,7 +6,6 @@ import android.content.Context;
 import android.net.Uri;
 import android.util.Log;
 
-import com.android.volley.Response;
 import com.mygps.related_to_device.map.provider.URIList;
 
 import org.json.JSONArray;
@@ -15,19 +14,13 @@ import org.json.JSONObject;
 
 import java.io.InputStream;
 import java.net.HttpURLConnection;
-import java.net.ProtocolException;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 /**
  * Created by 10397 on 2016/5/13.
  */
 public class PositionDateFromHttp {
-    private static String currentPositionUri="http://123.206.30.177/GPSServer/position/current.do?eld=";
-    private static String previousPositionUri="http://123.206.30.177/GPSServer/position/previous.do?eld=";
+
     private String eld=null;
     Context context;
 
@@ -118,7 +111,7 @@ public class PositionDateFromHttp {
     }
 
     public void getPreviousDate(){
-        DataThread dataThread=new DataThread(previousPositionUri+eld);
+        DataThread dataThread=new DataThread(URLUtils.getPreviousURL()+eld);
         dataThread.start();
     }
 }

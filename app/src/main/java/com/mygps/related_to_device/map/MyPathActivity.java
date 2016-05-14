@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
-import android.widget.TextView;
 
 import com.baidu.mapapi.map.BaiduMap;
 import com.baidu.mapapi.map.MapView;
@@ -18,7 +17,7 @@ import com.baidu.mapapi.model.LatLng;
 import com.mygps.MyApplication;
 import com.mygps.R;
 import com.mygps.related_to_device.map.model.Equip;
-import com.mygps.related_to_device.map.service.MyPathService;
+import com.mygps.related_to_device.map.service.LocationService;
 
 import java.util.ArrayList;
 
@@ -32,7 +31,7 @@ public class MyPathActivity extends AppCompatActivity {
     MapView mapView = null;
     BaiduMap baiduMap = null;
 
-    MyPathService service;
+    LocationService service;
     MyApplication app;
 
     Equip curEquip;
@@ -47,7 +46,7 @@ public class MyPathActivity extends AppCompatActivity {
         setContentView(R.layout.activity_path);
 
         app = (MyApplication) getApplication();
-        service = new MyPathService(this);
+        service = new LocationService(this);
         curEquip = app.getEquips().get(getIntent().getIntExtra("equipPos", -1));
 
         mToolBar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);
@@ -76,7 +75,7 @@ public class MyPathActivity extends AppCompatActivity {
     private void initData() {
 
         //showPro();
-        service.getPoints(curEquip.getPhoneID());
+        service.getPreviousPostion(curEquip.getPhoneID());
 
 
     }

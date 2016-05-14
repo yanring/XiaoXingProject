@@ -22,8 +22,6 @@ public class MyApplication extends Application {
 
     Long sleepTime = 60000L;
 
-    Activity welcome;
-
     BmobUser user;
 
     @Override
@@ -33,14 +31,6 @@ public class MyApplication extends Application {
         Bmob.initialize(this , APPID);
         SDKInitializer.initialize(this);
 
-    }
-
-    public Activity getWelcome() {
-        return welcome;
-    }
-
-    public void setWelcome(Activity welcome) {
-        this.welcome = welcome;
     }
 
     public ArrayList<Equip> getEquips() {

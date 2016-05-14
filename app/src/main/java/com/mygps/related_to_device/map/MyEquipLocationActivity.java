@@ -1,7 +1,6 @@
 package com.mygps.related_to_device.map;
 
 import android.content.ContentResolver;
-import android.content.IntentFilter;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
@@ -24,12 +23,9 @@ import com.baidu.mapapi.utils.CoordinateConverter;
 import com.mygps.MyApplication;
 import com.mygps.R;
 import com.mygps.related_to_device.map.model.Equip;
-import com.mygps.related_to_device.map.model.Location;
 import com.mygps.related_to_device.map.provider.URIList;
-import com.mygps.related_to_device.map.service.MyEquipListService;
+import com.mygps.related_to_device.map.service.LocationService;
 import com.mygps.utils.material_design.StatusBarUtils;
-
-import java.util.ArrayList;
 
 /**
  * Created by HowieWang on 2016/3/8.
@@ -48,6 +44,8 @@ public class MyEquipLocationActivity extends AppCompatActivity{
     MenuItem menuItemFresh;
     private BitmapDescriptor mBitmap;
 
+    LocationService service;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,12 +56,9 @@ public class MyEquipLocationActivity extends AppCompatActivity{
 
         app = (MyApplication) getApplication();
 
-        curEquip = app.getEquips().get(getIntent().getIntExtra("equipPos", -1));
+        //curEquip = app.getEquips().get(getIntent().getIntExtra("equipPos", -1));
+        curEquip = null;
 
-       // msgThread = new SendMsgThread(curEquip.getPhoneID(), app.getSleepTime());
-        //msgThread.start();
-
-        //initReceiver();
         initMap();
         initOtherView();
     }
@@ -82,20 +77,6 @@ public class MyEquipLocationActivity extends AppCompatActivity{
 
         getSupportActionBar().setTitle("实时定位");
 
-        /*
-        ((TextView)findViewById(R.id.title)).setText("实时定位");
-
-        fresh = (ImageButton) findViewById(R.id.function);
-        fresh.setVisibility(View.VISIBLE);
-        fresh.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                msgThread.interrupt();
-                msgThread = new SendMsgThread(curEquip.getPhoneID(), app.getSleepTime());
-                msgThread.start();
-            }
-        });
-*/
 
     }
 
@@ -123,6 +104,11 @@ public class MyEquipLocationActivity extends AppCompatActivity{
         baiduMap.setMyLocationConfigeration(config);
 
     }
+
+
+    /**
+     * 王辉：建议把这个百度这些相关方法封装成工具类
+     */
     public static LatLng ConvertGPS2Baidu(LatLng sourceLatLng)
     {
 
@@ -175,9 +161,7 @@ public class MyEquipLocationActivity extends AppCompatActivity{
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case 0:
-                msgThread.interrupt();
-                msgThread = new SendMsgThread(curEquip.getPhoneID(), app.getSleepTime());
-                msgThread.start();
+                Toast.makeText(this , "我的id是0" ,Toast.LENGTH_SHORT).show();
                 break;
             case android.R.id.home:
                 finish();

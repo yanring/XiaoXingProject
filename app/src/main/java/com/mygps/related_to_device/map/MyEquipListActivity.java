@@ -25,6 +25,7 @@ import com.mygps.related_to_device.map.HttpRequest.GpsRequestThread;
 import com.mygps.related_to_device.map.adapter.MyEquipListAdapter;
 import com.mygps.related_to_device.map.model.Equip;
 import com.mygps.related_to_device.map.service.MyEquipListService;
+import com.mygps.unrelated_to_function.main.MainActivity;
 
 import java.util.ArrayList;
 
@@ -92,7 +93,7 @@ public class MyEquipListActivity extends AppCompatActivity {
 
         equipList = (ListView) findViewById(R.id.equiplist);
 
-        adp = new MyEquipListAdapter(this, R.layout.item_equiplist, equips);
+        adp = new MyEquipListAdapter(this, equips);
         equipList.setAdapter(adp);
 
         service.getEquips(app.getUser().getUsername());
@@ -108,10 +109,9 @@ public class MyEquipListActivity extends AppCompatActivity {
                 }
             }
         });
-        equipList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        adp.setOnViewClickListener(new MyEquipListAdapter.OnViewClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
+            public void onItemClick(int position) {
                 /**
                  * 在这里可以查看实时位置，也可以查看历史轨迹
                  */
@@ -123,9 +123,14 @@ public class MyEquipListActivity extends AppCompatActivity {
                 }
                 intent.putExtra("equipPos", position);
                 startActivity(intent);
+            }
 
+            @Override
+            public void onButtonClick(int position) {
+                startActivity(new Intent(MyEquipListActivity.this,MyEquipPen.class));
             }
         });
+
 
         FABAdd.setOnClickListener(new View.OnClickListener() {
             @Override

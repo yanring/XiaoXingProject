@@ -30,11 +30,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/activityEquipPenSeekbar"
-                android:layout_alignParentBottom="true"
+                android:layout_alignParentBottom="false"
                 android:layout_centerHorizontal="true"
                 android:indeterminate="false"
-                android:max="1000"
-                android:progress="5" />
+                android:max="100"
+                android:progress="5"
+                android:layout_alignParentTop="true" />
         </RelativeLayout>
     </LinearLayout>
 </LinearLayout>

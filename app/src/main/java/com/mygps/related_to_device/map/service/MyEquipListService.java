@@ -23,8 +23,6 @@ public class MyEquipListService {
     }
 
 
-
-
     public ArrayList<Equip> getEquips(String username) {
 
         BmobQuery<Equip> query = new BmobQuery<>();

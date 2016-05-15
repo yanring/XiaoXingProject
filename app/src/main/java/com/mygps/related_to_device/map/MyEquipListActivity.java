@@ -142,12 +142,10 @@ public class MyEquipListActivity extends AppCompatActivity {
         FABAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                /*Intent intent = new Intent(MyEquipListActivity.this, AddEquipActivity.class);
-                startActivity(intent);*/
+
                 new AddEquipDialog().show(getSupportFragmentManager(),null);
             }
         });
-
     }
 
     public void notifyDataSetChanged() {
@@ -233,7 +231,7 @@ public class MyEquipListActivity extends AppCompatActivity {
 
             AlertDialog.Builder builder=new AlertDialog.Builder(getActivity());
             builder.setTitle("删除设备");
-
+            builder.setMessage("设备名:"+equips.get(position).getName()+"\n电话号码:"+equips.get(position).getPhoneID());
             builder.setPositiveButton("删除", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {

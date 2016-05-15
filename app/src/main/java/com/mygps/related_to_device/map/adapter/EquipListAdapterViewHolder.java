@@ -36,7 +36,7 @@ public class EquipListAdapterViewHolder {
 
         containsCardView=(CardView) view.findViewById(R.id.equiplistItemCardView);
         equipName.setText(initEquip.getName());
-        equipName.setText(initEquip.getPhoneID());
+        equipPhoneNumber.setText(initEquip.getPhoneID());
         equipDelete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

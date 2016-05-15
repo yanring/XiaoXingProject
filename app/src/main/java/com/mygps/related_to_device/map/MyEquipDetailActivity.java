@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Menu;
 import android.view.MenuItem;
 
 import com.baidu.mapapi.map.BaiduMap;
@@ -26,12 +27,10 @@ import com.mygps.utils.material_design.StatusBarUtils;
 import java.util.ArrayList;
 import java.util.List;
 
-
 /**
- * Created by HowieWang on 2016/3/10.
+ * Created by 10397 on 2016/5/15.
  */
-public class MyPathActivity extends AppCompatActivity {
-
+public class MyEquipDetailActivity extends AppCompatActivity {
     MapView mapView = null;
     BaiduMap baiduMap = null;
 
@@ -44,10 +43,12 @@ public class MyPathActivity extends AppCompatActivity {
 
     Toolbar mToolBar;
     BitmapDescriptor mRedTexture = BitmapDescriptorFactory.fromResource(R.mipmap.icon_road_blue_arrow0000);
+
+    MenuItem showPath,showLocation;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_path);
+        setContentView(R.layout.activity_equiplocation);
         new StatusBarUtils().setStatusBar(this);
         service = new LocationService(this);
 
@@ -65,17 +66,11 @@ public class MyPathActivity extends AppCompatActivity {
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        getSupportActionBar().setTitle("历史轨迹");
+        getSupportActionBar().setTitle("设备");
 
         initMapView();
         initData();
-        initOtherView();
 
-    }
-
-    private void initOtherView() {
-
-        // ((TextView)findViewById(R.id.title)).setText("历史轨迹");
     }
 
     private void initData() {
@@ -88,7 +83,7 @@ public class MyPathActivity extends AppCompatActivity {
 
     private void initMapView() {
 
-        mapView = (MapView) findViewById(R.id.pathmap);
+        mapView = (MapView) findViewById(R.id.locationmap);
         baiduMap = mapView.getMap();
         baiduMap.setMyLocationEnabled(true);
         //LatLng desLatLng = new LatLng(39.231403,117.053139);
@@ -124,15 +119,7 @@ public class MyPathActivity extends AppCompatActivity {
         textureIndexs.add(0);
         textureIndexs.add(1);
         textureIndexs.add(2);
-//        LatLng p111 = new LatLng(39.865, 116.444);
-//        LatLng p211 = new LatLng(49.825, 116.494);
-//        LatLng p311 = new LatLng(39.855, 116.534);
-//        LatLng p411 = new LatLng(39.805, 116.594);
-//        List<LatLng> points11 = new ArrayList<LatLng>();
-//        points11.add(p111);
-//        points11.add(p211);
-//        points11.add(p311);
-//        points11.add(p411);
+
         OverlayOptions ooPolyline = new PolylineOptions().width(15)
                 .points(points).dottedLine(true).customTexture(mRedTexture).keepScale(false);
 //        OverlayOptions ooPolyline = new PolylineOptions().width(15).color(0xAAFF0000).points
@@ -159,12 +146,27 @@ public class MyPathActivity extends AppCompatActivity {
         pro.dismiss();
     }
 
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        showPath=menu.add(0,0,0,"当前位置");
+        showPath.setTitle("当前位置");
+        showPath.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
+
+        /*
+        menuItemFresh = menu.add(0, 0, 0, "刷新");
+        menuItemFresh.setIcon(R.mipmap.ic_refresh_white_36dp);
+        menuItemFresh.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);*/
+        return super.onCreateOptionsMenu(menu);
+    }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
             case android.R.id.home:finish();break;
-
         }
         return super.onOptionsItemSelected(item);
     }
+
+
 }

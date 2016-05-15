@@ -45,7 +45,6 @@ public class MyEquipPenActivity extends AppCompatActivity {
     private BitmapDescriptor mBitmap;
     SeekBar radiusSeekbar;
 
-
     Marker centerMarker;
     MarkerOptions centerOptions;
     Marker radiusMacker;

@@ -1,5 +1,6 @@
 package com.mygps.related_to_device.map.service;
 
+import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.database.Cursor;
@@ -25,6 +26,7 @@ import com.baidu.mapapi.search.geocode.ReverseGeoCodeResult;
 import com.google.gson.Gson;
 
 import com.google.gson.reflect.TypeToken;
+import com.mygps.related_to_device.map.MyEquipDetailActivity;
 import com.mygps.related_to_device.map.MyPathActivity;
 import com.mygps.related_to_device.map.model.Position;
 import com.mygps.related_to_device.map.provider.URIList;
@@ -37,7 +39,7 @@ import java.util.ArrayList;
  */
 public class LocationService implements OnGetGeoCoderResultListener {
 
-    MyPathActivity act;
+    MyEquipDetailActivity act;
     RequestQueue reqQue;
     Gson gson;
     private String mAddress;
@@ -45,7 +47,7 @@ public class LocationService implements OnGetGeoCoderResultListener {
     private String mMAddress;
 
     OnAddress mOnAddress;
-    public LocationService(MyPathActivity act) {
+    public LocationService(MyEquipDetailActivity act) {
         this.act = act;
         reqQue = Volley.newRequestQueue(act);
         gson = new Gson();
@@ -123,8 +125,6 @@ public class LocationService implements OnGetGeoCoderResultListener {
                 //获取点击的坐标地址
                 mMAddress = arg0.getAddress();
                 mOnAddress.address(mMAddress);
-                //Log.i("Address", mMAddress);
-
             }
 
             @Override
@@ -147,8 +147,6 @@ public class LocationService implements OnGetGeoCoderResultListener {
             return;
         }
         mAddress = result.getAddress();
-
-
     }
 
 

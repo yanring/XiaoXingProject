@@ -4,28 +4,17 @@ import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.baidu.mapapi.map.BaiduMap;
-import com.baidu.mapapi.map.BitmapDescriptor;
-import com.baidu.mapapi.map.BitmapDescriptorFactory;
 import com.baidu.mapapi.map.MapView;
-import com.baidu.mapapi.map.MyLocationConfiguration;
-import com.baidu.mapapi.map.MyLocationData;
-import com.baidu.mapapi.map.OverlayOptions;
-import com.baidu.mapapi.map.PolylineOptions;
-import com.baidu.mapapi.map.TextOptions;
-import com.baidu.mapapi.model.LatLng;
 import com.mygps.MyApplication;
 import com.mygps.R;
 import com.mygps.related_to_device.map.model.Equip;
-import com.mygps.related_to_device.map.service.LocationService;
 import com.mygps.utils.material_design.StatusBarUtils;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by 10397 on 2016/5/15.
@@ -34,7 +23,6 @@ public class MyEquipDetailActivity extends AppCompatActivity {
     MapView mapView = null;
     BaiduMap baiduMap = null;
 
-    LocationService service;
     MyApplication app;
 
     Equip curEquip;
@@ -42,18 +30,24 @@ public class MyEquipDetailActivity extends AppCompatActivity {
     ProgressDialog pro;
 
     Toolbar mToolBar;
-    BitmapDescriptor mRedTexture = BitmapDescriptorFactory.fromResource(R.mipmap.icon_road_blue_arrow0000);
 
     MenuItem showPath,showLocation;
+    EquipLocationViewManager locationViewManager;
+    EquipPathViewManager pathViewManager;
+    String eId="";
+
+    private View view;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_equiplocation);
+        view = LayoutInflater.from(this).inflate(R.layout.activity_equiplocation,null);
+        setContentView(view);
+
         new StatusBarUtils().setStatusBar(this);
-        service = new LocationService(this);
 
         app = (MyApplication) getApplication();
-        service = new LocationService(this);
+
         curEquip = app.getEquips().get(getIntent().getIntExtra("equipPos", -1));
 
         mToolBar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);
@@ -69,68 +63,21 @@ public class MyEquipDetailActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("设备");
 
         initMapView();
-        initData();
+        initManager();
+    }
+
+    private void initManager() {
+        locationViewManager=new EquipLocationViewManager(this,eId,view,baiduMap);
+        pathViewManager=new EquipPathViewManager(this,eId,baiduMap);
 
     }
 
-    private void initData() {
-
-        //showPro();
-        Log.i("LocationService","准备访问");
-        service.getPreviousPostion("23123",this);
-
-    }
 
     private void initMapView() {
 
         mapView = (MapView) findViewById(R.id.locationmap);
         baiduMap = mapView.getMap();
         baiduMap.setMyLocationEnabled(true);
-        //LatLng desLatLng = new LatLng(39.231403,117.053139);
-        String eId = "";
-        LatLng desLatLng = LocationService.getCurrentPosition(eId,this);
-        MyLocationData locationData = new MyLocationData.Builder().latitude(desLatLng.latitude).longitude(desLatLng.longitude).build();
-        baiduMap.setMyLocationData(locationData);
-        MyLocationConfiguration config = new MyLocationConfiguration(MyLocationConfiguration.LocationMode.FOLLOWING, true, null);
-        baiduMap.setMyLocationConfigeration(config);
-        //baiduMap.setMyLocationEnabled(true);
-
-    }
-
-    public void addOverlay(ArrayList<LatLng> points) {
-
-        //构建文字Option对象，用于在地图上添加文字
-        OverlayOptions textOption = new TextOptions().bgColor(0xAAFFFF00).fontSize(60).fontColor
-                (0xFFFF00FF).text("起点").position(points.get(points.size()-1));
-        baiduMap.addOverlay(textOption);
-
-        textOption = new TextOptions().bgColor(0xAAFFFF00).fontSize(60).fontColor
-                (0xFFFF00FF).text("终点").position(points.get(0));
-        baiduMap.addOverlay(textOption);
-
-        //添加有纹理的路线
-        List<BitmapDescriptor> textureList = new ArrayList<BitmapDescriptor>();
-
-        textureList.add(mRedTexture);
-        textureList.add(mRedTexture);
-        textureList.add(mRedTexture);
-
-        List<Integer> textureIndexs = new ArrayList<Integer>();
-        textureIndexs.add(0);
-        textureIndexs.add(1);
-        textureIndexs.add(2);
-
-        OverlayOptions ooPolyline = new PolylineOptions().width(15)
-                .points(points).dottedLine(true).customTexture(mRedTexture).keepScale(false);
-//        OverlayOptions ooPolyline = new PolylineOptions().width(15).color(0xAAFF0000).points
-//                (points);
-        baiduMap.addOverlay(ooPolyline);
-    }
-
-    public void showArea(double latitude, double longitude) {
-        MyLocationData locationData = new MyLocationData.Builder().latitude(latitude).longitude
-                (longitude).build();
-        baiduMap.setMyLocationData(locationData);
     }
 
 
@@ -153,10 +100,10 @@ public class MyEquipDetailActivity extends AppCompatActivity {
         showPath.setTitle("当前位置");
         showPath.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
 
-        /*
-        menuItemFresh = menu.add(0, 0, 0, "刷新");
-        menuItemFresh.setIcon(R.mipmap.ic_refresh_white_36dp);
-        menuItemFresh.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);*/
+        showLocation=menu.add(0,1,1,"历史轨迹");
+        showLocation.setTitle("历史轨迹");
+        showLocation.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
+
         return super.onCreateOptionsMenu(menu);
     }
 
@@ -164,9 +111,10 @@ public class MyEquipDetailActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
             case android.R.id.home:finish();break;
+            case 0:locationViewManager.show();break;
+            case 1:pathViewManager.show();break;
         }
         return super.onOptionsItemSelected(item);
     }
-
 
 }

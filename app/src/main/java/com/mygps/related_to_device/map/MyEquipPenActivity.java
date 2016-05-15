@@ -111,7 +111,7 @@ public class MyEquipPenActivity extends AppCompatActivity {
         baiduMap.setMyLocationEnabled(true);
         //构建Marker图标
         mBitmap = BitmapDescriptorFactory.fromResource(R.mipmap.drop_location_ic);
-        MyLocationData locationData = new MyLocationData.Builder().latitude(sharedPreferences.getFloat(equipID + "CenterLat", (float) LocationService.getCurrentPosition(equipID, this).latitude)).longitude(sharedPreferences.getFloat(equipID + "CenterLng", (float) LocationService.getCurrentPosition(equipID, this).longitude)).build();
+        MyLocationData locationData = new MyLocationData.Builder().latitude(sharedPreferences.getFloat(equipID + "CenterLat", (float) (new LocationService()).getCurrentPosition(equipID, this).latitude)).longitude(sharedPreferences.getFloat(equipID + "CenterLng", (float)(new LocationService()).getCurrentPosition(equipID, this).longitude)).build();
         baiduMap.setMyLocationData(locationData);
 
         MyLocationConfiguration config = new MyLocationConfiguration(MyLocationConfiguration.LocationMode.FOLLOWING, true, mBitmap);

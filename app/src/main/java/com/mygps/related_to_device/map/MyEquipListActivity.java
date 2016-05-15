@@ -67,7 +67,7 @@ public class MyEquipListActivity extends AppCompatActivity {
         initView();
 
         //测试thread
-        GpsRequestThread gpsRequestThread = new GpsRequestThread(this,"867967020452449");
+        GpsRequestThread gpsRequestThread = new GpsRequestThread(this, "867967020452449");
         gpsRequestThread.start();
 
     }
@@ -79,7 +79,6 @@ public class MyEquipListActivity extends AppCompatActivity {
     }
 
     private void initView() {
-
 
 
         showPro();
@@ -103,9 +102,9 @@ public class MyEquipListActivity extends AppCompatActivity {
         functionSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (isChecked){
+                if (isChecked) {
                     functionSwitch.setText("实时定位");
-                }else {
+                } else {
                     functionSwitch.setText("历史轨迹");
                 }
             }
@@ -117,24 +116,20 @@ public class MyEquipListActivity extends AppCompatActivity {
                  * 在这里可以查看实时位置，也可以查看历史轨迹
                  */
                 Intent intent;
-                if (functionSwitch.isChecked()) {
-                    intent = new Intent(MyEquipListActivity.this, MyEquipLocationActivity.class);
-                } else {
-                    intent = new Intent(MyEquipListActivity.this, MyPathActivity.class);
-                }
+                intent = new Intent(MyEquipListActivity.this, MyEquipDetailActivity.class);
                 intent.putExtra("equipPos", position);
                 startActivity(intent);
             }
 
             @Override
             public void onDeleteClick(int position) {
-                Toast.makeText(MyEquipListActivity.this,"fw",Toast.LENGTH_SHORT).show();
-                new deleteEquipDialog(position).show(getSupportFragmentManager(),null);
+                Toast.makeText(MyEquipListActivity.this, "fw", Toast.LENGTH_SHORT).show();
+                new deleteEquipDialog(position).show(getSupportFragmentManager(), null);
             }
 
             @Override
             public void onPenClick(int position) {
-                startActivity(new Intent(MyEquipListActivity.this,MyEquipPenActivity.class));
+                startActivity(new Intent(MyEquipListActivity.this, MyEquipPenActivity.class));
             }
         });
 
@@ -143,7 +138,7 @@ public class MyEquipListActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                new AddEquipDialog().show(getSupportFragmentManager(),null);
+                new AddEquipDialog().show(getSupportFragmentManager(), null);
             }
         });
     }
@@ -158,8 +153,6 @@ public class MyEquipListActivity extends AppCompatActivity {
         } else {
             pro.show();
         }
-
-
     }
 
     public void disPro() {
@@ -202,7 +195,7 @@ public class MyEquipListActivity extends AppCompatActivity {
 
                         @Override
                         public void onFailure(int i, String s) {
-                            new AddEquipDialog().show(getSupportFragmentManager(),null);
+                            new AddEquipDialog().show(getSupportFragmentManager(), null);
                         }
                     });
 
@@ -218,27 +211,29 @@ public class MyEquipListActivity extends AppCompatActivity {
         }
     }
 
-    class deleteEquipDialog extends DialogFragment{
-        int position=0;
+    class deleteEquipDialog extends DialogFragment {
+        int position = 0;
+
         public deleteEquipDialog(int position) {
             super();
-            this.position=position;
+            this.position = position;
         }
+
         @NonNull
         @Override
         public Dialog onCreateDialog(Bundle savedInstanceState) {
             super.onCreateDialog(savedInstanceState);
 
-            AlertDialog.Builder builder=new AlertDialog.Builder(getActivity());
+            AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
             builder.setTitle("删除设备");
-            builder.setMessage("设备名:"+equips.get(position).getName()+"\n电话号码:"+equips.get(position).getPhoneID());
+            builder.setMessage("设备名:" + equips.get(position).getName() + "\n电话号码:" + equips.get(position).getPhoneID());
             builder.setPositiveButton("删除", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
 
                 }
             });
-            builder.setNegativeButton("取消",null);
+            builder.setNegativeButton("取消", null);
             return builder.create();
         }
     }

@@ -45,14 +45,11 @@ public class MyEquipListActivity extends AppCompatActivity {
     MyApplication app;
     MyEquipListService service;
 
-
     ListView equipList;
     MyEquipListAdapter adp;
 
     ProgressDialog pro;
     ArrayList<Equip> equips;
-
-    SwitchCompat functionSwitch;
 
     FloatingActionButton FABAdd;
 
@@ -60,15 +57,6 @@ public class MyEquipListActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_equiplist);
-        //临时添加一个跳转
-      /*  ImageButton button = (ImageButton)findViewById(R.id.service_button);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MyEquipListActivity.this,MainActivity.class);
-                startActivity(intent);
-            }
-        });*/
 
         initView();
 
@@ -89,7 +77,6 @@ public class MyEquipListActivity extends AppCompatActivity {
 
         showPro();
 
-        functionSwitch = (SwitchCompat) findViewById(R.id.function_switch);
         FABAdd = (FloatingActionButton) findViewById(R.id.activityEquiplistAdd);
 
         app = (MyApplication) getApplication();
@@ -105,16 +92,6 @@ public class MyEquipListActivity extends AppCompatActivity {
         service.getEquips(app.getUser().getUsername());
         adp.notifyDataSetChanged();
 
-        functionSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (isChecked) {
-                    functionSwitch.setText("实时定位");
-                } else {
-                    functionSwitch.setText("历史轨迹");
-                }
-            }
-        });
         adp.setOnViewClickListener(new MyEquipListAdapter.OnViewClickListener() {
             @Override
             public void onItemClick(int position) {
@@ -129,7 +106,6 @@ public class MyEquipListActivity extends AppCompatActivity {
 
             @Override
             public void onDeleteClick(int position) {
-                Toast.makeText(MyEquipListActivity.this, "fw", Toast.LENGTH_SHORT).show();
                 new deleteEquipDialog(position,MyEquipListActivity.this).show(getSupportFragmentManager(), null);
             }
 
@@ -281,6 +257,7 @@ public class MyEquipListActivity extends AppCompatActivity {
             builder.setNegativeButton("取消", null);
             return builder.create();
         }
+
         public void delete_device(int position)
         {
             final Equip equip = equips.get(position);
@@ -295,13 +272,11 @@ public class MyEquipListActivity extends AppCompatActivity {
                 @Override
                 public void onSuccess(List<Equip> list) {
 
-                    Context context = getContext();
-
                     Log.i("Bomb","查询成功：共"+list.size()+"条数据。"+MyEquipListActivity.this);
                     for(Equip equips: list)
                     {
-
                         Log.i("Bomb","删除数据id："+equips.getObjectId());
+
                         equips.delete(MyEquipListActivity.this, new DeleteListener() {
                             @Override
                             public void onSuccess() {

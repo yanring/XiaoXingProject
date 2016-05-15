@@ -3,6 +3,7 @@ package com.mygps.related_to_device.map;
 import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,6 +13,7 @@ import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SwitchCompat;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.CompoundButton;
@@ -28,7 +30,11 @@ import com.mygps.related_to_device.map.service.MyEquipListService;
 import com.mygps.unrelated_to_function.main.MainActivity;
 
 import java.util.ArrayList;
+import java.util.List;
 
+import cn.bmob.v3.BmobQuery;
+import cn.bmob.v3.listener.DeleteListener;
+import cn.bmob.v3.listener.FindListener;
 import cn.bmob.v3.listener.SaveListener;
 
 /**
@@ -89,7 +95,7 @@ public class MyEquipListActivity extends AppCompatActivity {
         app = (MyApplication) getApplication();
         equips = app.getEquips();
         service = new MyEquipListService(this, equips);
-
+        Context context = this;
         equipList = (ListView) findViewById(R.id.equiplist);
         equipList.setDividerHeight(0);
 
@@ -124,7 +130,7 @@ public class MyEquipListActivity extends AppCompatActivity {
             @Override
             public void onDeleteClick(int position) {
                 Toast.makeText(MyEquipListActivity.this, "fw", Toast.LENGTH_SHORT).show();
-                new deleteEquipDialog(position).show(getSupportFragmentManager(), null);
+                new deleteEquipDialog(position,MyEquipListActivity.this).show(getSupportFragmentManager(), null);
             }
 
             @Override
@@ -178,7 +184,7 @@ public class MyEquipListActivity extends AppCompatActivity {
                 public void onClick(DialogInterface dialog, int which) {
 
                     String nameStr = name.getText().toString();
-                    String phoneStr = phone.getText().toString();
+                    String phoneStr =  phone.getText().toString();
 
                     /**
                      * 这里做号码和名称的检测
@@ -213,10 +219,11 @@ public class MyEquipListActivity extends AppCompatActivity {
 
     class deleteEquipDialog extends DialogFragment {
         int position = 0;
-
-        public deleteEquipDialog(int position) {
+        Context context;
+        public deleteEquipDialog(int position,Context context) {
             super();
             this.position = position;
+            this.context = context;
         }
 
         @NonNull
@@ -230,11 +237,90 @@ public class MyEquipListActivity extends AppCompatActivity {
             builder.setPositiveButton("删除", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
-
+                    delete_device(position);
+                    //final Equip equip = equips.get(position);
+//                    equips.remove(position);
+//                    adp.notifyDataSetChanged();
+//                    BmobQuery<Equip> query = new BmobQuery<Equip>();
+//                    query.addWhereEqualTo("phoneID", equip.getPhoneID());
+//                    query.addWhereEqualTo("name", equip.getName());
+//                    query.addWhereEqualTo("username", equip.getUsername());
+//                    query.setLimit(1);
+//                    query.findObjects(getContext(), new FindListener<Equip>() {
+//                        @Override
+//                        public void onSuccess(List<Equip> list) {
+//
+//                            Context context = getContext();
+//                            context.getPackageName();
+//                            Log.i("Bomb","查询成功：共"+list.size()+"条数据。"+context.getPackageName());
+//                            for(Equip equips: list)
+//                            {
+//
+//                                Log.i("Bomb","删除数据id："+equips.getObjectId());
+//                                equips.delete(context, new DeleteListener() {
+//                                    @Override
+//                                    public void onSuccess() {
+//                                        Log.i("Bomb","成功删除一条数据");
+//                                    }
+//
+//                                    @Override
+//                                    public void onFailure(int i, String s) {
+//                                        Log.i("Bomb","删除失败："+s);
+//                                    }
+//                                });
+//                            }
+//                        }
+//
+//                        @Override
+//                        public void onError(int i, String s) {
+//                            Log.i("Bomb","查询失败："+s);
+//                        }
+//                    });
                 }
             });
             builder.setNegativeButton("取消", null);
             return builder.create();
+        }
+        public void delete_device(int position)
+        {
+            final Equip equip = equips.get(position);
+            equips.remove(position);
+            adp.notifyDataSetChanged();
+            BmobQuery<Equip> query = new BmobQuery<Equip>();
+            query.addWhereEqualTo("phoneID", equip.getPhoneID());
+            query.addWhereEqualTo("name", equip.getName());
+            query.addWhereEqualTo("username", equip.getUsername());
+            query.setLimit(1);
+            query.findObjects(getContext(), new FindListener<Equip>() {
+                @Override
+                public void onSuccess(List<Equip> list) {
+
+                    Context context = getContext();
+
+                    Log.i("Bomb","查询成功：共"+list.size()+"条数据。"+MyEquipListActivity.this);
+                    for(Equip equips: list)
+                    {
+
+                        Log.i("Bomb","删除数据id："+equips.getObjectId());
+                        equips.delete(MyEquipListActivity.this, new DeleteListener() {
+                            @Override
+                            public void onSuccess() {
+                                Log.i("Bomb","成功删除一条数据");
+                            }
+
+                            @Override
+                            public void onFailure(int i, String s) {
+                                Log.i("Bomb","删除失败："+s);
+                            }
+                        });
+                    }
+                }
+
+                @Override
+                public void onError(int i, String s) {
+                    Log.i("Bomb","查询失败："+s);
+                }
+            });
         }
     }
 

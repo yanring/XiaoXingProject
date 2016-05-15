@@ -29,6 +29,9 @@ public class Equip extends BmobObject {
     public String getName() {
         return name;
     }
+    public String getUsername() {
+        return username;
+    }
 
     public void setName(String name) {
         this.name = name;

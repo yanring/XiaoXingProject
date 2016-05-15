@@ -3,15 +3,11 @@ package com.mygps.related_to_device.map;
 import android.content.Context;
 import android.view.View;
 import android.widget.TextView;
-
 import com.baidu.mapapi.map.BaiduMap;
 import com.baidu.mapapi.map.BitmapDescriptor;
 import com.baidu.mapapi.map.BitmapDescriptorFactory;
-import com.baidu.mapapi.map.MapStatusUpdate;
-import com.baidu.mapapi.map.MapStatusUpdateFactory;
 import com.baidu.mapapi.map.MyLocationConfiguration;
 import com.baidu.mapapi.map.MyLocationData;
-import com.baidu.mapapi.map.Text;
 import com.baidu.mapapi.model.LatLng;
 import com.mygps.R;
 import com.mygps.related_to_device.map.service.LocationService;
@@ -45,7 +41,7 @@ public class EquipLocationViewManager {
         return locationViewIsShow;
     }
     public void show(){
-        locationTextView.setVisibility(View.GONE);
+        locationTextView.setVisibility(View.VISIBLE);
         locationService.getAddress(eId,context);
         locationService.setAddressListener(new LocationService.OnAddress() {
             @Override
@@ -59,11 +55,13 @@ public class EquipLocationViewManager {
         baiduMap.setMyLocationData(locationData);
         MyLocationConfiguration config = new MyLocationConfiguration(MyLocationConfiguration.LocationMode.FOLLOWING, true, null);
         baiduMap.setMyLocationConfigeration(config);
+        locationViewIsShow=true;
     }
 
     public void remove(){
         locationTextView.setVisibility(View.GONE);
         MyLocationConfiguration configuration=new MyLocationConfiguration(MyLocationConfiguration.LocationMode.FOLLOWING, true, dropBitmap);
         baiduMap.setMyLocationConfigeration(configuration);
+        locationViewIsShow=false;
     }
 }

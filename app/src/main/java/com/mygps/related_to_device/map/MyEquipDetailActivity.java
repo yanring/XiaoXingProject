@@ -10,6 +10,8 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.baidu.mapapi.map.BaiduMap;
+import com.baidu.mapapi.map.MapStatusUpdate;
+import com.baidu.mapapi.map.MapStatusUpdateFactory;
 import com.baidu.mapapi.map.MapView;
 import com.mygps.MyApplication;
 import com.mygps.R;
@@ -31,17 +33,18 @@ public class MyEquipDetailActivity extends AppCompatActivity {
 
     Toolbar mToolBar;
 
-    MenuItem showPath,showLocation;
+    MenuItem showPath, showLocation;
     EquipLocationViewManager locationViewManager;
     EquipPathViewManager pathViewManager;
-    String eId="";
+    String eId = "";
 
     private View view;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        view = LayoutInflater.from(this).inflate(R.layout.activity_equiplocation,null);
+        view = LayoutInflater.from(this).inflate(R.layout.activity_equiplocation, null);
         setContentView(view);
 
         new StatusBarUtils().setStatusBar(this);
@@ -64,11 +67,15 @@ public class MyEquipDetailActivity extends AppCompatActivity {
 
         initMapView();
         initManager();
+
+        //测试
+        locationViewManager.show();
+        pathViewManager.show();
     }
 
     private void initManager() {
-        locationViewManager=new EquipLocationViewManager(this,eId,view,baiduMap);
-        pathViewManager=new EquipPathViewManager(this,eId,baiduMap);
+        locationViewManager = new EquipLocationViewManager(this, eId, view, baiduMap);
+        pathViewManager = new EquipPathViewManager(this, eId, baiduMap);
 
     }
 
@@ -78,6 +85,9 @@ public class MyEquipDetailActivity extends AppCompatActivity {
         mapView = (MapView) findViewById(R.id.locationmap);
         baiduMap = mapView.getMap();
         baiduMap.setMyLocationEnabled(true);
+
+        MapStatusUpdate u = MapStatusUpdateFactory.zoomTo((float) 15);
+        baiduMap.animateMapStatus(u);
     }
 
 
@@ -96,23 +106,41 @@ public class MyEquipDetailActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        showPath=menu.add(0,0,0,"当前位置");
-        showPath.setTitle("当前位置");
-        showPath.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
-
-        showLocation=menu.add(0,1,1,"历史轨迹");
-        showLocation.setTitle("历史轨迹");
+        showLocation = menu.add(0, 0, 0, "位置");
+        showLocation.setTitle("关闭位置");
         showLocation.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
+
+        showPath = menu.add(0, 1, 1, "历史轨迹");
+        showPath.setTitle("关闭轨迹");
+        showPath.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
 
         return super.onCreateOptionsMenu(menu);
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
-            case android.R.id.home:finish();break;
-            case 0:locationViewManager.show();break;
-            case 1:pathViewManager.show();break;
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                break;
+            case 0:
+                if (locationViewManager.getViewVisibility()) {
+                    locationViewManager.remove();
+                    showLocation.setTitle("显示位置");
+                } else {
+                    locationViewManager.show();
+                    showLocation.setTitle("关闭位置");
+                }
+                break;
+            case 1:
+                if (pathViewManager.getViewVisibility()) {
+                    pathViewManager.remove();
+                    showPath.setTitle("显示轨迹");
+                } else {
+                    pathViewManager.show();
+                    showPath.setTitle("关闭轨迹");
+                }
+                break;
         }
         return super.onOptionsItemSelected(item);
     }

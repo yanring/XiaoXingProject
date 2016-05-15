@@ -1,5 +1,6 @@
 package com.mygps.related_to_device.map;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -44,7 +45,6 @@ public class MyEquipPenActivity extends AppCompatActivity {
     private BitmapDescriptor mBitmap;
     SeekBar radiusSeekbar;
 
-    int radius = 0;
 
     Marker centerMarker;
     MarkerOptions centerOptions;
@@ -56,14 +56,20 @@ public class MyEquipPenActivity extends AppCompatActivity {
     Overlay lineOverlay;
     List<LatLng> linePointsist = new ArrayList<>();
 
-    boolean isTouchAlarmByPerson=false;
+    boolean isTouchAlarmByPerson = false;
     private TextView mRaiusTextView;
+
+    SharedPreferences sharedPreferences;
+
+    String equipID = "867967020452449";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_equippen);
         new StatusBarUtils().setStatusBar(this);
+
+        sharedPreferences = getSharedPreferences("equipPen", MODE_PRIVATE);
 
         initOtherView();
         initMap();
@@ -81,7 +87,7 @@ public class MyEquipPenActivity extends AppCompatActivity {
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        getSupportActionBar().setTitle("实时定位");
+        getSupportActionBar().setTitle("地理围栏");
 
         radiusSeekbar = (SeekBar) findViewById(R.id.activityEquipPenSeekbar);
         mRaiusTextView = (TextView) findViewById(R.id.radius_textview);
@@ -106,15 +112,15 @@ public class MyEquipPenActivity extends AppCompatActivity {
         baiduMap.setMyLocationEnabled(true);
         //构建Marker图标
         mBitmap = BitmapDescriptorFactory.fromResource(R.mipmap.drop_location_ic);
-        MyLocationData locationData = new MyLocationData.Builder().latitude(39.231403).longitude(117.053139).build();
+        MyLocationData locationData = new MyLocationData.Builder().latitude(sharedPreferences.getFloat(equipID + "CenterLat", (float) LocationService.getCurrentPosition(equipID, this).latitude)).longitude(sharedPreferences.getFloat(equipID + "CenterLng", (float) LocationService.getCurrentPosition(equipID, this).longitude)).build();
         baiduMap.setMyLocationData(locationData);
 
         MyLocationConfiguration config = new MyLocationConfiguration(MyLocationConfiguration.LocationMode.FOLLOWING, true, mBitmap);
         baiduMap.setMyLocationConfigeration(config);
 
-        String eId="";
-        final LatLng centerPoint = LocationService.getCurrentPosition(eId,this);
+        final LatLng centerPoint = new LatLng(locationData.latitude, locationData.longitude);
         //构建Marker图标
+
         BitmapDescriptor centerBitmap = BitmapDescriptorFactory.fromResource(R.mipmap.center_position_icon);
 
         centerOptions = new MarkerOptions()
@@ -126,7 +132,7 @@ public class MyEquipPenActivity extends AppCompatActivity {
 
         centerMarker = (Marker) (baiduMap.addOverlay(centerOptions));
 
-        LatLng radiusPoint = new LatLng(centerMarker.getPosition().latitude, centerMarker.getPosition().longitude + 0.01);
+        LatLng radiusPoint = new LatLng(sharedPreferences.getFloat(equipID + "RadiusLat", (float) centerMarker.getPosition().latitude), sharedPreferences.getFloat(equipID + "RadiusLng", (float) (centerMarker.getPosition().longitude + 0.01)));
         //构建Marker图标
         BitmapDescriptor radiusBitmap = BitmapDescriptorFactory.fromResource(R.mipmap.radius_position_icon);
 
@@ -135,7 +141,7 @@ public class MyEquipPenActivity extends AppCompatActivity {
                 .icon(radiusBitmap)  //设置marker图标
                 .zIndex(9)  //设置marker所在层级
                 .draggable(true);  //设置手势拖拽
-//将marker添加到地图上
+        //将marker添加到地图上
 
         radiusMacker = (Marker) (baiduMap.addOverlay(radiusOptions));
         circleOptions = new CircleOptions().center(centerMarker.getPosition()).stroke(new Stroke(2, 0x44000000)).fillColor(0x15000000).radius((int) DistanceUtil.getDistance(centerMarker.getPosition(), radiusMacker.getPosition()));
@@ -153,6 +159,7 @@ public class MyEquipPenActivity extends AppCompatActivity {
 
 
         setSeekBarProgressByDistance();
+        mRaiusTextView.setText("当前围栏半径为:" + getDistanceString());
 
         baiduMap.setOnMarkerDragListener(new BaiduMap.OnMarkerDragListener() {
             public void onMarkerDrag(Marker marker) {
@@ -161,21 +168,20 @@ public class MyEquipPenActivity extends AppCompatActivity {
             }
 
             public void onMarkerDragEnd(Marker marker) {
-                isTouchAlarmByPerson=false;
+                isTouchAlarmByPerson = false;
 
             }
 
             public void onMarkerDragStart(Marker marker) {
-                isTouchAlarmByPerson=true;
+                isTouchAlarmByPerson = true;
             }
         });
 
-       radiusSeekbar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+        radiusSeekbar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
                 if (!isTouchAlarmByPerson) {
-                    radius = (int) Math.pow(1.05, progress + 100);
-                    freshView(radius);
+                    freshView((int) Math.pow(1.05, progress + 100));
                 }
             }
 
@@ -191,9 +197,9 @@ public class MyEquipPenActivity extends AppCompatActivity {
         });
     }
 
-    private void freshView(){
+    private void freshView() {
         circleOptions.center(centerMarker.getPosition());
-        circleOptions.radius((int)getDistance());
+        circleOptions.radius((int) getDistance());
         circleOverlay.remove();
         circleOverlay = baiduMap.addOverlay(circleOptions);
 
@@ -205,34 +211,43 @@ public class MyEquipPenActivity extends AppCompatActivity {
         lineOverlay.remove();
         lineOverlay = baiduMap.addOverlay(lineOption);
 
-        mRaiusTextView.setText("当前围栏半径为:"+getDistanceString());
+        mRaiusTextView.setText("当前围栏半径为:" + getDistanceString());
 
-        Log.i("distance",getDistanceString());
+        Log.i("distance", getDistanceString());
     }
 
-    private void freshView(int radius){
-        Log.i("Seekbar",radius+"");
-        radiusOptions.position(new LatLng(centerMarker.getPosition().latitude,centerMarker.getPosition().longitude+radius/(double)111000));
+    private void freshView(int radius) {
+        Log.i("Seekbar", radius + "");
+        radiusOptions.position(new LatLng(centerMarker.getPosition().latitude, centerMarker.getPosition().longitude + radius / (double) 111000));
         radiusMacker.remove();
-        radiusMacker=(Marker) (baiduMap.addOverlay(radiusOptions));
+        radiusMacker = (Marker) (baiduMap.addOverlay(radiusOptions));
         freshView();
     }
 
-    private double getDistance(){
+    private double getDistance() {
         return DistanceUtil.getDistance(centerMarker.getPosition(), radiusMacker.getPosition());
     }
 
-    private String getDistanceString(){
-        double distance=getDistance();
-        if ((int)distance/1000>0){
-            return ((double)((int)(distance/10)))/100+"千米";
-        }else {
-            return (int)distance+"米";
+    private String getDistanceString() {
+        double distance = getDistance();
+        if ((int) distance / 1000 > 0) {
+            return ((double) ((int) (distance / 10))) / 100 + "千米";
+        } else {
+            return (int) distance + "米";
         }
     }
 
-    private void setSeekBarProgressByDistance(){
-        radiusSeekbar.setProgress((int)(Math.log(getDistance())/Math.log(1.05)-100));
+    private void setSeekBarProgressByDistance() {
+        radiusSeekbar.setProgress((int) (Math.log(getDistance()) / Math.log(1.05) - 100));
+    }
+
+    private void saveData() {
+        sharedPreferences.edit().putFloat(equipID + "CenterLat", (float) centerMarker.getPosition().latitude).commit();
+        sharedPreferences.edit().putFloat(equipID + "CenterLng", (float) centerMarker.getPosition().longitude).commit();
+
+        sharedPreferences.edit().putFloat(equipID + "RadiusLat", (float) radiusMacker.getPosition().latitude).commit();
+        sharedPreferences.edit().putFloat(equipID + "RadiusLng", (float) radiusMacker.getPosition().longitude).commit();
+
     }
 
     @Override
@@ -265,6 +280,7 @@ public class MyEquipPenActivity extends AppCompatActivity {
         super.onDestroy();
         //在activity执行onDestroy时执行mMapView.onDestroy()，实现地图生命周期管理
         mapView.onDestroy();
+        saveData();
     }
 
     @Override

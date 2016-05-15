@@ -54,9 +54,7 @@
             android:layout_alignParentBottom="false"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="110dp"
-            android:src="@drawable/welcome"
-            android:elevation="8dp"
-            android:background="@mipmap/ic_circle_bg"
-            android:padding="20dp" />
+            android:src="@drawable/icon3"
+            android:elevation="8dp" />
 
 </RelativeLayout>

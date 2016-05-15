@@ -21,6 +21,7 @@ import com.mygps.MyApplication;
 import com.mygps.R;
 import com.mygps.related_to_device.map.model.Equip;
 import com.mygps.related_to_device.map.service.LocationService;
+import com.mygps.utils.material_design.StatusBarUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -47,6 +48,7 @@ public class MyPathActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_path);
+        new StatusBarUtils().setStatusBar(this);
         service = new LocationService(this);
 
         app = (MyApplication) getApplication();

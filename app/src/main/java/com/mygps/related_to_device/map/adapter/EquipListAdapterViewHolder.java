@@ -1,12 +1,12 @@
 package com.mygps.related_to_device.map.adapter;
 
 import android.content.Context;
+import android.support.v7.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
 import com.mygps.R;
 import com.mygps.related_to_device.map.model.Equip;
 
@@ -18,7 +18,7 @@ public class EquipListAdapterViewHolder {
     private TextView equipPhoneNumber;
     private ImageView equipPen;
     private ImageView equipDelete;
-    private LinearLayout parentLayout;
+    private CardView containsCardView;
     private Equip equip;
     private Context context;
     private OnThisClickListener listener;
@@ -34,7 +34,7 @@ public class EquipListAdapterViewHolder {
         equipPen=(ImageView) view.findViewById(R.id.equiplistItemPen);
         equipDelete=(ImageView)view.findViewById(R.id.equiplistItemDelete);
 
-        parentLayout=(LinearLayout)view.findViewById(R.id.equiplistItemLayout);
+        containsCardView=(CardView) view.findViewById(R.id.equiplistItemCardView);
         equipName.setText(initEquip.getName());
         equipName.setText(initEquip.getPhoneID());
         equipDelete.setOnClickListener(new View.OnClickListener() {
@@ -49,7 +49,7 @@ public class EquipListAdapterViewHolder {
                 listener.onPenClick(position);
             }
         });
-        parentLayout.setOnClickListener(new View.OnClickListener() {
+        containsCardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 listener.onItemClick(position);

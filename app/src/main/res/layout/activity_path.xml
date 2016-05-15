@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
 
 
-<!--    <include layout="@layout/bar_title" />-->
+    <!--    <include layout="@layout/bar_title" />-->
 
     <include
         layout="@layout/include_toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <com.baidu.mapapi.map.MapView
-        android:id="@+id/pathmap"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:clickable="true" />
+        android:orientation="vertical"
+        android:background="#ffffff">
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/pathmap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true" />
+    </LinearLayout>
 
 </LinearLayout>

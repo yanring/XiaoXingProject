@@ -18,6 +18,7 @@ import com.mygps.related_to_device.map.MyEquipLocationActivity;
 import com.mygps.related_to_extra_function.shopping.ShopWebViewActivity;
 import com.mygps.unrelated_to_function.main.adapter.MainViewPaperAdapter;
 
+import com.mygps.utils.material_design.StatusBarUtils;
 import com.umeng.comm.core.CommunitySDK;
 import com.umeng.comm.core.impl.CommunityFactory;
 import com.umeng.comm.ui.fragments.CommunityMainFragment;
@@ -44,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_community_service);
 
+        new StatusBarUtils().setStatusBar(this);
 
 /*
 

@@ -92,6 +92,7 @@ public class MyEquipListActivity extends AppCompatActivity {
         service = new MyEquipListService(this, equips);
 
         equipList = (ListView) findViewById(R.id.equiplist);
+        equipList.setDividerHeight(0);
 
         adp = new MyEquipListAdapter(this, equips);
         equipList.setAdapter(adp);
@@ -128,6 +129,7 @@ public class MyEquipListActivity extends AppCompatActivity {
             @Override
             public void onDeleteClick(int position) {
                 Toast.makeText(MyEquipListActivity.this,"fw",Toast.LENGTH_SHORT).show();
+                new deleteEquipDialog(position).show(getSupportFragmentManager(),null);
             }
 
             @Override
@@ -145,21 +147,6 @@ public class MyEquipListActivity extends AppCompatActivity {
                 new AddEquipDialog().show(getSupportFragmentManager(),null);
             }
         });
-
-        /*ImageButton add = (ImageButton) findViewById(R.id.function);
-        add.setBackgroundResource(R.drawable.add);
-        add.setVisibility(View.VISIBLE);
-
-        add.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Intent intent = new Intent(MyEquipListActivity.this, AddEquipActivity.class);
-                startActivity(intent);
-
-            }
-        });*/
-
 
     }
 
@@ -232,4 +219,30 @@ public class MyEquipListActivity extends AppCompatActivity {
             return builder.create();
         }
     }
+
+    class deleteEquipDialog extends DialogFragment{
+        int position=0;
+        public deleteEquipDialog(int position) {
+            super();
+            this.position=position;
+        }
+        @NonNull
+        @Override
+        public Dialog onCreateDialog(Bundle savedInstanceState) {
+            super.onCreateDialog(savedInstanceState);
+
+            AlertDialog.Builder builder=new AlertDialog.Builder(getActivity());
+            builder.setTitle("删除设备");
+
+            builder.setPositiveButton("删除", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+
+                }
+            });
+            builder.setNegativeButton("取消",null);
+            return builder.create();
+        }
+    }
+
 }

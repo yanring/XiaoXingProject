@@ -17,6 +17,7 @@ import android.view.View;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.mygps.MyApplication;
 import com.mygps.R;
@@ -24,6 +25,7 @@ import com.mygps.related_to_device.map.HttpRequest.GpsRequestThread;
 import com.mygps.related_to_device.map.adapter.MyEquipListAdapter;
 import com.mygps.related_to_device.map.model.Equip;
 import com.mygps.related_to_device.map.service.MyEquipListService;
+import com.mygps.unrelated_to_function.main.MainActivity;
 
 import java.util.ArrayList;
 
@@ -124,7 +126,12 @@ public class MyEquipListActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onButtonClick(int position) {
+            public void onDeleteClick(int position) {
+                Toast.makeText(MyEquipListActivity.this,"fw",Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onPenClick(int position) {
                 startActivity(new Intent(MyEquipListActivity.this,MyEquipPenActivity.class));
             }
         });

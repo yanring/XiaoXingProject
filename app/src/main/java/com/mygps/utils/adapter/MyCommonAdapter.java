@@ -54,6 +54,4 @@ public abstract class MyCommonAdapter<T> extends BaseAdapter {
     }
 
     public abstract void setContent(MyViewHolder holder , T bean);
-
-
 }

@@ -35,14 +35,9 @@ public class WelcomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome_new);
 
-        //  new StatusBarUtils().setStatusBar(this);
-       // startActivity(new Intent(WelcomeActivity.this, MyEquipPenActivity.class));
         app = (MyApplication) getApplication();
 
         initView();
-
-      //  startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
-
     }
 
     private void initView() {

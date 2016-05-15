@@ -50,8 +50,13 @@ public class MyEquipListAdapter extends BaseAdapter {
 
         holder.setOnThisClickListener(new EquipListAdapterViewHolder.OnThisClickListener() {
             @Override
-            public void onButtonClick(int position) {
-                onViewClickListener.onButtonClick(position);
+            public void onDeleteClick(int position) {
+                onViewClickListener.onDeleteClick(position);
+            }
+
+            @Override
+            public void onPenClick(int position) {
+                onViewClickListener.onPenClick(position);
             }
 
             @Override
@@ -65,7 +70,8 @@ public class MyEquipListAdapter extends BaseAdapter {
 
     public interface OnViewClickListener{
         void onItemClick(int postion);
-        void onButtonClick(int position);
+        void onDeleteClick(int position);
+        void onPenClick(int position);
     }
     public void setOnViewClickListener(OnViewClickListener onViewClickListener){
         this.onViewClickListener=onViewClickListener;

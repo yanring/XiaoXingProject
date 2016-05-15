@@ -36,6 +36,13 @@
                 android:max="100"
                 android:progress="5"
                 android:layout_alignParentTop="true" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/activityEquipPenSeekbar"
+                android:text="当前围栏半径为:1000米"
+                android:textSize="30sp"
+                android:id="@+id/radius_textview"/>
         </RelativeLayout>
     </LinearLayout>
 </LinearLayout>

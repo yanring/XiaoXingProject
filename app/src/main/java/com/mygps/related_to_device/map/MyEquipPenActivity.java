@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.SeekBar;
+import android.widget.TextView;
 
 import com.baidu.mapapi.map.BaiduMap;
 import com.baidu.mapapi.map.BitmapDescriptor;
@@ -56,6 +57,7 @@ public class MyEquipPenActivity extends AppCompatActivity {
     List<LatLng> linePointsist = new ArrayList<>();
 
     boolean isTouchAlarmByPerson=false;
+    private TextView mRaiusTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -82,7 +84,7 @@ public class MyEquipPenActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("实时定位");
 
         radiusSeekbar = (SeekBar) findViewById(R.id.activityEquipPenSeekbar);
-
+        mRaiusTextView = (TextView) findViewById(R.id.radius_textview);
     }
 
     private void initMap() {
@@ -203,6 +205,7 @@ public class MyEquipPenActivity extends AppCompatActivity {
         lineOverlay.remove();
         lineOverlay = baiduMap.addOverlay(lineOption);
 
+        mRaiusTextView.setText("当前围栏半径为:"+getDistanceString());
 
         Log.i("distance",getDistanceString());
     }

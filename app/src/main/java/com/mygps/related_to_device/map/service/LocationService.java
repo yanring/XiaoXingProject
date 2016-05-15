@@ -42,7 +42,9 @@ public class LocationService implements OnGetGeoCoderResultListener {
     Gson gson;
     private String mAddress;
     private GeoCoder mSearch;
+    private String mMAddress;
 
+    OnAddress mOnAddress;
     public LocationService(MyPathActivity act) {
         this.act = act;
         reqQue = Volley.newRequestQueue(act);
@@ -102,13 +104,35 @@ public class LocationService implements OnGetGeoCoderResultListener {
     }
     public String getAddress (String eId,Context context)
     {
-        LatLng ptCenter = getCurrentPosition(eId,context);
-        mSearch = GeoCoder.newInstance();
-        mSearch.reverseGeoCode(new ReverseGeoCodeOption().location(ptCenter));
-        mSearch.setOnGetGeoCodeResultListener(this);
-        //mAddress = "";
+        //LatLng ptCenter = getCurrentPosition(eId,context);
+//        mSearch = GeoCoder.newInstance();
+//        mSearch.reverseGeoCode(new ReverseGeoCodeOption().location(ptCenter));
+//        mSearch.setOnGetGeoCodeResultListener(this);
+//        //mAddress = "";
+//        Log.i("Address",mAddress+2);
 
-        return mAddress;
+        GeoCoder geoCoder = GeoCoder.newInstance();
+        //设置反地理编码位置坐标
+        ReverseGeoCodeOption op = new ReverseGeoCodeOption();
+        op.location(getCurrentPosition(eId,context));
+        geoCoder.reverseGeoCode(op);
+        geoCoder.setOnGetGeoCodeResultListener(new OnGetGeoCoderResultListener() {
+
+            @Override
+            public void onGetReverseGeoCodeResult(ReverseGeoCodeResult arg0) {
+                //获取点击的坐标地址
+                mMAddress = arg0.getAddress();
+                mOnAddress.address(mMAddress);
+                //Log.i("Address", mMAddress);
+
+            }
+
+            @Override
+            public void onGetGeoCodeResult(GeoCodeResult arg0) {
+            }
+        });
+
+    return mMAddress;
     }
 
     @Override
@@ -125,5 +149,13 @@ public class LocationService implements OnGetGeoCoderResultListener {
         mAddress = result.getAddress();
 
 
+    }
+
+
+    public interface OnAddress{
+        void address(String address);
+    }
+    public void setAddressListener(OnAddress onAddress){
+        this.mOnAddress=onAddress;
     }
 }

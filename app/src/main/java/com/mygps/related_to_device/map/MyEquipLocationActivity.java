@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.baidu.mapapi.map.BaiduMap;
@@ -49,6 +50,7 @@ public class MyEquipLocationActivity extends AppCompatActivity {
     Toolbar mToolBar;
     MenuItem menuItemFresh;
     private BitmapDescriptor mBitmap;
+    private TextView mAddress_text;
 
 
     @Override
@@ -61,11 +63,22 @@ public class MyEquipLocationActivity extends AppCompatActivity {
 
         app = (MyApplication) getApplication();
 
+        mAddress_text = (TextView) findViewById(R.id.address_text);
+
         curEquip = app.getEquips().get(getIntent().getIntExtra("equipPos", -1));
 
         mLocationService = new LocationService();
-        String address = mLocationService.getAddress(eid,this);
-        Log.i("address",address+"1");
+        String mAddress = mLocationService.getAddress(eid,this);
+        mLocationService.setAddressListener(new LocationService.OnAddress() {
+            @Override
+            public void address(String address) {
+                //mAddress =address;
+                Log.i("address",address+"1");
+                mAddress_text.setText("当前地址:"+address);
+
+            }
+        });
+
         initMap();
         initOtherView();
     }

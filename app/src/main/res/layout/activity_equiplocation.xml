@@ -11,7 +11,7 @@
         layout="@layout/include_toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:background="#ffffff"
         android:layout_height="match_parent">
@@ -20,6 +20,12 @@
         android:id="@+id/locationmap"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:clickable="true" />
-    </LinearLayout>
+        android:clickable="true"
+       />
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="当前位置:"
+        android:id="@+id/address_text"/>
+    </RelativeLayout>
 </LinearLayout>

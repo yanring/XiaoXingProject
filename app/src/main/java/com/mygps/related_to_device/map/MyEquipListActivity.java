@@ -287,47 +287,7 @@ public class MyEquipListActivity extends AppCompatActivity {
             builder.setNegativeButton("取消", null);
             return builder.create();
         }
-//        public void delete_device(int position)
-//        {
-//            final Equip equip = equips.get(position);
-//            equips.remove(position);
-//            adp.notifyDataSetChanged();
-//            BmobQuery<Equip> query = new BmobQuery<Equip>();
-//            query.addWhereEqualTo("phoneID", equip.getPhoneID());
-//            query.addWhereEqualTo("name", equip.getName());
-//            query.addWhereEqualTo("username", equip.getUsername());
-//            query.setLimit(1);
-//            query.findObjects(getContext(), new FindListener<Equip>() {
-//                @Override
-//                public void onSuccess(List<Equip> list) {
-//
-//                    Context context = getContext();
-//
-//                    Log.i("Bomb","查询成功：共"+list.size()+"条数据。"+MyEquipListActivity.this);
-//                    for(Equip equips: list)
-//                    {
-//
-//                        Log.i("Bomb","删除数据id："+equips.getObjectId());
-//                        equips.delete(context, new DeleteListener() {
-//                            @Override
-//                            public void onSuccess() {
-//                                Log.i("Bomb","成功删除一条数据");
-//                            }
-//
-//                            @Override
-//                            public void onFailure(int i, String s) {
-//                                Log.i("Bomb","删除失败："+s);
-//                            }
-//                        });
-//                    }
-//                }
-//
-//                @Override
-//                public void onError(int i, String s) {
-//                    Log.i("Bomb","查询失败："+s);
-//                }
-//            });
-//        }
+
     }
 
 }

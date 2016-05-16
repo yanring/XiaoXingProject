@@ -11,7 +11,6 @@ public class Equip extends BmobObject {
     String name;
     String username;
 
-
     public Equip(String phoneID, String name ,String username) {
         this.phoneID = phoneID;
         this.name = name;

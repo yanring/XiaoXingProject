@@ -56,4 +56,8 @@ public class MyApplication extends Application {
     public void setSleepTime(Long sleepTime) {
         this.sleepTime = sleepTime;
     }
+
+    public void removeAllEquips(){
+        equips.clear();
+    }
 }

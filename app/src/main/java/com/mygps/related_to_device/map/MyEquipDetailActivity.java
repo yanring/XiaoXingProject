@@ -4,6 +4,7 @@ import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -52,6 +53,7 @@ public class MyEquipDetailActivity extends AppCompatActivity {
         app = (MyApplication) getApplication();
 
         curEquip = app.getEquips().get(getIntent().getIntExtra("equipPos", -1));
+        eId=curEquip.getName();
 
         mToolBar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mToolBar);

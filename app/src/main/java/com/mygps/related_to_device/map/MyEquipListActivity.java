@@ -110,13 +110,12 @@ public class MyEquipListActivity extends AppCompatActivity {
 
             @Override
             public void onDeleteClick(int position) {
-                Toast.makeText(MyEquipListActivity.this, "fw", Toast.LENGTH_SHORT).show();
-                new deleteEquipDialog(position,MyEquipListActivity.this).show(getSupportFragmentManager(), null);
+                new deleteEquipDialog(position, MyEquipListActivity.this).show(getSupportFragmentManager(), null);
             }
 
             @Override
             public void onPenClick(int position) {
-                startActivity(new Intent(MyEquipListActivity.this, MyEquipPenActivity.class));
+                startActivity(new Intent(MyEquipListActivity.this, MyEquipPenActivity.class).putExtra("equipPos", position));
             }
         });
 
@@ -165,7 +164,7 @@ public class MyEquipListActivity extends AppCompatActivity {
                 public void onClick(DialogInterface dialog, int which) {
 
                     String nameStr = name.getText().toString();
-                    String phoneStr =  phone.getText().toString();
+                    String phoneStr = phone.getText().toString();
 
                     /**
                      * 这里做号码和名称的检测
@@ -201,7 +200,8 @@ public class MyEquipListActivity extends AppCompatActivity {
     class deleteEquipDialog extends DialogFragment {
         int position = 0;
         Context context;
-        public deleteEquipDialog(int position,Context context) {
+
+        public deleteEquipDialog(int position, Context context) {
             super();
             this.position = position;
             this.context = context;
@@ -226,32 +226,30 @@ public class MyEquipListActivity extends AppCompatActivity {
                     query.addWhereEqualTo("name", equip.getName());
                     query.addWhereEqualTo("username", equip.getUsername());
                     query.setLimit(1);
-                    Log.i("Bomb1",mContext+"");
+                    Log.i("Bomb1", mContext + "");
                     query.findObjects(mContext, new FindListener<Equip>() {
                         @Override
                         public void onSuccess(List<Equip> list) {
 
 
+                            Log.i("Bomb", "查询成功：共" + list.size() + "条数据。");
+                            for (Equip quaryEquip : list) {
 
-                            Log.i("Bomb","查询成功：共"+list.size()+"条数据。");
-                            for(Equip quaryEquip: list)
-                            {
-
-                                Log.i("Bomb","删除数据id："+quaryEquip.getObjectId());
-                                Log.i("Bomb","删除数据name："+quaryEquip.getName());
-                                Equip DeleteEquips = new Equip(null,null,null);
+                                Log.i("Bomb", "删除数据id：" + quaryEquip.getObjectId());
+                                Log.i("Bomb", "删除数据name：" + quaryEquip.getName());
+                                Equip DeleteEquips = new Equip(null, null, null);
                                 DeleteEquips.setObjectId(quaryEquip.getObjectId());
                                 DeleteEquips.delete(mContext, new DeleteListener() {
                                     @Override
                                     public void onSuccess() {
-                                        Log.i("Bomb","成功删除一条数据");
+                                        Log.i("Bomb", "成功删除一条数据");
                                         equips.remove(position);
                                         adp.notifyDataSetChanged();
                                     }
 
                                     @Override
                                     public void onFailure(int i, String s) {
-                                        Log.i("Bomb","删除失败："+s);
+                                        Log.i("Bomb", "删除失败：" + s);
                                     }
                                 });
                             }
@@ -259,8 +257,8 @@ public class MyEquipListActivity extends AppCompatActivity {
 
                         @Override
                         public void onError(int i, String s) {
-                            Log.i("Bomb","查询失败："+s);
-                            Log.i("Bomb2",mContext+"");
+                            Log.i("Bomb", "查询失败：" + s);
+                            Log.i("Bomb2", mContext + "");
                         }
                     });
                 }

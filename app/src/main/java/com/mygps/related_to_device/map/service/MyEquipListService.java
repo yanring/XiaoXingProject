@@ -52,4 +52,9 @@ public class MyEquipListService {
     public void setGetEquipListener(GetEquipListener equipListener){
         this.equipListener=equipListener;
     }
+
+    public void updateList(String username){
+        myApplication.removeAllEquips();
+        getEquips(username);
+    }
 }

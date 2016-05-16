@@ -53,7 +53,7 @@ public class EquipPathViewManager {
             pathViewIsShow = false;
         }
     }
-    public void addOverlay(ArrayList<LatLng> points) {
+    private void addOverlay(ArrayList<LatLng> points) {
 
         //构建文字Option对象，用于在地图上添加文字
         OverlayOptions textOption = new TextOptions().bgColor(0xAAFFFF00).fontSize(60).fontColor

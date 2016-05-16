@@ -26,6 +26,7 @@ import com.baidu.mapapi.map.PolygonOptions;
 import com.baidu.mapapi.map.Stroke;
 import com.baidu.mapapi.model.LatLng;
 import com.baidu.mapapi.utils.DistanceUtil;
+import com.mygps.MyApplication;
 import com.mygps.R;
 import com.mygps.related_to_device.map.service.LocationService;
 import com.mygps.utils.material_design.StatusBarUtils;
@@ -69,6 +70,8 @@ public class MyEquipPenActivity extends AppCompatActivity {
         new StatusBarUtils().setStatusBar(this);
 
         sharedPreferences = getSharedPreferences("equipPen", MODE_PRIVATE);
+
+        equipID=((MyApplication)getApplication()).getEquips().get(getIntent().getIntExtra("equipPos", -1)).getName();
 
         initOtherView();
         initMap();

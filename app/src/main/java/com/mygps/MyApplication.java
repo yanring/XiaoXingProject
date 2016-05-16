@@ -1,12 +1,12 @@
 package com.mygps;
 
-import android.app.Activity;
 import android.app.Application;
 
 import com.baidu.mapapi.SDKInitializer;
 import com.mygps.related_to_device.map.model.Equip;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import cn.bmob.v3.Bmob;
 import cn.bmob.v3.BmobUser;
@@ -18,7 +18,7 @@ public class MyApplication extends Application {
 
     public static final String APPID = "e8f985a4ee26e26e5de22dbcc947a30e";
 
-    ArrayList<Equip> equips = new ArrayList<>();
+    List<Equip> equips = new ArrayList<>();
 
     Long sleepTime = 60000L;
 
@@ -30,14 +30,13 @@ public class MyApplication extends Application {
 
         Bmob.initialize(this , APPID);
         SDKInitializer.initialize(this);
-
     }
 
-    public ArrayList<Equip> getEquips() {
+    public List<Equip> getEquips() {
         return equips;
     }
 
-    public void setEquips(ArrayList<Equip> equips) {
+    public void setEquips(List<Equip> equips) {
         this.equips = equips;
     }
 
@@ -48,6 +47,7 @@ public class MyApplication extends Application {
     public void setUser(BmobUser user) {
         this.user = user;
     }
+
 
     public Long getSleepTime() {
         return sleepTime;

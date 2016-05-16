@@ -43,16 +43,13 @@ import cn.bmob.v3.listener.SaveListener;
 public class MyEquipListActivity extends AppCompatActivity {
 
     MyApplication app;
-    MyEquipListService service;
-
 
     ListView equipList;
     MyEquipListAdapter adp;
 
     ProgressDialog pro;
-    ArrayList<Equip> equips;
+    List<Equip> equips;
 
-    SwitchCompat functionSwitch;
 
     FloatingActionButton FABAdd;
     private Context mContext;
@@ -88,34 +85,17 @@ public class MyEquipListActivity extends AppCompatActivity {
     private void initView() {
 
 
-        showPro();
-
-        functionSwitch = (SwitchCompat) findViewById(R.id.function_switch);
         FABAdd = (FloatingActionButton) findViewById(R.id.activityEquiplistAdd);
 
         app = (MyApplication) getApplication();
         equips = app.getEquips();
-        service = new MyEquipListService(this, equips);
-        Context context = this;
+
         equipList = (ListView) findViewById(R.id.equiplist);
         equipList.setDividerHeight(0);
 
         adp = new MyEquipListAdapter(this, equips);
         equipList.setAdapter(adp);
 
-        service.getEquips(app.getUser().getUsername());
-        adp.notifyDataSetChanged();
-
-        functionSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (isChecked) {
-                    functionSwitch.setText("实时定位");
-                } else {
-                    functionSwitch.setText("历史轨迹");
-                }
-            }
-        });
         adp.setOnViewClickListener(new MyEquipListAdapter.OnViewClickListener() {
             @Override
             public void onItemClick(int position) {
@@ -240,8 +220,7 @@ public class MyEquipListActivity extends AppCompatActivity {
                 public void onClick(DialogInterface dialog, int which) {
                     //delete_device(position);
                     final Equip equip = equips.get(position);
-                    equips.remove(position);
-                    adp.notifyDataSetChanged();
+
                     BmobQuery<Equip> query = new BmobQuery<Equip>();
                     query.addWhereEqualTo("phoneID", equip.getPhoneID());
                     query.addWhereEqualTo("name", equip.getName());
@@ -255,17 +234,19 @@ public class MyEquipListActivity extends AppCompatActivity {
 
 
                             Log.i("Bomb","查询成功：共"+list.size()+"条数据。");
-                            for(Equip equips: list)
+                            for(Equip quaryEquip: list)
                             {
 
-                                Log.i("Bomb","删除数据id："+equips.getObjectId());
-                                Log.i("Bomb","删除数据name："+equips.getName());
+                                Log.i("Bomb","删除数据id："+quaryEquip.getObjectId());
+                                Log.i("Bomb","删除数据name："+quaryEquip.getName());
                                 Equip DeleteEquips = new Equip(null,null,null);
-                                DeleteEquips.setObjectId(equips.getObjectId());
+                                DeleteEquips.setObjectId(quaryEquip.getObjectId());
                                 DeleteEquips.delete(mContext, new DeleteListener() {
                                     @Override
                                     public void onSuccess() {
                                         Log.i("Bomb","成功删除一条数据");
+                                        equips.remove(position);
+                                        adp.notifyDataSetChanged();
                                     }
 
                                     @Override

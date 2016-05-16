@@ -12,9 +12,13 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.mygps.related_to_device.map.MyEquipListActivity;
+import com.mygps.related_to_device.map.service.MyEquipListService;
 import com.mygps.unrelated_to_function.main.MainActivity;
 import com.mygps.MyApplication;
 import com.mygps.R;
+
 import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.listener.SaveListener;
 
@@ -46,7 +50,7 @@ public class WelcomeActivity extends AppCompatActivity {
         findViewById(R.id.welcomeTest).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(WelcomeActivity.this,MainActivity.class));
+                startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
             }
         });
 
@@ -55,7 +59,7 @@ public class WelcomeActivity extends AppCompatActivity {
         usernameET = (EditText) findViewById(R.id.welcomeActivityETUsername);
         loginBT = (Button) findViewById(R.id.welcomeActivityBTLogin);
         registerTV = (TextView) findViewById(R.id.welcomeActivityRegiter);
-        remeberCB=(AppCompatCheckBox)findViewById(R.id.welcomeActivityCBRemeberCipher);
+        remeberCB = (AppCompatCheckBox) findViewById(R.id.welcomeActivityCBRemeberCipher);
         loginBT.setOnClickListener(new View.OnClickListener() {
                                        @Override
                                        public void onClick(View v) {
@@ -76,17 +80,32 @@ public class WelcomeActivity extends AppCompatActivity {
                                            user.login(WelcomeActivity.this, new SaveListener() {
                                                @Override
                                                public void onSuccess() {
-                                                   Intent intent = new Intent(WelcomeActivity.this, MainActivity.class);
-                                                   BmobUser currentUser = BmobUser.getCurrentUser(WelcomeActivity.this);
-                                                   app.setUser(currentUser);
 
-                                                   if (remeberCB.isChecked()){
+                                                   BmobUser currentUser = BmobUser.getCurrentUser(WelcomeActivity.this);
+
+                                                   app.setUser(currentUser);
+                                                   if (remeberCB.isChecked()) {
                                                        //记录密码
                                                    }
 
+                                                   MyEquipListService myEquipListService = new MyEquipListService(WelcomeActivity.this, (MyApplication) getApplication());
+                                                   myEquipListService.setGetEquipListener(new MyEquipListService.GetEquipListener() {
+                                                       @Override
+                                                       public void onSuccess() {
+                                                           startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
+                                                           finish();
+                                                       }
+
+                                                       @Override
+                                                       public void onError(int i, String s) {
+
+                                                       }
+                                                   });
+
+                                                   myEquipListService.getEquips(app.getUser().getUsername());
+
                                                    disPro();
-                                                   startActivity(intent);
-                                                   finish();
+
                                                }
 
                                                @Override
@@ -106,7 +125,7 @@ public class WelcomeActivity extends AppCompatActivity {
         registerTV.setOnClickListener(new View.OnClickListener() {
                                           @Override
                                           public void onClick(View v) {
-                                              startActivity(new Intent(WelcomeActivity.this,SigninActivity.class));
+                                              startActivity(new Intent(WelcomeActivity.this, SigninActivity.class));
                                           }
                                       }
 

@@ -1,5 +1,8 @@
 package com.mygps.related_to_device.map.service;
 
+import android.content.Context;
+
+import com.mygps.MyApplication;
 import com.mygps.related_to_device.map.MyEquipListActivity;
 import com.mygps.related_to_device.map.model.Equip;
 
@@ -13,34 +16,40 @@ import cn.bmob.v3.listener.FindListener;
  * Created by HowieWang on 2016/3/9.
  */
 public class MyEquipListService {
-    ArrayList<Equip> equips;
+    MyApplication myApplication;
+    GetEquipListener equipListener;
+    Context context;
 
-    MyEquipListActivity act;
-
-    public MyEquipListService(MyEquipListActivity act, ArrayList<Equip> equips) {
-        this.act = act;
-        this.equips = equips;
+    public MyEquipListService(Context context,MyApplication myApplication) {
+        this.context=context;
+        this.myApplication=myApplication;
     }
 
 
-    public ArrayList<Equip> getEquips(String username) {
+    public void getEquips(String username) {
 
         BmobQuery<Equip> query = new BmobQuery<>();
         query.addWhereEqualTo("username" , username);
-        query.findObjects(act, new FindListener<Equip>() {
+        query.findObjects(context, new FindListener<Equip>() {
             @Override
             public void onSuccess(List<Equip> list) {
-                equips.addAll(list);
-                act.notifyDataSetChanged();
-                act.disPro();
+                myApplication.setEquips(list);
+                equipListener.onSuccess();
             }
 
             @Override
             public void onError(int i, String s) {
-
+                equipListener.onError(i, s);
             }
         });
 
-        return equips;
+    }
+
+    public interface GetEquipListener{
+        void onSuccess();
+        void onError(int i, String s);
+    }
+    public void setGetEquipListener(GetEquipListener equipListener){
+        this.equipListener=equipListener;
     }
 }

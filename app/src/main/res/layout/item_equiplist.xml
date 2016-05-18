@@ -65,7 +65,7 @@
                     android:id="@+id/item_equiplist_phone"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/item_equiplist_name"
+
                     android:text="13102171390"
                     android:textSize="14sp"
                     android:layout_centerVertical="true"

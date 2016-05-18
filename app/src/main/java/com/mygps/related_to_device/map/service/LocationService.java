@@ -64,6 +64,10 @@ public class LocationService implements OnGetGeoCoderResultListener {
 
         //Log.i("TAG2","time:"+time+"坐标:"+lat+","+lng);
         LatLng sourceLatLng = new LatLng(lat, lng);
+        if (cursor.getCount()<=0)
+        {
+            return null;
+        }
         cursor.close();
         return sourceLatLng;
     }
@@ -86,7 +90,10 @@ public class LocationService implements OnGetGeoCoderResultListener {
             latLngs.add(new LatLng(lat, lng));
         }
         Log.i("latLngs", latLngs.toString());
-
+        if (cursor.getCount()<=0)
+        {
+            return null;
+        }
         cursor.close();
         return latLngs;
     }
@@ -103,6 +110,9 @@ public class LocationService implements OnGetGeoCoderResultListener {
         //设置反地理编码位置坐标
         ReverseGeoCodeOption op = new ReverseGeoCodeOption();
         op.location(getCurrentPosition(eId, context));
+        if(getCurrentPosition(eId, context)==null){
+            return "地址为空";
+        }
         geoCoder.reverseGeoCode(op);
         geoCoder.setOnGetGeoCodeResultListener(new OnGetGeoCoderResultListener() {
 

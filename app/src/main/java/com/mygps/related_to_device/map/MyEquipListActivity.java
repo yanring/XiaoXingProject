@@ -197,7 +197,7 @@ public class MyEquipListActivity extends AppCompatActivity {
         }
     }
 
-    class deleteEquipDialog extends DialogFragment {
+    public class deleteEquipDialog extends DialogFragment {
         int position = 0;
         Context context;
 

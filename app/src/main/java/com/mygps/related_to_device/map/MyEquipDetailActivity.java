@@ -110,6 +110,7 @@ public class MyEquipDetailActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         showLocation = menu.add(0, 0, 0, "位置");
         showLocation.setTitle("关闭位置");
+        showLocation.setVisible(false);
         showLocation.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
 
         showPath = menu.add(0, 1, 1, "历史轨迹");

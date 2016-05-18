@@ -57,11 +57,11 @@ public class EquipPathViewManager {
 
         //构建文字Option对象，用于在地图上添加文字
         OverlayOptions textOption = new TextOptions().bgColor(0xAAFFFF00).fontSize(60).fontColor
-                (0xFFFF00FF).text("起点").position(points.get(points.size()-1));
+                (0xFFFF00FF).text("终点").position(points.get(points.size()-1));
         startPoint = baiduMap.addOverlay(textOption);
 
         textOption = new TextOptions().bgColor(0xAAFFFF00).fontSize(60).fontColor
-                (0xFFFF00FF).text("终点").position(points.get(0));
+                (0xFFFF00FF).text("起点").position(points.get(0));
         stopPoint = baiduMap.addOverlay(textOption);
 
         //添加有纹理的路线

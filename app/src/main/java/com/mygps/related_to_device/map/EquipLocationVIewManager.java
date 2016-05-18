@@ -46,7 +46,7 @@ public class EquipLocationViewManager {
         locationService.setAddressListener(new LocationService.OnAddress() {
             @Override
             public void address(String address) {
-                locationTextView.setText(address);
+                locationTextView.setText("定位位置:"+address);
             }
         });
 

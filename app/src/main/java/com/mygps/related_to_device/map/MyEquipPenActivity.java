@@ -28,6 +28,7 @@ import com.baidu.mapapi.model.LatLng;
 import com.baidu.mapapi.utils.DistanceUtil;
 import com.mygps.MyApplication;
 import com.mygps.R;
+import com.mygps.related_to_device.map.HttpRequest.PenLocationPost;
 import com.mygps.related_to_device.map.service.LocationService;
 import com.mygps.utils.material_design.StatusBarUtils;
 
@@ -71,7 +72,7 @@ public class MyEquipPenActivity extends AppCompatActivity {
 
         sharedPreferences = getSharedPreferences("equipPen", MODE_PRIVATE);
 
-        equipID=((MyApplication)getApplication()).getEquips().get(getIntent().getIntExtra("equipPos", -1)).getName();
+        equipID = ((MyApplication) getApplication()).getEquips().get(getIntent().getIntExtra("equipPos", -1)).getName();
 
         initOtherView();
         initMap();
@@ -114,7 +115,7 @@ public class MyEquipPenActivity extends AppCompatActivity {
         baiduMap.setMyLocationEnabled(true);
         //构建Marker图标
         mBitmap = BitmapDescriptorFactory.fromResource(R.mipmap.drop_location_ic);
-        MyLocationData locationData = new MyLocationData.Builder().latitude(sharedPreferences.getFloat(equipID + "CenterLat", (float) (new LocationService()).getCurrentPosition(equipID, this).latitude)).longitude(sharedPreferences.getFloat(equipID + "CenterLng", (float)(new LocationService()).getCurrentPosition(equipID, this).longitude)).build();
+        MyLocationData locationData = new MyLocationData.Builder().latitude(sharedPreferences.getFloat(equipID + "CenterLat", (float) (new LocationService()).getCurrentPosition(equipID, this).latitude)).longitude(sharedPreferences.getFloat(equipID + "CenterLng", (float) (new LocationService()).getCurrentPosition(equipID, this).longitude)).build();
         baiduMap.setMyLocationData(locationData);
 
         MyLocationConfiguration config = new MyLocationConfiguration(MyLocationConfiguration.LocationMode.FOLLOWING, true, mBitmap);
@@ -243,14 +244,6 @@ public class MyEquipPenActivity extends AppCompatActivity {
         radiusSeekbar.setProgress((int) (Math.log(getDistance()) / Math.log(1.05) - 100));
     }
 
-    private void saveData() {
-        sharedPreferences.edit().putFloat(equipID + "CenterLat", (float) centerMarker.getPosition().latitude).commit();
-        sharedPreferences.edit().putFloat(equipID + "CenterLng", (float) centerMarker.getPosition().longitude).commit();
-
-        sharedPreferences.edit().putFloat(equipID + "RadiusLat", (float) radiusMacker.getPosition().latitude).commit();
-        sharedPreferences.edit().putFloat(equipID + "RadiusLng", (float) radiusMacker.getPosition().longitude).commit();
-
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -266,10 +259,21 @@ public class MyEquipPenActivity extends AppCompatActivity {
             case 0:
                 break;
             case android.R.id.home:
-                finish();
+                saveData();
                 break;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        saveData();
+    }
+
+    private void saveData() {
+        new PenLocationPost(this, this, getSupportFragmentManager(), sharedPreferences).start(equipID, centerMarker.getPosition(), radiusMacker.getPosition());
+
     }
 
     @Override
@@ -282,7 +286,6 @@ public class MyEquipPenActivity extends AppCompatActivity {
         super.onDestroy();
         //在activity执行onDestroy时执行mMapView.onDestroy()，实现地图生命周期管理
         mapView.onDestroy();
-        saveData();
     }
 
     @Override

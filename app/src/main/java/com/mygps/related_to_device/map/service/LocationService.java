@@ -56,6 +56,10 @@ public class LocationService implements OnGetGeoCoderResultListener {
 
         Uri CurrentGPSUri = Uri.parse(URIList.GPS_URI);
         Cursor cursor = contentResolver.query(CurrentGPSUri, null, null, null, "time");
+        if(cursor.getCount()<=0){
+            return null;
+        }
+        Log.i("CursorCount",cursor.getCount()+"");
         cursor.moveToLast();
 
         //String time = cursor.getString(cursor.getColumnIndex("time"));
@@ -64,10 +68,7 @@ public class LocationService implements OnGetGeoCoderResultListener {
 
         //Log.i("TAG2","time:"+time+"坐标:"+lat+","+lng);
         LatLng sourceLatLng = new LatLng(lat, lng);
-        if (cursor.getCount()<=0)
-        {
-            return null;
-        }
+
         cursor.close();
         return sourceLatLng;
     }

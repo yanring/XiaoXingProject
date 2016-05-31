@@ -267,7 +267,6 @@ public class MyEquipPenActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
         saveData();
     }
 

@@ -59,14 +59,11 @@ public class PenLocationPost {
             public void onResponse(String response) {
                 Log.i("PostPenResponse",response);
                 disPro();
-                if (null!=response&&response.equals("Success")){
+                if (null!=response&&response.toLowerCase().equals("success")){
                     saveData();
                     activity.finish();
                 }else{
-
-                    //test
-                    saveData();
-                    activity.finish();
+                    new postErrorDialog().show(fragmentManager,null);
                 }
             }
         }, new Response.ErrorListener() {

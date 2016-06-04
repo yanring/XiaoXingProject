@@ -21,7 +21,7 @@ public class LoginRequest extends BaseRequest {
     }
 
     @Override
-    void onResult(InputStream inputStream) {
+   public void onResult(InputStream inputStream) {
         if (null != inputStream) {
             try {
                 ObjectInputStream objectInputStream = new ObjectInputStream(inputStream);

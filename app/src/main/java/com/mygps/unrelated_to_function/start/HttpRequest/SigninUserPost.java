@@ -36,7 +36,7 @@ public class SigninUserPost extends BaseRequest {
     }
 
     @Override
-    void onResult(InputStream inputStream) {
+    public void onResult(InputStream inputStream) {
         if (null != inputStream && null != callback) {
             BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
             try {

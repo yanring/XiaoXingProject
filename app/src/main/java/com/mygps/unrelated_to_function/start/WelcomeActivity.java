@@ -18,6 +18,8 @@ import com.mygps.related_to_device.map.service.MyEquipListService;
 import com.mygps.unrelated_to_function.main.MainActivity;
 import com.mygps.MyApplication;
 import com.mygps.R;
+import com.mygps.unrelated_to_function.start.HttpRequest.LoginRequest;
+import com.mygps.unrelated_to_function.start.model.User;
 
 import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.listener.SaveListener;
@@ -65,56 +67,41 @@ public class WelcomeActivity extends AppCompatActivity {
                                        public void onClick(View v) {
 
                                            showPro();
-                                           usernameET.setText("1111");
-                                           passportET.setText("1111");
+
                                            String un = usernameET.getText().toString();
                                            String pw = passportET.getText().toString();
 
-                                           /**
-                                            * 此处做用户名和密码的检查
-                                            */
-
-                                           BmobUser user = new BmobUser();
+                                           User user = new User();
                                            user.setUsername(un);
                                            user.setPassword(pw);
-                                           user.login(WelcomeActivity.this, new SaveListener() {
-                                               @Override
-                                               public void onSuccess() {
 
-                                                   BmobUser currentUser = BmobUser.getCurrentUser(WelcomeActivity.this);
-
-                                                   app.setUser(currentUser);
-                                                   if (remeberCB.isChecked()) {
-                                                       //记录密码
+                                           try {
+                                               new LoginRequest(user, WelcomeActivity.this).setOnLoginInCallback(new LoginRequest.OnLoginInCallback() {
+                                                   @Override
+                                                   public void onError(int errorCode) {
+                                                       disPro();
                                                    }
 
-                                                   MyEquipListService myEquipListService = new MyEquipListService(WelcomeActivity.this, (MyApplication) getApplication());
-                                                   myEquipListService.setGetEquipListener(new MyEquipListService.GetEquipListener() {
-                                                       @Override
-                                                       public void onSuccess() {
-                                                           startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
-                                                           finish();
+                                                   @Override
+                                                   public void onSuccess() {
+                                                       if (remeberCB.isChecked()) {
+                                                           //记录密码
                                                        }
 
-                                                       @Override
-                                                       public void onError(int i, String s) {
+                                                       startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
+                                                       disPro();
+                                                       finish();
 
-                                                       }
-                                                   });
+                                                   }
 
-                                                   myEquipListService.getEquips(app.getUser().getUsername());
-
-                                                   disPro();
-
-                                               }
-
-                                               @Override
-                                               public void onFailure(int i, String s) {
-                                                   disPro();
-                                                   Log.i("aaa", i + "   " + s);
-
-                                               }
-                                           });
+                                                   @Override
+                                                   public void onFail(int errorCode) {
+                                                       disPro();
+                                                   }
+                                               });
+                                           } catch (Exception e) {
+                                               e.printStackTrace();
+                                           }
 
 
                                        }

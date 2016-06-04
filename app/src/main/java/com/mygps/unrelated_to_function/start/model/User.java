@@ -1,9 +1,11 @@
 package com.mygps.unrelated_to_function.start.model;
 
+import java.io.Serializable;
+
 /**
  * Created by 10397 on 2016/6/1.
  */
-public class User {
+public class User implements Serializable {
     private int id;
     private String username;
     private String password;

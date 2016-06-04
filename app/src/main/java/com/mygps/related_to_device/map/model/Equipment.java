@@ -1,9 +1,11 @@
 package com.mygps.related_to_device.map.model;
 
+import java.io.Serializable;
+
 /**
  * Created by 10397 on 2016/6/1.
  */
-public class Equipment {
+public class Equipment implements Serializable {
 
     private String id;
     private String phone;

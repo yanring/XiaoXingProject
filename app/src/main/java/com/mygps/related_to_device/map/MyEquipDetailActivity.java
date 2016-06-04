@@ -16,7 +16,7 @@ import com.baidu.mapapi.map.MapStatusUpdateFactory;
 import com.baidu.mapapi.map.MapView;
 import com.mygps.MyApplication;
 import com.mygps.R;
-import com.mygps.related_to_device.map.model.Equip;
+import com.mygps.related_to_device.map.model.Equipment;
 import com.mygps.utils.material_design.StatusBarUtils;
 
 /**
@@ -28,7 +28,7 @@ public class MyEquipDetailActivity extends AppCompatActivity {
 
     MyApplication app;
 
-    Equip curEquip;
+    Equipment curEquip;
 
     ProgressDialog pro;
 

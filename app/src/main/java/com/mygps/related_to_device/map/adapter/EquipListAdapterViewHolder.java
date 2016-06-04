@@ -5,10 +5,9 @@ import android.support.v7.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import com.mygps.R;
-import com.mygps.related_to_device.map.model.Equip;
+import com.mygps.related_to_device.map.model.Equipment;
 
 /**
  * Created by 10397 on 2016/5/14.
@@ -19,12 +18,12 @@ public class EquipListAdapterViewHolder {
     private ImageView equipPen;
     private ImageView equipDelete;
     private CardView containsCardView;
-    private Equip equip;
+    private Equipment equip;
     private Context context;
     private OnThisClickListener listener;
     private int position=0;
     View view;
-    public EquipListAdapterViewHolder(Context context, Equip initEquip, final int position) {
+    public EquipListAdapterViewHolder(Context context, Equipment initEquip, final int position) {
         this.context=context;
         this.position=position;
         view= LayoutInflater.from(context).inflate(R.layout.item_equiplist,null);
@@ -36,7 +35,7 @@ public class EquipListAdapterViewHolder {
 
         containsCardView=(CardView) view.findViewById(R.id.equiplistItemCardView);
         equipName.setText(initEquip.getName());
-        equipPhoneNumber.setText(initEquip.getPhoneID());
+        equipPhoneNumber.setText(initEquip.getPhone());
         equipDelete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

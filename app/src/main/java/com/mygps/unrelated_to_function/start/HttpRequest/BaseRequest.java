@@ -1,9 +1,8 @@
 package com.mygps.unrelated_to_function.start.HttpRequest;
 
-import android.content.Context;
 
 import java.io.InputStream;
-import java.io.ObjectOutputStream;
+import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
@@ -12,43 +11,44 @@ import java.net.URL;
  */
 public abstract class BaseRequest {
 
-    public BaseRequest(String uri, Object writeObject) throws Exception {
-        new RequestThread(uri, writeObject).run();
+    public BaseRequest(String uri,String parms) throws Exception {
+        new RequestThread(uri, parms).start();
     }
 
     class RequestThread extends Thread {
-        Object writeObject;
+        String parms;
         URL uri;
 
-        public RequestThread(String uri, Object writeObject) throws Exception {
+        public RequestThread(String uri, String parms) throws Exception {
             this.uri = new URL(uri);
-            this.writeObject = writeObject;
+            this.parms = parms;
         }
 
         @Override
         public void run() {
             super.run();
             try {
-                request(uri, writeObject);
+                request(uri, parms);
             } catch (final Exception e) {
                 e.printStackTrace();
             }
         }
     }
 
-    private void request(URL url, Object writeObject) throws Exception {
+    private void request(URL url, String parms) throws Exception {
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
         connection.setDoOutput(true);
         connection.setDoInput(true);
         connection.setRequestMethod("POST");
         connection.setConnectTimeout(5000);
         connection.setReadTimeout(10000);
-        connection.setRequestProperty("Content-type", "application/x-java-serialized-object");
-        ObjectOutputStream outputStream = new ObjectOutputStream(connection.getOutputStream());
-        outputStream.writeObject(writeObject);
+  //      connection.setRequestProperty("Content-type", "application/x-java-serialized-object");
+        OutputStream outputStream = connection.getOutputStream();
+        outputStream.write(parms.getBytes());
         outputStream.flush();
         outputStream.close();
         InputStream inputStream = connection.getInputStream();
+
         if (HttpURLConnection.HTTP_OK == connection.getResponseCode()) {
             onResult(inputStream);
         } else {

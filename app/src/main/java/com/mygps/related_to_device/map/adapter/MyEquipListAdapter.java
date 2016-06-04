@@ -4,7 +4,7 @@ import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import com.mygps.related_to_device.map.model.Equip;
+import com.mygps.related_to_device.map.model.Equipment;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,10 +14,10 @@ import java.util.List;
  */
 public class MyEquipListAdapter extends BaseAdapter {
 
-    List<Equip> equipList=new ArrayList<>();
+    List<Equipment> equipList=new ArrayList<>();
     Context context;
     OnViewClickListener onViewClickListener;
-    public MyEquipListAdapter(Context context, List<Equip> myDatas) {
+    public MyEquipListAdapter(Context context, List<Equipment> myDatas) {
         this.context=context;
         this.equipList=myDatas;
     }

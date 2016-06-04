@@ -1,5 +1,6 @@
 package com.mygps.related_to_device.map.HttpRequest;
 
+import com.mygps.related_to_device.map.model.Equipment;
 import com.mygps.unrelated_to_function.start.HttpRequest.BaseRequest;
 
 import java.io.InputStream;
@@ -12,8 +13,8 @@ public class AddEquipmentRequest extends BaseRequest {
 
     private static final String uri ="http://123.206.30.177/GPSServer/user/addEquip.do";
 
-    public AddEquipmentRequest(Object writeObject) throws Exception {
-        super(uri, writeObject);
+    public AddEquipmentRequest(Equipment equipment) throws Exception {
+        super(uri, "");
     }
 
     @Override

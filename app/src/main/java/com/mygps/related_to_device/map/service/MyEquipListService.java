@@ -3,14 +3,6 @@ package com.mygps.related_to_device.map.service;
 import android.content.Context;
 
 import com.mygps.MyApplication;
-import com.mygps.related_to_device.map.MyEquipListActivity;
-import com.mygps.related_to_device.map.model.Equip;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import cn.bmob.v3.BmobQuery;
-import cn.bmob.v3.listener.FindListener;
 
 /**
  * Created by HowieWang on 2016/3/9.
@@ -28,11 +20,12 @@ public class MyEquipListService {
 
     public void getEquips(String username) {
 
+/*
         BmobQuery<Equip> query = new BmobQuery<>();
         query.addWhereEqualTo("username" , username);
-        query.findObjects(context, new FindListener<Equip>() {
+        query.findObjects(context, new FindListener<Equipment>() {
             @Override
-            public void onSuccess(List<Equip> list) {
+            public void onSuccess(List<Equipment> list) {
                 myApplication.setEquips(list);
                 equipListener.onSuccess();
             }
@@ -42,6 +35,7 @@ public class MyEquipListService {
                 equipListener.onError(i, s);
             }
         });
+*/
 
     }
 

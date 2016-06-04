@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.widget.EditText;
 
 import com.mygps.R;
+import com.mygps.unrelated_to_function.start.HttpRequest.SigninUserPost;
 import com.mygps.unrelated_to_function.start.model.User;
 import com.mygps.unrelated_to_function.start.utils.UserCheck;
 import com.mygps.utils.material_design.StatusBarUtils;
@@ -105,28 +106,35 @@ public class SigninActivity extends AppCompatActivity {
                 String pw = password.getText().toString();
 
                 switch (UserCheck.check(un,pw)){
-                    case UserCheck.OK:;break;
+                    case UserCheck.OK:
+                        User user=new User();
+                        user.setUsername(un);
+                        user.setPassword(pw);
+                        try {
+                            new SigninUserPost(user).setOnSignInCallback(new SigninUserPost.OnSignInCallback() {
+                                @Override
+                                public void onError(int errorCode) {
+
+                                }
+
+                                @Override
+                                public void onSuccess() {
+                                    finish();
+                                }
+
+                                @Override
+                                public void onFail() {
+
+                                }
+                            });
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
+                        break;
                     case UserCheck.USERNAMEERROR:break;//username错误处理
                     case UserCheck.PASSWORDERROR:break;//password错误处理
                     default:break;
                 }
-
-                //用户名与密码检查
-
-                BmobUser user = new BmobUser();
-                user.setUsername(un);
-                user.setPassword(pw);
-                user.signUp(SigninActivity.this, new SaveListener() {
-                    @Override
-                    public void onSuccess() {
-                        finish();
-                    }
-
-                    @Override
-                    public void onFailure(int i, String s) {
-
-                    }
-                });
 
                 break;
 

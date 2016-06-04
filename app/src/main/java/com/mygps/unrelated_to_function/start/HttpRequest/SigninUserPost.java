@@ -1,21 +1,13 @@
 package com.mygps.unrelated_to_function.start.HttpRequest;
 
-import android.content.Context;
-import android.util.Log;
 
-import com.android.volley.AuthFailureError;
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
 import com.mygps.unrelated_to_function.start.model.User;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.net.URLDecoder;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -32,13 +24,14 @@ public class SigninUserPost extends BaseRequest {
     private OnSignInCallback callback;
 
     public SigninUserPost(User user) throws Exception {
-        super(postUri, user);
+        super(postUri,"username="+user.getUsername()+"&password="+user.getPassword());
     }
 
     @Override
     public void onResult(InputStream inputStream) {
         if (null != inputStream && null != callback) {
-            BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
+            BufferedReader reader=new BufferedReader(new InputStreamReader(inputStream));
+
             try {
                 String result = reader.readLine();
                 if (null != result)
@@ -74,4 +67,7 @@ public class SigninUserPost extends BaseRequest {
     public void setOnSignInCallback(OnSignInCallback onSignInCallback) {
         this.callback = onSignInCallback;
     }
+
+
+
 }

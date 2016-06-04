@@ -17,13 +17,25 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.Toast;
 
+import com.android.volley.AuthFailureError;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.Response.Listener;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.mygps.MyApplication;
 import com.mygps.R;
 import com.mygps.related_to_device.map.HttpRequest.GpsRequestThread;
 import com.mygps.related_to_device.map.adapter.MyEquipListAdapter;
 import com.mygps.related_to_device.map.model.Equipment;
+
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 
 /**
@@ -42,6 +54,10 @@ public class MyEquipListActivity extends AppCompatActivity {
     FloatingActionButton FABAdd;
     private Context mContext;
 
+    RequestQueue queue;
+
+    private static final String ADDEQUIP_URL= "http://123.206.30.177/GPSServer/user/addEquip.do";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,6 +65,8 @@ public class MyEquipListActivity extends AppCompatActivity {
 
         mContext = this;
         initView();
+
+        queue = Volley.newRequestQueue(this);
 
     }
 
@@ -151,9 +169,38 @@ public class MyEquipListActivity extends AppCompatActivity {
                     String nameStr = name.getText().toString();
                     String phoneStr = phone.getText().toString();
 
+                    Toast.makeText(MyEquipListActivity.this,"fsnjfsfs",Toast.LENGTH_LONG).show();
+
                     /**
                      * 这里做号码和名称的检测
                      */
+                    final Equipment equip=new Equipment();
+                    equip.setPhone(phoneStr);
+                    equip.setName(nameStr);
+                    equip.setId(nameStr);
+                    equip.setuId(app.getUser().getId());
+                    new StringRequest(Request.Method.POST, ADDEQUIP_URL, new Listener<String>() {
+                        @Override
+                        public void onResponse(String response) {
+                            Toast.makeText(MyEquipListActivity.this,response,Toast.LENGTH_LONG).show();
+                        }
+                    }, new Response.ErrorListener() {
+                        @Override
+                        public void onErrorResponse(VolleyError error) {
+                            Toast.makeText(MyEquipListActivity.this,error.getMessage(),Toast.LENGTH_LONG).show();
+                        }
+                    }){
+                        @Override
+                        protected Map<String, String> getParams() throws AuthFailureError {
+                            super.getParams();
+                            Map<String,String> map=new HashMap<String, String>();
+                            map.put("id",equip.getId());
+                            map.put("phone",equip.getPhone());
+                            map.put("name",equip.getName());
+                            map.put("uId",""+equip.getuId());
+                            return map;
+                        }
+                    };
 
                 }
             });
@@ -190,6 +237,7 @@ public class MyEquipListActivity extends AppCompatActivity {
                 public void onClick(DialogInterface dialog, int which) {
                     //delete_device(position);
                     final Equipment equip = equips.get(position);
+
 
                 }
             });

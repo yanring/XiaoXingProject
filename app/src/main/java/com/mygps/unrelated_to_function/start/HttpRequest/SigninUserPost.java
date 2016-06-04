@@ -30,24 +30,25 @@ public class SigninUserPost extends BaseRequest {
     private static final int SERVER_NOT_AVAIBLE = 3;
     private static final String postUri = "http://123.206.30.177/GPSServer/user/signin.do";
     private OnSignInCallback callback;
+
     public SigninUserPost(User user) throws Exception {
-        super(postUri,user);
+        super(postUri, user);
     }
 
     @Override
     void onResult(InputStream inputStream) {
-        if (null!=inputStream&&null!=callback) {
+        if (null != inputStream && null != callback) {
             BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
             try {
-                String result=reader.readLine();
-                if(null!=result)
-                if (result.toLowerCase().equals("true")){
-                    callback.onSuccess();
-                }else if (result.toLowerCase().equals("false")){
-                    callback.onFail();
-                }else {
-                    callback.onError(SERVER_NOT_AVAIBLE);
-                }
+                String result = reader.readLine();
+                if (null != result)
+                    if (result.toLowerCase().equals("true")) {
+                        callback.onSuccess();
+                    } else if (result.toLowerCase().equals("false")) {
+                        callback.onFail();
+                    } else {
+                        callback.onError(SERVER_NOT_AVAIBLE);
+                    }
                 inputStream.close();
             } catch (Exception e) {
                 e.printStackTrace();
@@ -56,18 +57,21 @@ public class SigninUserPost extends BaseRequest {
     }
 
     @Override
-    void onError(int httpErrorCode) {
-        if (null!=callback){
+    public void onError(int httpErrorCode) {
+        if (null != callback) {
             callback.onError(httpErrorCode);
         }
     }
 
-    interface OnSignInCallback{
+    public interface OnSignInCallback {
         void onError(int errorCode);
+
         void onSuccess();
+
         void onFail();
     }
-    public void setOnSignInCallback(OnSignInCallback onSignInCallback){
-        this.callback=onSignInCallback;
+
+    public void setOnSignInCallback(OnSignInCallback onSignInCallback) {
+        this.callback = onSignInCallback;
     }
 }

@@ -71,7 +71,7 @@ public class MyEquipListActivity extends AppCompatActivity {
         initView();
 
         //测试thread
-        GpsRequestThread gpsRequestThread = new GpsRequestThread(this, "867967020452449");
+        GpsRequestThread gpsRequestThread = new GpsRequestThread(this, "867521029822977");
         gpsRequestThread.start();
 
     }

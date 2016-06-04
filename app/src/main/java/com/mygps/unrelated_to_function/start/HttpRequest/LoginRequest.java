@@ -31,7 +31,6 @@ public class LoginRequest extends BaseRequest {
                     switch ((int)map.get("error")){
                         case OK:
                             if (null!=callback)callback.onSuccess();
-
                             break;
                         case ERROR_PASSWORD:if (null!=callback)callback.onFail(ERROR_PASSWORD);break;
                         case ERROR_USERNAME:if (null!=callback)callback.onFail(ERROR_USERNAME);break;
@@ -49,13 +48,13 @@ public class LoginRequest extends BaseRequest {
     }
 
     @Override
-    void onError(int httpErrorCode) {
+    public void onError(int httpErrorCode) {
         if (null != callback) {
             callback.onError(httpErrorCode);
         }
     }
 
-    interface OnLoginInCallback {
+    public interface OnLoginInCallback {
         void onError(int errorCode);
 
         void onSuccess();

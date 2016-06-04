@@ -4,6 +4,7 @@ import android.app.Application;
 
 import com.baidu.mapapi.SDKInitializer;
 import com.mygps.related_to_device.map.model.Equip;
+import com.mygps.unrelated_to_function.start.model.User;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +24,7 @@ public class MyApplication extends Application {
     Long sleepTime = 60000L;
 
     BmobUser user;
-
+    
     @Override
     public void onCreate() {
         super.onCreate();

@@ -10,6 +10,8 @@ import android.view.MenuItem;
 import android.widget.EditText;
 
 import com.mygps.R;
+import com.mygps.unrelated_to_function.start.model.User;
+import com.mygps.unrelated_to_function.start.utils.UserCheck;
 import com.mygps.utils.material_design.StatusBarUtils;
 
 import cn.bmob.v3.BmobUser;
@@ -24,9 +26,6 @@ public class SigninActivity extends AppCompatActivity {
     EditText username;
     EditText password;
 
-  /*  Button sign;
-    Button reset;
-*/
     Toolbar mToolBar;
 
     @Override
@@ -59,42 +58,6 @@ public class SigninActivity extends AppCompatActivity {
         //findViewById(R.id.signInUserIM).requestFocus();
         username.addTextChangedListener(new textWatcher());
         password.addTextChangedListener(new textWatcher());
-/*
-        sign = (Button) findViewById(R.id.signin_signin);
-        reset = (Button) findViewById(R.id.signin_reset);
-
-
-        sign.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                final String un = username.getText().toString();
-                String pw = password.getText().toString();
-
-
-                *//**
-                 * 此处做用户名和密码的检查
-                 *//*
-
-                BmobUser user = new BmobUser();
-                user.setUsername(un);
-                user.setPassword(pw);
-                user.signUp(SigninActivity.this, new SaveListener() {
-                    @Override
-                    public void onSuccess() {
-                        Intent intent = new Intent(SigninActivity.this, LoginActivity.class);
-                        intent.putExtra("username" , un);
-                        startActivity(intent);
-                    }
-
-                    @Override
-                    public void onFailure(int i, String s) {
-
-                    }
-                });
-
-            }
-        });*/
 
     }
 
@@ -141,6 +104,12 @@ public class SigninActivity extends AppCompatActivity {
                 final String un = username.getText().toString();
                 String pw = password.getText().toString();
 
+                switch (UserCheck.check(un,pw)){
+                    case UserCheck.OK:;break;
+                    case UserCheck.USERNAMEERROR:break;//username错误处理
+                    case UserCheck.PASSWORDERROR:break;//password错误处理
+                    default:break;
+                }
 
                 //用户名与密码检查
 
@@ -149,11 +118,7 @@ public class SigninActivity extends AppCompatActivity {
                 user.setPassword(pw);
                 user.signUp(SigninActivity.this, new SaveListener() {
                     @Override
-                    public void onSuccess() {/*
-                        Intent intent = new Intent(SigninActivity.this, LoginActivity.class);
-                        intent.putExtra("username" , un);
-                        startActivity(intent);*/
-
+                    public void onSuccess() {
                         finish();
                     }
 

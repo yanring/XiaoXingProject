@@ -24,7 +24,7 @@ public class MyApplication extends Application {
     Long sleepTime = 60000L;
 
     BmobUser user;
-    
+
     @Override
     public void onCreate() {
         super.onCreate();

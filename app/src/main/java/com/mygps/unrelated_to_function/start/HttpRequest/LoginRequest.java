@@ -15,10 +15,10 @@ public class LoginRequest extends BaseRequest {
     private static final int ERROR_USERNAME = 1;
     private static final int ERROR_PASSWORD = 2;
     private static final int SERVER_NOT_AVAIBLE = 3;
-    public LoginRequest(String uri, Object writeObject) throws Exception {
+    private static final String uri ="http://123.206.30.177/GPSServer/user/login.do";
+    public LoginRequest( Object writeObject) throws Exception {
         super(uri, writeObject);
     }
-
 
     @Override
     void onResult(InputStream inputStream) {

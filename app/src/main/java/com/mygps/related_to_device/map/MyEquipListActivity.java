@@ -31,6 +31,7 @@ import com.mygps.MyApplication;
 import com.mygps.R;
 import com.mygps.related_to_device.map.HttpRequest.GpsRequestThread;
 import com.mygps.related_to_device.map.adapter.MyEquipListAdapter;
+import com.mygps.related_to_device.map.model.Equip;
 import com.mygps.related_to_device.map.model.Equipment;
 
 import java.util.HashMap;
@@ -57,6 +58,7 @@ public class MyEquipListActivity extends AppCompatActivity {
     RequestQueue queue;
 
     private static final String ADDEQUIP_URL = "http://123.206.30.177/GPSServer/user/addEquip.do";
+    private GpsRequestThread mGpsRequestThread;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,8 +83,8 @@ public class MyEquipListActivity extends AppCompatActivity {
 
 
         //测试thread
-        GpsRequestThread gpsRequestThread = new GpsRequestThread(this, "867521029822977");
-        gpsRequestThread.start();
+        mGpsRequestThread = new GpsRequestThread(this, "867521029822977");
+        mGpsRequestThread.start();
     }
 
     private void initView() {
@@ -92,6 +94,11 @@ public class MyEquipListActivity extends AppCompatActivity {
 
         app = (MyApplication) getApplication();
         equips = app.getEquips();
+        for (Equipment euip:equips) {//获取数据
+            mGpsRequestThread = new GpsRequestThread(this, euip.getId());
+            mGpsRequestThread.start();
+
+        }
 
         equipList = (ListView) findViewById(R.id.equiplist);
         equipList.setDividerHeight(0);

@@ -123,9 +123,14 @@ public class LoginRequest extends BaseRequest {
                 }
                 app.setEquips(list);
                 JSONObject jsonObjectUser=jsonObject.getJSONObject("user");
+                Log.i("json",jsonObjectUser.toString());
                 User user=new User();
                 user.setPassword(jsonObjectUser.getString("password"));
+                Log.i("pw0",user.getPassword());
                 user.setUsername(jsonObjectUser.getString("username"));
+                Log.i("un",user.getUsername());
+                user.setId(jsonObjectUser.getInt("id"));
+
                 app.setUser(user);
 
                 if (null != callback) callback.onSuccess();

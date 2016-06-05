@@ -56,7 +56,7 @@ public class MyEquipListActivity extends AppCompatActivity {
 
     RequestQueue queue;
 
-    private static final String ADDEQUIP_URL= "http://123.206.30.177/GPSServer/user/addEquip.do";
+    private static final String ADDEQUIP_URL = "http://123.206.30.177/GPSServer/user/addEquip.do";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,7 +77,7 @@ public class MyEquipListActivity extends AppCompatActivity {
     }
 
 
-    private void getEquipmentDate(){
+    private void getEquipmentDate() {
 
 
         //测试thread
@@ -169,39 +169,38 @@ public class MyEquipListActivity extends AppCompatActivity {
                     String nameStr = name.getText().toString();
                     String phoneStr = phone.getText().toString();
 
-                    Toast.makeText(MyEquipListActivity.this,"fsnjfsfs",Toast.LENGTH_LONG).show();
-
                     /**
                      * 这里做号码和名称的检测
                      */
-                    final Equipment equip=new Equipment();
+                    final Equipment equip = new Equipment();
                     equip.setPhone(phoneStr);
                     equip.setName(nameStr);
                     equip.setId(nameStr);
                     equip.setuId(app.getUser().getId());
-                    new StringRequest(Request.Method.POST, ADDEQUIP_URL, new Listener<String>() {
+                    StringRequest addRequest = new StringRequest(Request.Method.POST, ADDEQUIP_URL, new Listener<String>() {
                         @Override
                         public void onResponse(String response) {
-                            Toast.makeText(MyEquipListActivity.this,response,Toast.LENGTH_LONG).show();
+                            equips.add(equip);
+                            adp.notifyDataSetChanged();
                         }
                     }, new Response.ErrorListener() {
                         @Override
                         public void onErrorResponse(VolleyError error) {
-                            Toast.makeText(MyEquipListActivity.this,error.getMessage(),Toast.LENGTH_LONG).show();
+                            Toast.makeText(MyEquipListActivity.this, error.getMessage(), Toast.LENGTH_LONG).show();
                         }
-                    }){
+                    }) {
                         @Override
                         protected Map<String, String> getParams() throws AuthFailureError {
                             super.getParams();
-                            Map<String,String> map=new HashMap<String, String>();
-                            map.put("id",equip.getId());
-                            map.put("phone",equip.getPhone());
-                            map.put("name",equip.getName());
-                            map.put("uId",""+equip.getuId());
+                            Map<String, String> map = new HashMap<String, String>();
+                            map.put("id", equip.getId());
+                            map.put("phone", equip.getPhone());
+                            map.put("name", equip.getName());
+                            map.put("uId", "" + equip.getuId());
                             return map;
                         }
                     };
-
+                    queue.add(addRequest);
                 }
             });
             builder.setNegativeButton("取消", new DialogInterface.OnClickListener() {
@@ -237,7 +236,6 @@ public class MyEquipListActivity extends AppCompatActivity {
                 public void onClick(DialogInterface dialog, int which) {
                     //delete_device(position);
                     final Equipment equip = equips.get(position);
-
 
                 }
             });

@@ -37,6 +37,7 @@ public class GpsRequestThread extends Thread {//异步请求GPS数据
     @Override
     public void run() {
         super.run();
+
         RequestForJsonData requestForJsonData = new RequestForJsonData(
                 previousPositionUri + mId, new Response.Listener<JSONArray>() {
             @Override

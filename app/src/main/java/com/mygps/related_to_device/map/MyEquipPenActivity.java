@@ -250,6 +250,7 @@ public class MyEquipPenActivity extends AppCompatActivity {
         menuItemFresh = menu.add(0, 0, 0, "刷新");
         menuItemFresh.setIcon(R.mipmap.ic_refresh_white_36dp);
         menuItemFresh.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
+
         return super.onCreateOptionsMenu(menu);
     }
 

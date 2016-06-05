@@ -52,10 +52,11 @@ public class LocationService implements OnGetGeoCoderResultListener {
         /**
          获取数据库中最新的位置
          **/
+        Log.i("getCurrentPosition.java","getCurrentPosition");
         ContentResolver contentResolver = context.getContentResolver();
 
         Uri CurrentGPSUri = Uri.parse(URIList.GPS_URI);
-        Cursor cursor = contentResolver.query(CurrentGPSUri, null, null, null, "time");
+        Cursor cursor = contentResolver.query(CurrentGPSUri, null, "eId="+eId, null, "time");
         if(cursor.getCount()<=0){
             return null;
         }
@@ -81,7 +82,7 @@ public class LocationService implements OnGetGeoCoderResultListener {
         ContentResolver contentResolver = context.getContentResolver();
         ArrayList<LatLng> latLngs = new ArrayList<>();
         Uri CurrentGPSUri = Uri.parse(URIList.GPS_URI);
-        Cursor cursor = contentResolver.query(CurrentGPSUri, null, null, null, "time");
+        Cursor cursor = contentResolver.query(CurrentGPSUri, null,"eId="+eId, null, "time");
         while (cursor.moveToNext()) {
             String time = cursor.getString(cursor.getColumnIndex("time"));
             double lat = Double.parseDouble(cursor.getString(cursor.getColumnIndex("lat")));

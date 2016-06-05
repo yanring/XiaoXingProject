@@ -41,7 +41,13 @@ public class EquipPathViewManager {
     }
     public void show(){
         remove();
-        addOverlay(locationService.getPreviousPostion(eId,context));
+        ArrayList<LatLng> LatLngList = locationService.getPreviousPostion(eId, context);
+
+        if (LatLngList == null)
+        {
+            return;
+        }
+        addOverlay(LatLngList);
         pathViewIsShow=true;
     }
 

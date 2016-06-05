@@ -1,6 +1,7 @@
 package com.mygps.related_to_device.map;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import com.baidu.mapapi.map.BaiduMap;
@@ -15,7 +16,7 @@ import com.mygps.related_to_device.map.service.LocationService;
 /**
  * Created by 10397 on 2016/5/15.
  */
-public class EquipLocationViewManager {
+class EquipLocationViewManager {
     BaiduMap baiduMap;
     TextView locationTextView;
     View view;
@@ -27,6 +28,7 @@ public class EquipLocationViewManager {
     private BitmapDescriptor dropBitmap=BitmapDescriptorFactory.fromResource(R.mipmap.drop_location_ic);
     public EquipLocationViewManager(Context context, String eId, View view,BaiduMap baiduMap) {
         this.eId=eId;
+        Log.i("eid:",this.eId);
         this.context=context;
         this.view=view;
         this.baiduMap=baiduMap;
@@ -51,6 +53,12 @@ public class EquipLocationViewManager {
         });
 
         LatLng desLatLng = locationService.getCurrentPosition(eId,context);//通过数据库查询当前坐标并转成百度坐标
+        if (desLatLng == null){
+            return;
+        }
+        Log.i("EquipLocation eid",eId.toString());
+        Log.i("EquipLocation",locationService.getCurrentPosition(eId,context).toString());
+
         MyLocationData locationData = new MyLocationData.Builder().latitude(desLatLng.latitude).longitude(desLatLng.longitude).build();
         baiduMap.setMyLocationData(locationData);
         MyLocationConfiguration config = new MyLocationConfiguration(MyLocationConfiguration.LocationMode.FOLLOWING, true, null);

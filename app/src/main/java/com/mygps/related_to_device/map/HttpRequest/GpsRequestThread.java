@@ -26,7 +26,7 @@ public class GpsRequestThread extends Thread {//异步请求GPS数据
     private final Context mContext;
     private final RequestQueue mQueue;
     String mId ;
-    private static String previousPositionUri="http://123.206.30.177/GPSServer/position/previous.do?eld=";
+    private static String previousPositionUri="http://123.206.30.177/GPSServer/position/previous.do?eId=";
 
     public GpsRequestThread(Context context,String id){
         mContext = context;
@@ -44,7 +44,9 @@ public class GpsRequestThread extends Thread {//异步请求GPS数据
                 Log.i("Request", response.toString());
                 try {
                     Log.i("RequestSingle", (response.length()-1)+response.get(response.length()-1).toString());
+                    Log.i("json",response.toString());
                     parseJson(response);
+
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -90,8 +92,6 @@ public class GpsRequestThread extends Thread {//异步请求GPS数据
             contentValues.put("speed", jsonObject.get("speed").toString());
             contentValues.put("eId", jsonObject.get("eId").toString());
 
-            //Log.i("TAG2",jsonObject.get("eId").toString());
-            //Log.i("TAG2",jsonObject.get("time").toString());
             if ((contentResolver.query(insertUri, null, "id=" + id, null, null).getCount() == 0)) {
                 contentResolver.insert(insertUri, contentValues);
                 Log.i("RequestParseJson", String.valueOf(contentResolver.query(insertUri, null, "id=" + id, null, null).getCount()));

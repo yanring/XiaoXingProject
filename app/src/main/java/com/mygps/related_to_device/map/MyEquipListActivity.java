@@ -67,7 +67,7 @@ public class MyEquipListActivity extends AppCompatActivity {
         initView();
 
         queue = Volley.newRequestQueue(this);
-
+        getEquipmentDate();
     }
 
     @Override

@@ -243,13 +243,32 @@ public class MyEquipListActivity extends AppCompatActivity {
                 public void onClick(DialogInterface dialog, int which) {
                     //delete_device(position);
                     final Equipment equip = equips.get(position);
-
+                    //Toast.makeText(MyEquipListActivity.this, "shen", Toast.LENGTH_LONG).show();
+                    deleteEquip();
                 }
             });
             builder.setNegativeButton("取消", null);
             return builder.create();
         }
-
+        private void deleteEquip() {
+            String url = "http://123.206.30.177/GPSServer/user/deleteEquip.do?id="+equips.get(position).getId();
+            Log.i("aa", equips.get(position).getId());
+            StringRequest request=new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
+                @Override
+                public void onResponse(String response) {
+                    Toast.makeText(MyEquipListActivity.this, "shen", Toast.LENGTH_LONG).show();
+                    Log.i("aa", "get请求成功" + response);
+                    adp.notifyDataSetChanged();
+                }
+            }, new Response.ErrorListener() {
+                @Override
+                public void onErrorResponse(VolleyError error) {
+                    Toast.makeText(MyEquipListActivity.this, "请求失败！", Toast.LENGTH_LONG).show();
+                    Log.i("aa", "get请求失败" + error);
+                }
+            });
+            queue.add(request);
+        }
     }
 
 }

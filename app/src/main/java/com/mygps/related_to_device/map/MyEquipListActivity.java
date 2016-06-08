@@ -3,9 +3,11 @@ package com.mygps.related_to_device.map;
 import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.app.ProgressDialog;
+import android.content.ContentResolver;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
@@ -33,6 +35,7 @@ import com.mygps.related_to_device.map.HttpRequest.GpsRequestThread;
 import com.mygps.related_to_device.map.adapter.MyEquipListAdapter;
 import com.mygps.related_to_device.map.model.Equip;
 import com.mygps.related_to_device.map.model.Equipment;
+import com.mygps.related_to_device.map.provider.URIList;
 
 import java.util.HashMap;
 import java.util.List;
@@ -97,7 +100,6 @@ public class MyEquipListActivity extends AppCompatActivity {
         for (Equipment euip:equips) {//获取数据
             mGpsRequestThread = new GpsRequestThread(this, euip.getId());
             mGpsRequestThread.start();
-
         }
 
         equipList = (ListView) findViewById(R.id.equiplist);
@@ -243,8 +245,9 @@ public class MyEquipListActivity extends AppCompatActivity {
                 public void onClick(DialogInterface dialog, int which) {
                     //delete_device(position);
                     final Equipment equip = equips.get(position);
-                    //Toast.makeText(MyEquipListActivity.this, "shen", Toast.LENGTH_LONG).show();
                     deleteEquip();
+                    equips.remove(equips.get(position));
+                    adp.notifyDataSetChanged();
                 }
             });
             builder.setNegativeButton("取消", null);
@@ -258,17 +261,27 @@ public class MyEquipListActivity extends AppCompatActivity {
                 public void onResponse(String response) {
                     Toast.makeText(MyEquipListActivity.this, "shen", Toast.LENGTH_LONG).show();
                     Log.i("aa", "get请求成功" + response);
-                    adp.notifyDataSetChanged();
-                }
-            }, new Response.ErrorListener() {
+                    //adp.notifyDataSetChanged();
+            }
+        }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError error) {
                     Toast.makeText(MyEquipListActivity.this, "请求失败！", Toast.LENGTH_LONG).show();
                     Log.i("aa", "get请求失败" + error);
+                    //deleteLocalEquips();
+                    //adp.notifyDataSetChanged();
                 }
             });
             queue.add(request);
         }
+        private void deleteLocalEquips() {
+            Log.d("deleteLocal","删除了本地设备！");
+            ContentResolver contentResolver = mContext.getContentResolver();
+            Uri uri = Uri.parse(URIList.GPS_URI);
+            if ((contentResolver.query(uri, null, "id=" + equips.get(position).getId(), null, null).getCount() != 0)) {
+                contentResolver.delete(uri, "id=" +"?",new String[]{equips.get(position).getId()});
+            }
+            contentResolver.notifyChange(uri,null);
+        }
     }
-
 }

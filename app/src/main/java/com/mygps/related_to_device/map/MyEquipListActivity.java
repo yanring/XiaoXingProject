@@ -98,7 +98,7 @@ public class MyEquipListActivity extends AppCompatActivity {
         app = (MyApplication) getApplication();
         equips = app.getEquips();
         for (Equipment euip:equips) {//获取数据
-            mGpsRequestThread = new GpsRequestThread(this, euip.getId());
+            mGpsRequestThread = new GpsRequestThread(this, euip.geteId());
             mGpsRequestThread.start();
         }
 
@@ -182,9 +182,9 @@ public class MyEquipListActivity extends AppCompatActivity {
                      * 这里做号码和名称的检测
                      */
                     final Equipment equip = new Equipment();
-                    equip.setPhone(phoneStr);
-                    equip.setName(nameStr);
-                    equip.setId(nameStr);
+                 //   equip.setPhone(phoneStr);
+                    equip.setName(phoneStr);
+                    equip.seteId(nameStr);
                     equip.setuId(app.getUser().getId());
                     StringRequest addRequest = new StringRequest(Request.Method.POST, ADDEQUIP_URL, new Listener<String>() {
                         @Override
@@ -202,8 +202,8 @@ public class MyEquipListActivity extends AppCompatActivity {
                         protected Map<String, String> getParams() throws AuthFailureError {
                             super.getParams();
                             Map<String, String> map = new HashMap<String, String>();
-                            map.put("id", equip.getId());
-                            map.put("phone", equip.getPhone());
+                            map.put("eId", equip.geteId());
+                            map.put("phone", "12345678910");
                             map.put("name", equip.getName());
                             map.put("uId", "" + equip.getuId());
                             return map;
@@ -239,15 +239,14 @@ public class MyEquipListActivity extends AppCompatActivity {
 
             AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
             builder.setTitle("删除设备");
-            builder.setMessage("设备名:" + equips.get(position).getName() + "\n电话号码:" + equips.get(position).getPhone());
+            builder.setMessage("设备名:" + equips.get(position).getName() + "\nName:" + equips.get(position).getName());
             builder.setPositiveButton("删除", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     //delete_device(position);
                     final Equipment equip = equips.get(position);
                     deleteEquip();
-                    equips.remove(equips.get(position));
-                    adp.notifyDataSetChanged();
+
                 }
             });
             builder.setNegativeButton("取消", null);
@@ -255,12 +254,14 @@ public class MyEquipListActivity extends AppCompatActivity {
         }
         private void deleteEquip() {
             String url = "http://123.206.30.177/GPSServer/user/deleteEquip.do?id="+equips.get(position).getId();
-            Log.i("aa", equips.get(position).getId());
+            Log.i("aa", equips.get(position).geteId());
             StringRequest request=new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
                 @Override
                 public void onResponse(String response) {
                     Toast.makeText(MyEquipListActivity.this, "shen", Toast.LENGTH_LONG).show();
                     Log.i("aa", "get请求成功" + response);
+                    equips.remove(equips.get(position));
+                    adp.notifyDataSetChanged();
                     //adp.notifyDataSetChanged();
             }
         }, new Response.ErrorListener() {
@@ -278,8 +279,8 @@ public class MyEquipListActivity extends AppCompatActivity {
             Log.d("deleteLocal","删除了本地设备！");
             ContentResolver contentResolver = mContext.getContentResolver();
             Uri uri = Uri.parse(URIList.GPS_URI);
-            if ((contentResolver.query(uri, null, "id=" + equips.get(position).getId(), null, null).getCount() != 0)) {
-                contentResolver.delete(uri, "id=" +"?",new String[]{equips.get(position).getId()});
+            if ((contentResolver.query(uri, null, "id=" + equips.get(position).geteId(), null, null).getCount() != 0)) {
+                contentResolver.delete(uri, "id=" +"?",new String[]{equips.get(position).geteId()});
             }
             contentResolver.notifyChange(uri,null);
         }

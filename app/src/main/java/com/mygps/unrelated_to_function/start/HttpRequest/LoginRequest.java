@@ -108,16 +108,16 @@ public class LoginRequest extends BaseRequest {
 
             map.put("error",jsonObject.get("error"));
 
-
             if (0==(int)jsonObject.get("error")){
                 JSONArray jsonArrayEquips=jsonObject.getJSONArray("equips");
                 List<Equipment> list=new ArrayList<>();
                 for (int i=0;i<jsonArrayEquips.length();i++){
                     JSONObject jsonObjectEquip=(JSONObject)jsonArrayEquips.get(i);
                     Equipment equipment=new Equipment();
-                    equipment.setId((String) jsonObjectEquip.get("id"));
+                    equipment.setId((int)jsonObjectEquip.get("id"));
+                    equipment.seteId((String) jsonObjectEquip.get("eId"));
                     equipment.setName((String) jsonObjectEquip.get("name"));
-                    equipment.setPhone((String) jsonObjectEquip.get("phone"));
+                  //  equipment.setPhone((String) jsonObjectEquip.get("phone"));
                     equipment.setuId((int) jsonObjectEquip.get("uId"));
                     list.add(equipment);
                 }

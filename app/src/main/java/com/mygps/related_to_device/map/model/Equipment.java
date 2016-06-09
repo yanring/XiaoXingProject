@@ -1,31 +1,41 @@
 package com.mygps.related_to_device.map.model;
 
-import java.io.Serializable;
 
 /**
- * Created by 10397 on 2016/6/1.
+ * 用户添加设备的记录
+ * @author HowieWang
+ *
  */
-public class Equipment implements Serializable {
+public class Equipment {
 
-    private String id;
-    private String phone;
+    /**
+     * id是添加记录的id，唯一标识了某用户添加了某一设备
+     * eId是设备IMEI
+     * uId是用户id
+     * name是昵称字段
+     * phone设备对应phone
+     */
+    private int id;
+    private String eId;
     private String name;
     private int uId;
+   // private String phone;
 
-    public String getId() {
+
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
-    public String getPhone() {
-        return phone;
+    public String geteId() {
+        return eId;
     }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
+    public void seteId(String eId) {
+        this.eId = eId;
     }
 
     public String getName() {
@@ -43,5 +53,12 @@ public class Equipment implements Serializable {
     public void setuId(int uId) {
         this.uId = uId;
     }
+
+/*    public void setPhone(String phone){
+        this.phone=phone;
+    }
+    public String getPhone(){
+        return this.phone;
+    }*/
 
 }

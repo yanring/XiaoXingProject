@@ -83,6 +83,10 @@ public class LocationService implements OnGetGeoCoderResultListener {
         ArrayList<LatLng> latLngs = new ArrayList<>();
         Uri CurrentGPSUri = Uri.parse(URIList.GPS_URI);
         Cursor cursor = contentResolver.query(CurrentGPSUri, null,"eId="+eId, null, "time");
+        if (cursor.getCount()<=0)
+        {
+            return null;
+        }
         while (cursor.moveToNext()) {
             String time = cursor.getString(cursor.getColumnIndex("time"));
             double lat = Double.parseDouble(cursor.getString(cursor.getColumnIndex("lat")));
@@ -92,10 +96,7 @@ public class LocationService implements OnGetGeoCoderResultListener {
             latLngs.add(new LatLng(lat, lng));
         }
         Log.i("latLngs", latLngs.toString());
-        if (cursor.getCount()<=0)
-        {
-            return null;
-        }
+
         cursor.close();
         return latLngs;
     }
@@ -113,7 +114,7 @@ public class LocationService implements OnGetGeoCoderResultListener {
         ReverseGeoCodeOption op = new ReverseGeoCodeOption();
         op.location(getCurrentPosition(eId, context));
         if(getCurrentPosition(eId, context)==null){
-            return "地址为空";
+            return "无位置信息";
         }
         geoCoder.reverseGeoCode(op);
         geoCoder.setOnGetGeoCodeResultListener(new OnGetGeoCoderResultListener() {

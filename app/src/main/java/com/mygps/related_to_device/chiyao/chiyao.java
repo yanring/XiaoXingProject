@@ -54,7 +54,7 @@ public class chiyao extends AppCompatActivity implements View.OnClickListener {
         positionTextView.setText("无位置信息");
         LocationService locationService = new LocationService();
         if (((MyApplication) getApplication()).getEquips().size()>0) {
-            locationService.getAddress(((MyApplication) getApplication()).getEquips().get(0).getName(), this);
+            locationService.getAddress(((MyApplication) getApplication()).getEquips().get(0).geteId(), this);
         }
         locationService.setAddressListener(new LocationService.OnAddress() {
             @Override

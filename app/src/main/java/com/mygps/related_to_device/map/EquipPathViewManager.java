@@ -1,6 +1,7 @@
 package com.mygps.related_to_device.map;
 
 import android.content.Context;
+import android.util.Log;
 
 import com.baidu.mapapi.map.BaiduMap;
 import com.baidu.mapapi.map.BitmapDescriptor;
@@ -45,6 +46,7 @@ public class EquipPathViewManager {
 
         if (LatLngList == null)
         {
+            Log.i("LatLngList","It\'s null;");
             return;
         }
         addOverlay(LatLngList);

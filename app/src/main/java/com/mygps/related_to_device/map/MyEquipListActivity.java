@@ -72,7 +72,7 @@ public class MyEquipListActivity extends AppCompatActivity {
         initView();
 
         queue = Volley.newRequestQueue(this);
-        getEquipmentDate();
+
     }
 
     @Override
@@ -81,14 +81,6 @@ public class MyEquipListActivity extends AppCompatActivity {
         adp.notifyDataSetChanged();
     }
 
-
-    private void getEquipmentDate() {
-
-
-        //测试thread
-        mGpsRequestThread = new GpsRequestThread(this, "867521029822977");
-        mGpsRequestThread.start();
-    }
 
     private void initView() {
 

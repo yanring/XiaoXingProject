@@ -53,7 +53,7 @@ public class MyEquipDetailActivity extends AppCompatActivity {
         app = (MyApplication) getApplication();
 
         curEquip = app.getEquips().get(getIntent().getIntExtra("equipPos", -1));
-        eId=curEquip.getName();
+        eId=curEquip.geteId();
 
         mToolBar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mToolBar);

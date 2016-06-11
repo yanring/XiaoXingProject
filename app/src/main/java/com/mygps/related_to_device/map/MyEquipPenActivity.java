@@ -72,7 +72,7 @@ public class MyEquipPenActivity extends AppCompatActivity {
 
         sharedPreferences = getSharedPreferences("equipPen", MODE_PRIVATE);
 
-        equipID = ((MyApplication) getApplication()).getEquips().get(getIntent().getIntExtra("equipPos", -1)).getName();
+        equipID = ((MyApplication) getApplication()).getEquips().get(getIntent().getIntExtra("equipPos", -1)).geteId();
 
         initOtherView();
         initMap();
@@ -115,7 +115,13 @@ public class MyEquipPenActivity extends AppCompatActivity {
         baiduMap.setMyLocationEnabled(true);
         //构建Marker图标
         mBitmap = BitmapDescriptorFactory.fromResource(R.mipmap.drop_location_ic);
-        MyLocationData locationData = new MyLocationData.Builder().latitude(sharedPreferences.getFloat(equipID + "CenterLat", (float) (new LocationService()).getCurrentPosition(equipID, this).latitude)).longitude(sharedPreferences.getFloat(equipID + "CenterLng", (float) (new LocationService()).getCurrentPosition(equipID, this).longitude)).build();
+        MyLocationData locationData;
+        if (null != (new LocationService()).getCurrentPosition(equipID, this)) {
+            locationData = new MyLocationData.Builder().latitude(sharedPreferences.getFloat(equipID + "CenterLat", (float) (new LocationService()).getCurrentPosition(equipID, this).latitude)).longitude(sharedPreferences.getFloat(equipID + "CenterLng", (float) (new LocationService()).getCurrentPosition(equipID, this).longitude)).build();
+        }else {
+            locationData = new MyLocationData.Builder().latitude(39.915).longitude(116.404).build();
+
+        }
         baiduMap.setMyLocationData(locationData);
 
         MyLocationConfiguration config = new MyLocationConfiguration(MyLocationConfiguration.LocationMode.FOLLOWING, true, mBitmap);

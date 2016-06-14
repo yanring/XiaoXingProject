@@ -47,12 +47,12 @@ public class MainActivity extends AppCompatActivity {
         new StatusBarUtils().setStatusBar(this);
 
 /*
-
         mToolBar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mToolBar);
 
         getSupportActionBar().setTitle("用户名");
 */
+
 
         activityManager = new LocalActivityManager(this, true);
         activityManager.dispatchCreate(savedInstanceState);

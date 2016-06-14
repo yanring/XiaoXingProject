@@ -17,6 +17,7 @@ import com.baidu.mapapi.map.MapView;
 import com.mygps.MyApplication;
 import com.mygps.R;
 import com.mygps.related_to_device.map.model.Equipment;
+import com.mygps.related_to_device.map.service.BatteryService;
 import com.mygps.utils.material_design.StatusBarUtils;
 
 /**
@@ -108,9 +109,9 @@ public class MyEquipDetailActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        showLocation = menu.add(0, 0, 0, "位置");
-        showLocation.setTitle("关闭位置");
-        showLocation.setVisible(false);
+        showLocation = menu.add(0, 0, 0, "电量");
+        showLocation.setTitle(BatteryService.getBatteryString(eId,MyEquipDetailActivity.this));
+        showLocation.setEnabled(true);
         showLocation.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
 
         showPath = menu.add(0, 1, 1, "历史轨迹");
@@ -127,13 +128,14 @@ public class MyEquipDetailActivity extends AppCompatActivity {
                 finish();
                 break;
             case 0:
-                if (locationViewManager.getViewVisibility()) {
+/*                if (locationViewManager.getViewVisibility()) {
                     locationViewManager.remove();
                     showLocation.setTitle("显示位置");
                 } else {
                     locationViewManager.show();
                     showLocation.setTitle("关闭位置");
                 }
+                */
                 break;
             case 1:
                 if (pathViewManager.getViewVisibility()) {

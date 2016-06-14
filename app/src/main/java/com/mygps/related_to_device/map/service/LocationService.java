@@ -63,11 +63,9 @@ public class LocationService implements OnGetGeoCoderResultListener {
         Log.i("CursorCount",cursor.getCount()+"");
         cursor.moveToLast();
 
-        //String time = cursor.getString(cursor.getColumnIndex("time"));
         double lat = Double.parseDouble(cursor.getString(cursor.getColumnIndex("lat")));
         double lng = Double.parseDouble(cursor.getString(cursor.getColumnIndex("lng")));
 
-        //Log.i("TAG2","time:"+time+"坐标:"+lat+","+lng);
         LatLng sourceLatLng = new LatLng(lat, lng);
 
         cursor.close();

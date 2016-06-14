@@ -33,7 +33,7 @@ import com.mygps.MyApplication;
 import com.mygps.R;
 import com.mygps.related_to_device.map.HttpRequest.GpsRequestThread;
 import com.mygps.related_to_device.map.adapter.MyEquipListAdapter;
-import com.mygps.related_to_device.map.model.Equip;
+
 import com.mygps.related_to_device.map.model.Equipment;
 import com.mygps.related_to_device.map.provider.URIList;
 

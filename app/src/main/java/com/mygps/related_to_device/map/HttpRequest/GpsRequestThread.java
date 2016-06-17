@@ -92,6 +92,7 @@ public class GpsRequestThread extends Thread {//异步请求GPS数据
             contentValues.put("lng", BaiduLat.longitude);
             contentValues.put("speed", jsonObject.get("speed").toString());
             contentValues.put("eId", jsonObject.get("eId").toString());
+            contentValues.put("inRail", jsonObject.get("inRail").toString());
             contentValues.put("battery",jsonObject.get("battery").toString());
             if ((contentResolver.query(insertUri, null, "id=" + id, null, null).getCount() == 0)) {
                 contentResolver.insert(insertUri, contentValues);

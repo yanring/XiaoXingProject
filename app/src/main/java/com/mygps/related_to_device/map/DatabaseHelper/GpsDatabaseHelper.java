@@ -22,8 +22,8 @@ public class GpsDatabaseHelper extends SQLiteOpenHelper {
                 + "lng REAL, "
                 + "speed REAL, "
                 + "eId TEXT,"
-                + "battery INTEGER"
-                +"inRail BOOLEAN)");
+                + "inRail BOOLEAN,"
+                +"battery INTEGER)");
         Log.i("TAG2","CREATED TABLE");
     }
 

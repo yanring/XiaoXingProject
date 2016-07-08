@@ -54,7 +54,7 @@ public class PenLocationPost {
         showPro();
         LatLng postCentlatLng = convertBDToGps(centLatLng);
         LatLng postRadiusLatLng = convertBDToGps(radiusLatLng);
-        StringRequest request=new StringRequest(String.format(postUri, new String[]{eId, postCentlatLng.latitude + "", postCentlatLng.longitude + "", "" + Math.sqrt(Math.pow(postCentlatLng.latitude - postRadiusLatLng.latitude, 2) + Math.pow(postCentlatLng.longitude - postRadiusLatLng.longitude, 2))}), new Response.Listener<String>() {
+        StringRequest request=new StringRequest(String.format(postUri, new Object[]{eId, postCentlatLng.latitude + "", postCentlatLng.longitude + "", "" + Math.sqrt(Math.pow(postCentlatLng.latitude - postRadiusLatLng.latitude, 2) + Math.pow(postCentlatLng.longitude - postRadiusLatLng.longitude, 2))}), new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
                 Log.i("PostPenResponse",response);

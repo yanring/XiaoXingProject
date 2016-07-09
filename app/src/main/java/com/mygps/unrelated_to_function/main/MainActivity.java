@@ -14,6 +14,7 @@ import android.widget.LinearLayout;
 import com.mygps.R;
 import com.mygps.related_to_device.chiyao.chiyao;
 import com.mygps.related_to_device.map.MyEquipListActivity;
+import com.mygps.related_to_extra_function.MoreInfo.MoreInfoFragment;
 import com.mygps.related_to_extra_function.shopping.ShopWebViewActivity;
 import com.mygps.unrelated_to_function.main.adapter.MainViewPaperAdapter;
 
@@ -53,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("用户名");
 */
 
-
         activityManager = new LocalActivityManager(this, true);
         activityManager.dispatchCreate(savedInstanceState);
 
@@ -61,31 +61,22 @@ public class MainActivity extends AppCompatActivity {
 
         viewPager = (ViewPager) findViewById(R.id.activityCommunityViewPager);
 
+        addView("我的设备",getView("我的设备", new Intent(this, MyEquipListActivity.class)));
 
-        Map<String, Object> map = new HashMap<>();
-        map.put("title", "我的设备");
-        map.put("view", getView((String) map.get("title"), new Intent(this, MyEquipListActivity.class)));
-        viewList.add(map);
-
-        Map<String, Object> map4 = new HashMap<>();
         CommunitySDK mCommSDK = CommunityFactory.getCommSDK(this);
         mCommSDK.initSDK(this);
-
         CommunityMainFragment fragment = new CommunityMainFragment();
 //设置Feed流页面的返回按钮不可见
         fragment.setBackButtonVisibility(View.GONE);
 
-        map4.put("title", "论坛");
-        map4.put("view", fragment);
-        viewList.add(map4);
-        Map<String, Object> map1 = new HashMap<>();
-        map1.put("title", "商店");
-        map1.put("view", getView((String) map1.get("title"), new Intent(this, ShopWebViewActivity.class)));
-        viewList.add(map1);
-        Map<String, Object> map2 = new HashMap<>();
-        map2.put("title", "吃药提醒");
-        map2.put("view", getView((String) map2.get("title"), new Intent(this, chiyao.class)));
-        viewList.add(map2);
+        addView("论坛",fragment);
+
+        addView("商店",getView("商店", new Intent(this, ShopWebViewActivity.class)));
+
+        addView("吃药提醒",getView("吃药提醒", new Intent(this, chiyao.class)));
+
+        addView("更多",new MoreInfoFragment());
+
         MainViewPaperAdapter mAdapter = new MainViewPaperAdapter(viewList, getSupportFragmentManager());
         tabLayout.setTabsFromPagerAdapter(mAdapter);
         viewPager.setAdapter(mAdapter);
@@ -118,6 +109,13 @@ public class MainActivity extends AppCompatActivity {
     private void loadActivity(int position) {
         Activity activity = activityManager.getActivity((String) viewList.get(position).get("title"));
 
+    }
+
+    private void addView(String title,Object object){
+        Map<String, Object> map = new HashMap<>();
+        map.put("title", title);
+        map.put("view", object);
+        viewList.add(map);
     }
 
 }

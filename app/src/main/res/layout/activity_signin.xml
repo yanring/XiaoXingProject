@@ -66,39 +66,6 @@
                 android:inputType="textPassword" />
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="50dp">
-
-            <Button
-                android:id="@+id/signin_signin"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/welcome_btn"
-                android:text="注册"
-                android:textColor="#ffffff"
-                android:textSize="20sp" />
-
-            <Button
-                android:id="@+id/signin_reset"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="60dp"
-                android:background="@drawable/welcome_btn"
-                android:text="重置"
-                android:textColor="#ffffff"
-                android:textSize="20sp" />
-
-        </LinearLayout>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="现版本为测试版,各大功能仍在完善中,敬请期待"
-            android:layout_marginTop="40dp"
-                />
     </LinearLayout>
 
 </LinearLayout>

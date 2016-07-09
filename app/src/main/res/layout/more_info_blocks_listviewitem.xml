@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="?attr/actionModePasteDrawable"
+        android:layout_alignParentTop="false"
+        android:id="@+id/MoreInfoBlockItemImageVIew"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="false"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MoreInfoBlockItemInfoTV"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:text="more"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MoreInfoBlockItemTitleTV"
+        android:layout_toLeftOf="@id/MoreInfoBlockItemInfoTV"
+        android:layout_toRightOf="@id/MoreInfoBlockItemImageVIew"
+        android:layout_centerHorizontal="false"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

@@ -14,7 +14,7 @@ public class DownloadVersion {
     public static void downloadNewVersion(String path, Context context) {
         DownloadManager downloadManager = (DownloadManager) context.getSystemService(DOWNLOAD_SERVICE);
 
-        Uri uri = Uri.parse("path");
+        Uri uri = Uri.parse(path);
         DownloadManager.Request request = new DownloadManager.Request(uri);
 
         //设置允许使用的网络类型，这里是移动网络和wifi都可以

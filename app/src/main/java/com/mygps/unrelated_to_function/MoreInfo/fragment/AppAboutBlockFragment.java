@@ -11,6 +11,7 @@ import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
 import com.mygps.R;
+import com.mygps.unrelated_to_function.update.CheckUpdateServer;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -77,7 +78,7 @@ public class AppAboutBlockFragment extends Fragment {
             switch (position){
                 case 0:;break;
                 case 1:;break;
-                case 2:;break;
+                case 2:new CheckUpdateServer(getContext(),getActivity().getSupportFragmentManager()).checkUpdateWithDialog();break;
 
             }
         }

@@ -21,6 +21,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.baidu.mapapi.model.LatLng;
+import com.mygps.AppConf;
 
 /**
  * Created by 10397 on 2016/5/30.
@@ -28,7 +29,7 @@ import com.baidu.mapapi.model.LatLng;
 public class PenLocationPost {
     RequestQueue queue;
     Context context;
-    String postUri = "http://123.206.30.177/GPSServer/setting/addRail.do?eId=%s&lat=%s&lng=%s&radius=%s";
+    String postUri = AppConf.ServerPath+"setting/addRail.do?eId=%s&lat=%s&lng=%s&radius=%s";
     String eId;
     LatLng centLatLng,radiusLatLng;
     Activity activity;

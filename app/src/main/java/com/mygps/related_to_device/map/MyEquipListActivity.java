@@ -29,6 +29,7 @@ import com.android.volley.Response.Listener;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.mygps.AppConf;
 import com.mygps.MyApplication;
 import com.mygps.R;
 import com.mygps.related_to_device.map.HttpRequest.GpsRequestThread;
@@ -60,7 +61,7 @@ public class MyEquipListActivity extends AppCompatActivity {
 
     RequestQueue queue;
 
-    private static final String ADDEQUIP_URL = "http://123.206.30.177/GPSServer/user/addEquip.do";
+    private static final String ADDEQUIP_URL = AppConf.ServerPath+"user/addEquip.do";
     private GpsRequestThread mGpsRequestThread;
 
     @Override
@@ -245,7 +246,7 @@ public class MyEquipListActivity extends AppCompatActivity {
             return builder.create();
         }
         private void deleteEquip() {
-            String url = "http://123.206.30.177/GPSServer/user/deleteEquip.do?id="+equips.get(position).getId();
+            String url = AppConf.ServerPath+"user/deleteEquip.do?id="+equips.get(position).getId();
             Log.i("aa", equips.get(position).geteId());
             StringRequest request=new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
                 @Override

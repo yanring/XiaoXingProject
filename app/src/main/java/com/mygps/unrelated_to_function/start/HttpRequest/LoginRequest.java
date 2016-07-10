@@ -6,6 +6,7 @@ import android.content.Context;
 import android.util.Log;
 
 import com.google.gson.JsonObject;
+import com.mygps.AppConf;
 import com.mygps.MyApplication;
 import com.mygps.related_to_device.map.model.Equipment;
 import com.mygps.unrelated_to_function.start.model.User;
@@ -35,7 +36,7 @@ public class LoginRequest extends BaseRequest {
     private static final int ERROR_USERNAME = 1;
     private static final int ERROR_PASSWORD = 2;
     private static final int SERVER_NOT_AVAIBLE = 3;
-    private static final String uri = "http://123.206.30.177/GPSServer/user/login.do";
+    private static final String uri = AppConf.ServerPath+"user/login.do";
 
     public LoginRequest(User user, Activity activity) throws Exception {
         super(uri, "username=" + user.getUsername() + "&password=" + user.getPassword());

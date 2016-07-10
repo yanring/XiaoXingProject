@@ -1,6 +1,7 @@
 package com.mygps.unrelated_to_function.start.HttpRequest;
 
 
+import com.mygps.AppConf;
 import com.mygps.unrelated_to_function.start.model.User;
 
 import java.io.BufferedReader;
@@ -20,7 +21,7 @@ public class SigninUserPost extends BaseRequest {
     public static final int SIGNIN_ERROR_USEREXIST = 1;
     public static final int SIGNIN_ERROR_OTHER = 2;
     private static final int SERVER_NOT_AVAIBLE = 3;
-    private static final String postUri = "http://123.206.30.177/GPSServer/user/signin.do";
+    private static final String postUri = AppConf.ServerPath+"user/signin.do";
     private OnSignInCallback callback;
 
     public SigninUserPost(User user) throws Exception {

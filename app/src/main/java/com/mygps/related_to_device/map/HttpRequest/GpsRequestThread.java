@@ -13,6 +13,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.Volley;
 import com.baidu.mapapi.model.LatLng;
 import com.baidu.mapapi.utils.CoordinateConverter;
+import com.mygps.AppConf;
 import com.mygps.related_to_device.map.provider.URIList;
 
 import org.json.JSONArray;
@@ -26,7 +27,7 @@ public class GpsRequestThread extends Thread {//异步请求GPS数据
     private final Context mContext;
     private final RequestQueue mQueue;
     String mId ;
-    private static String previousPositionUri="http://123.206.30.177/GPSServer/position/previous.do?eId=";
+    private static String previousPositionUri= AppConf.ServerPath+"position/previous.do?eId=";
 
     public GpsRequestThread(Context context,String id){
         mContext = context;

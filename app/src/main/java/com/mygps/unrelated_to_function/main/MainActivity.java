@@ -14,7 +14,7 @@ import android.widget.LinearLayout;
 import com.mygps.R;
 import com.mygps.related_to_device.chiyao.chiyao;
 import com.mygps.related_to_device.map.MyEquipListActivity;
-import com.mygps.related_to_extra_function.MoreInfo.MoreInfoFragment;
+import com.mygps.unrelated_to_function.MoreInfo.MoreInfoFragment;
 import com.mygps.related_to_extra_function.shopping.ShopWebViewActivity;
 import com.mygps.unrelated_to_function.main.adapter.MainViewPaperAdapter;
 

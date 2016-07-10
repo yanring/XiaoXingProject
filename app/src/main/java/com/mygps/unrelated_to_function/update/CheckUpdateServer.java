@@ -57,10 +57,7 @@ public class CheckUpdateServer {
                 dissPro();
                 try {
                     versionInfo = new GsonBuilder().create().fromJson(response, VersionInfo.class);
-                    PackageManager manager = context.getPackageManager();
-                    PackageInfo info = manager.getPackageInfo(context.getPackageName(), 0);
-                    int code = info.versionCode;
-                    if (versionInfo.getCode()>code){
+                    if (versionInfo.getCode()>InfoUtils.getAppVersionCode(context)){
                         new NewVersionDialog().show(fragmentManager,null);
                     }else {
                         Toast.makeText(context,"已经是最新版本啦",Toast.LENGTH_SHORT).show();

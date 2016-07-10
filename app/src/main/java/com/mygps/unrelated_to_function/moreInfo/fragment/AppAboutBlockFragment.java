@@ -1,4 +1,4 @@
-package com.mygps.unrelated_to_function.MoreInfo.fragment;
+package com.mygps.unrelated_to_function.moreInfo.fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,6 +14,8 @@ import android.widget.SimpleAdapter;
 import com.mygps.R;
 import com.mygps.unrelated_to_function.feedback.FeedbackActivity;
 import com.mygps.unrelated_to_function.update.CheckUpdateServer;
+import com.mygps.unrelated_to_function.update.InfoUtils;
+import com.umeng.message.protobuffer.MessageResponse;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -40,7 +42,7 @@ public class AppAboutBlockFragment extends Fragment {
             R.drawable.abc_ic_star_black_48dp
     };
 
-    private static final String moreInfo[] ={
+    private String moreInfo[] ={
             null,
             null,
             "v1.0"
@@ -51,6 +53,7 @@ public class AppAboutBlockFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         layoutView=inflater.inflate(R.layout.fragment_moreinfo_appabout_block,null);
+        moreInfo[2]= InfoUtils.getAppVersionName(getContext());
         init();
         return layoutView;
     }

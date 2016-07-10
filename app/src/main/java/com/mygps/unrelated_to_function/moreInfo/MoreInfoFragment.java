@@ -1,4 +1,4 @@
-package com.mygps.unrelated_to_function.MoreInfo;
+package com.mygps.unrelated_to_function.moreInfo;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

@@ -9,6 +9,8 @@ import android.text.TextWatcher;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
+
+import com.mygps.MyApplication;
 import com.mygps.R;
 import com.mygps.utils.material_design.StatusBarUtils;
 
@@ -25,6 +27,7 @@ public class FeedbackActivity extends AppCompatActivity {
     EditText contactET;
     EditText contentET;
 
+    FeedbackServer feedbackServer;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -45,6 +48,9 @@ public class FeedbackActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("意见反馈");
 
         initView();
+
+        feedbackServer=new FeedbackServer(this,this,getSupportFragmentManager());
+
     }
 
     private void initView() {
@@ -90,7 +96,7 @@ public class FeedbackActivity extends AppCompatActivity {
                 finish();
                 break;
             case 0:
-
+                feedbackServer.send(contactET.getText().toString(),contentET.getText().toString(),((MyApplication) getApplication()).getUser().getId());
                 break;
         }
         return super.onOptionsItemSelected(item);

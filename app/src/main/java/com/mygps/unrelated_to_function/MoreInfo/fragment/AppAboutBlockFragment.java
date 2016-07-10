@@ -1,5 +1,6 @@
 package com.mygps.unrelated_to_function.MoreInfo.fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -11,6 +12,7 @@ import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
 import com.mygps.R;
+import com.mygps.unrelated_to_function.feedback.FeedbackActivity;
 import com.mygps.unrelated_to_function.update.CheckUpdateServer;
 
 import java.util.ArrayList;
@@ -76,7 +78,7 @@ public class AppAboutBlockFragment extends Fragment {
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
             switch (position){
-                case 0:;break;
+                case 0:startActivity(new Intent(getContext(), FeedbackActivity.class));break;
                 case 1:;break;
                 case 2:new CheckUpdateServer(getContext(),getActivity().getSupportFragmentManager()).checkUpdateWithDialog();break;
 

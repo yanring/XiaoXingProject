@@ -17,8 +17,6 @@ import com.mygps.R;
 public class MoreInfoFragment extends Fragment {
     View layoutView;
 
-
-
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

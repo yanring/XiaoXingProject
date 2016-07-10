@@ -44,8 +44,8 @@ public class WelcomeActivity extends AppCompatActivity {
         app = (MyApplication) getApplication();
 
         initView();
-        startActivity(new Intent(this,MainActivity.class));
-        finish();
+       /* startActivity(new Intent(this,MainActivity.class));
+        finish();*/
     }
 
     private void initView() {

@@ -1,4 +1,4 @@
-package com.mygps.unrelated_to_function.update.model.Download;
+package com.mygps.unrelated_to_function.update.Download;
 
 import android.app.DownloadManager;
 import android.content.Context;

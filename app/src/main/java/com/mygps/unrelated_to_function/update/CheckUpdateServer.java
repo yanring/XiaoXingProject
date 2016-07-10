@@ -20,7 +20,7 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.gson.GsonBuilder;
 import com.mygps.AppConf;
-import com.mygps.unrelated_to_function.update.model.Download.DownloadVersion;
+import com.mygps.unrelated_to_function.update.Download.DownloadVersion;
 import com.mygps.unrelated_to_function.update.model.VersionInfo;
 
 /**
@@ -30,9 +30,12 @@ import com.mygps.unrelated_to_function.update.model.VersionInfo;
 public class CheckUpdateServer {
     private ProgressDialog pro;
     private static final String CHECK_UPDATE_URL = AppConf.ServerPath + "setting/checkUpdate.do";
+    private static final String APP_DOWNLOAD_URL = AppConf.ServerPath + "download.do";
+
     private VersionInfo versionInfo;
     private RequestQueue queue;
     private Context context;
+
     private FragmentManager fragmentManager;
 
     public CheckUpdateServer(Context context, FragmentManager fragmentManager) {
@@ -59,6 +62,8 @@ public class CheckUpdateServer {
                     int code = info.versionCode;
                     if (versionInfo.getCode()>code){
                         new NewVersionDialog().show(fragmentManager,null);
+                    }else {
+                        Toast.makeText(context,"已经是最新版本啦",Toast.LENGTH_SHORT).show();
                     }
                 }catch (Exception e){
                     e.printStackTrace();
@@ -84,11 +89,11 @@ public class CheckUpdateServer {
             super.onCreateDialog(savedInstanceState);
             AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
             builder.setTitle(versionInfo.getName());
-            builder.setMessage(versionInfo.getName());
+            builder.setMessage(versionInfo.getDesc());
             builder.setPositiveButton("更新", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
-                    DownloadVersion.downloadNewVersion(versionInfo.getDesc(),context);
+                    DownloadVersion.downloadNewVersion(APP_DOWNLOAD_URL,context);
                 }
             });
             builder.setNegativeButton("取消", null);

@@ -3,6 +3,7 @@ package com.mygps.related_to_extra_function.shopping;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -10,7 +11,6 @@ import android.webkit.JsResult;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.Toast;
 
 import com.mygps.R;
 
@@ -20,8 +20,11 @@ import com.mygps.R;
 public class ShopWebViewActivity extends AppCompatActivity {
     WebView web;
 
-    String removeHeaderJS="javascript:var header=document.getElementById(\"header\");alert(\"cdsj\");header.parentNode().removeChild(header);";
-    String t="javascript:alert(\"cdj\");";
+    String removeHeaderJSAtFirst="javascript:window.onload=function(){var header=document.getElementById(\"header\");var parent=header.parentNode;parent.removeChild(header);parent.removeChild(document.getElementById(\"scrollimg\"))}";
+    String removeHeaderJSAtBack="javascript:var header=document.getElementById(\"header\");var parent=header.parentNode;parent.removeChild(header);parent.removeChild(document.getElementById(\"scrollimg\"))";
+    String removePageModeJSAtFirst="javascript:window.onload=function(){var linkss=document.getElementsByClassName(\"linkss\")[0];var parent=linkss.parentNode;parent.removeChild(linkss)}";
+    String removePageModeJSAtBack="javascript:var linkss=document.getElementsByClassName(\"linkss\")[0];var parent=linkss.parentNode;parent.removeChild(linkss)";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,11 +52,21 @@ public class ShopWebViewActivity extends AppCompatActivity {
 
         web.setWebViewClient(new WebViewClient(){
             @Override
-            public void onPageFinished(WebView view, String url) {
-                web.loadUrl(t);
-                Log.i("webviewPageFinished","==============");
-               // super.onPageFinished(view, url);
+            public void onPageStarted(WebView view, String url, Bitmap favicon) {
+                super.onPageStarted(view, url, favicon);
+                Log.d("webview","onPageStarted");
 
+                web.loadUrl(removeHeaderJSAtFirst);
+                web.loadUrl(removePageModeJSAtFirst);
+            }
+
+            @Override
+            public void onPageFinished(WebView view, String url) {
+                super.onPageFinished(view, url);
+                Log.d("webview","onPageFinished");
+
+                web.loadUrl(removeHeaderJSAtBack);
+                web.loadUrl(removePageModeJSAtBack);
             }
         });
 
@@ -100,8 +113,6 @@ public class ShopWebViewActivity extends AppCompatActivity {
             }
         });
 
-        web.setWebViewClient(new WebViewClient());
-        //WebView加载web资源
         web.loadUrl("http://www.jianianle.com/");
   //      web.loadUrl(t);
 

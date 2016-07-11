@@ -82,7 +82,7 @@ public class FeedbackActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         sendFeedback = menu.add(0, 0, 0, "发送");
         sendFeedback.setTitle("发送");
-        sendFeedback.setEnabled(true);
+        sendFeedback.setEnabled(false);
         sendFeedback.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
 
         return super.onCreateOptionsMenu(menu);

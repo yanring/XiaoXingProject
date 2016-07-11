@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="10dp"
+        android:padding="15dp"
         android:background="#ffffff">
 
 
@@ -26,7 +26,8 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/feedback_edit_bg"
             android:maxLines="1"
-            android:hint="您的联系方式" />
+            android:hint="您的联系方式"
+            android:textSize="16sp" />
 
         <EditText
             android:id="@+id/feedbackContentET"
@@ -35,6 +36,7 @@
             android:layout_marginTop="20dp"
             android:background="@drawable/feedback_edit_bg"
             android:gravity="top"
-            android:hint="反馈内容" />
+            android:hint="反馈内容"
+            android:textSize="16sp" />
     </LinearLayout>
 </LinearLayout>

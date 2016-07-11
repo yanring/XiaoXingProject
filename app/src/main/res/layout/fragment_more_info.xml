@@ -9,7 +9,7 @@
 
     <fragment
         android:id="@+id/fragment1"
-        android:name="com.mygps.unrelated_to_function.MoreInfo.fragment.AppAboutBlockFragment"
+        android:name="com.mygps.unrelated_to_function.moreInfo.fragment.AppAboutBlockFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:layout="@layout/fragment_moreinfo_appabout_block"

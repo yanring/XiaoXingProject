@@ -5,10 +5,12 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.webkit.JsResult;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Toast;
 
 import com.mygps.R;
 
@@ -17,6 +19,9 @@ import com.mygps.R;
  */
 public class ShopWebViewActivity extends AppCompatActivity {
     WebView web;
+
+    String removeHeaderJS="javascript:var header=document.getElementById(\"header\");alert(\"cdsj\");header.parentNode().removeChild(header);";
+    String t="javascript:alert(\"cdj\");";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,9 +47,18 @@ public class ShopWebViewActivity extends AppCompatActivity {
         web.getSettings().setJavaScriptEnabled(true);
         web.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
 
+        web.setWebViewClient(new WebViewClient(){
+            @Override
+            public void onPageFinished(WebView view, String url) {
+                web.loadUrl(t);
+                Log.i("webviewPageFinished","==============");
+               // super.onPageFinished(view, url);
 
+            }
+        });
 
         web.setWebChromeClient(new WebChromeClient() {
+
             public boolean onJsAlert(WebView view, String url, String message, final JsResult result) {
                 //构建一个Builder来显示网页中的对话框
                 AlertDialog.Builder builder = new AlertDialog.Builder(ShopWebViewActivity.this);
@@ -89,6 +103,8 @@ public class ShopWebViewActivity extends AppCompatActivity {
         web.setWebViewClient(new WebViewClient());
         //WebView加载web资源
         web.loadUrl("http://www.jianianle.com/");
+  //      web.loadUrl(t);
+
 
     }
 

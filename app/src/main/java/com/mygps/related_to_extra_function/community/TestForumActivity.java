@@ -39,8 +39,5 @@ public class TestForumActivity extends FragmentActivity {
 
         getSupportFragmentManager().beginTransaction().add(R.id.container2, fragment).commit();
 
-
     }
-
-
 }

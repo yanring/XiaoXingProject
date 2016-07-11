@@ -14,6 +14,7 @@ import android.widget.LinearLayout;
 import com.mygps.R;
 import com.mygps.related_to_device.chiyao.chiyao;
 import com.mygps.related_to_device.map.MyEquipListActivity;
+import com.mygps.unrelated_to_function.moreInfo.MoreInfoActivity;
 import com.mygps.unrelated_to_function.moreInfo.MoreInfoFragment;
 import com.mygps.related_to_extra_function.shopping.ShopWebViewActivity;
 import com.mygps.unrelated_to_function.main.adapter.MainViewPaperAdapter;
@@ -75,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
 
         addView("吃药提醒",getView("吃药提醒", new Intent(this, chiyao.class)));
 
-        addView("更多",new MoreInfoFragment());
+        addView("更多",getView("更多", new Intent(this,MoreInfoActivity.class)));
 
         MainViewPaperAdapter mAdapter = new MainViewPaperAdapter(viewList, getSupportFragmentManager());
         tabLayout.setTabsFromPagerAdapter(mAdapter);

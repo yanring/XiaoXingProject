@@ -90,6 +90,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".unrelated_to_function.feedback.FeedbackActivity"/>
+        <activity android:name=".unrelated_to_function.moreInfo.MoreInfoActivity"/>
         <activity android:name=".related_to_device.chiyao.chiyao"></activity>
         <activity android:name=".related_to_device.chiyao.chiyao_addremind"></activity>
         <activity android:name=".related_to_device.chiyao.chiyao_addremind_additem"></activity>

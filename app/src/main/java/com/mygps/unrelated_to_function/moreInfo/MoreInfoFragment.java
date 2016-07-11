@@ -36,8 +36,12 @@ public class MoreInfoFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 //login out
-
             }
         });
+    }
+
+    @Override
+    public void onResume() {
+
     }
 }

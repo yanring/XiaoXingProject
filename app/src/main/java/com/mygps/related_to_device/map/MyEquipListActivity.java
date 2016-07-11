@@ -61,7 +61,7 @@ public class MyEquipListActivity extends AppCompatActivity {
 
     RequestQueue queue;
 
-    private static final String ADDEQUIP_URL = AppConf.ServerPath+"user/addEquip.do";
+    private static final String ADDEQUIP_URL = AppConf.ServerPath + "user/addEquip.do";
     private GpsRequestThread mGpsRequestThread;
 
     @Override
@@ -90,7 +90,7 @@ public class MyEquipListActivity extends AppCompatActivity {
 
         app = (MyApplication) getApplication();
         equips = app.getEquips();
-        for (Equipment euip:equips) {//获取数据
+        for (Equipment euip : equips) {//获取数据
             mGpsRequestThread = new GpsRequestThread(this, euip.geteId());
             mGpsRequestThread.start();
         }
@@ -175,15 +175,24 @@ public class MyEquipListActivity extends AppCompatActivity {
                      * 这里做号码和名称的检测
                      */
                     final Equipment equip = new Equipment();
-                 //   equip.setPhone(phoneStr);
+                    //   equip.setPhone(phoneStr);
                     equip.setName(phoneStr);
                     equip.seteId(nameStr);
                     equip.setuId(app.getUser().getId());
                     StringRequest addRequest = new StringRequest(Request.Method.POST, ADDEQUIP_URL, new Listener<String>() {
                         @Override
                         public void onResponse(String response) {
-                            equips.add(equip);
-                            adp.notifyDataSetChanged();
+                            if (response.toLowerCase().equals("0")) {
+                                equips.add(equip);
+                                adp.notifyDataSetChanged();
+                            } else if (response.toLowerCase().equals(1)) {
+                                Toast.makeText(MyEquipListActivity.this, "设备ID不存在。。", Toast.LENGTH_LONG).show();
+
+                            } else if (response.toLowerCase().equals("2")) {
+                                Toast.makeText(MyEquipListActivity.this, "手机号码错误。。", Toast.LENGTH_LONG).show();
+                            } else {
+                                Toast.makeText(MyEquipListActivity.this, "未知错误", Toast.LENGTH_LONG).show();
+                            }
                         }
                     }, new Response.ErrorListener() {
                         @Override
@@ -245,10 +254,11 @@ public class MyEquipListActivity extends AppCompatActivity {
             builder.setNegativeButton("取消", null);
             return builder.create();
         }
+
         private void deleteEquip() {
-            String url = AppConf.ServerPath+"user/deleteEquip.do?id="+equips.get(position).getId();
+            String url = AppConf.ServerPath + "user/deleteEquip.do?id=" + equips.get(position).getId();
             Log.i("aa", equips.get(position).geteId());
-            StringRequest request=new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
+            StringRequest request = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
                 @Override
                 public void onResponse(String response) {
                     Toast.makeText(MyEquipListActivity.this, "shen", Toast.LENGTH_LONG).show();
@@ -256,8 +266,8 @@ public class MyEquipListActivity extends AppCompatActivity {
                     equips.remove(equips.get(position));
                     adp.notifyDataSetChanged();
                     //adp.notifyDataSetChanged();
-            }
-        }, new Response.ErrorListener() {
+                }
+            }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError error) {
                     Toast.makeText(MyEquipListActivity.this, "请求失败！", Toast.LENGTH_LONG).show();
@@ -268,14 +278,15 @@ public class MyEquipListActivity extends AppCompatActivity {
             });
             queue.add(request);
         }
+
         private void deleteLocalEquips() {
-            Log.d("deleteLocal","删除了本地设备！");
+            Log.d("deleteLocal", "删除了本地设备！");
             ContentResolver contentResolver = mContext.getContentResolver();
             Uri uri = Uri.parse(URIList.GPS_URI);
             if ((contentResolver.query(uri, null, "id=" + equips.get(position).geteId(), null, null).getCount() != 0)) {
-                contentResolver.delete(uri, "id=" +"?",new String[]{equips.get(position).geteId()});
+                contentResolver.delete(uri, "id=" + "?", new String[]{equips.get(position).geteId()});
             }
-            contentResolver.notifyChange(uri,null);
+            contentResolver.notifyChange(uri, null);
         }
     }
 }

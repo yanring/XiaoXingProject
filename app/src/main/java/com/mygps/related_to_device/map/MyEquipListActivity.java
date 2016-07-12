@@ -163,21 +163,25 @@ public class MyEquipListActivity extends AppCompatActivity {
 
             final EditText name = (EditText) view.findViewById(R.id.addequip_name);
             final EditText phone = (EditText) view.findViewById(R.id.addequip_phone);
+            final EditText eIdET=(EditText)view.findViewById(R.id.addequip_id);
             builder.setView(view);
             builder.setPositiveButton("添加", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
 
                     String nameStr = name.getText().toString();
-                    String phoneStr = phone.getText().toString();
+                    String id = eIdET.getText().toString();
+                    final int phoneInt=Integer.parseInt(phone.getText().toString());
+
 
                     /**
                      * 这里做号码和名称的检测
                      */
                     final Equipment equip = new Equipment();
                     //   equip.setPhone(phoneStr);
-                    equip.setName(phoneStr);
-                    equip.seteId(nameStr);
+                    equip.setName(nameStr);
+                    equip.seteId(id);
+
                     equip.setuId(app.getUser().getId());
                     StringRequest addRequest = new StringRequest(Request.Method.POST, ADDEQUIP_URL, new Listener<String>() {
                         @Override
@@ -205,7 +209,7 @@ public class MyEquipListActivity extends AppCompatActivity {
                             super.getParams();
                             Map<String, String> map = new HashMap<String, String>();
                             map.put("eId", equip.geteId());
-                            map.put("phone", "12345678910");
+                            map.put("phone", phoneInt+"");
                             map.put("name", equip.getName());
                             map.put("uId", "" + equip.getuId());
                             return map;

@@ -15,7 +15,6 @@ import com.mygps.R;
 import com.mygps.unrelated_to_function.feedback.FeedbackActivity;
 import com.mygps.unrelated_to_function.update.CheckUpdateServer;
 import com.mygps.unrelated_to_function.update.InfoUtils;
-import com.umeng.message.protobuffer.MessageResponse;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -70,7 +69,7 @@ public class AppAboutBlockFragment extends Fragment {
             appAboutBlockData.add(map);
         }
 
-        appAboutBlockAdapter=new SimpleAdapter(getContext(),appAboutBlockData,R.layout.more_info_blocks_listviewitem,new String[]{"imageview","title","moreInfo"},new int[]{R.id.MoreInfoBlockItemImageVIew,R.id.MoreInfoBlockItemTitleTV,R.id.MoreInfoBlockItemInfoTV});
+        appAboutBlockAdapter=new SimpleAdapter(getContext(),appAboutBlockData,R.layout.more_info_blocks_listviewitem,new String[]{"imageview","title","moreInfo"},new int[]{R.id.MoreInfoBlockItemImageView,R.id.MoreInfoBlockItemTitleTV,R.id.MoreInfoBlockItemtInfoTV});
 
         appAboutBlockListView.setAdapter(appAboutBlockAdapter);
         appAboutBlockListView.setOnItemClickListener(new ListViewOnItemClick());

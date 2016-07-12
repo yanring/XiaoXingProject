@@ -2,6 +2,7 @@ package com.mygps.unrelated_to_function.start;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.AppCompatCheckBox;
@@ -36,6 +37,9 @@ public class WelcomeActivity extends AppCompatActivity {
     MyApplication app;
     AppCompatCheckBox remeberCB;
 
+    SharedPreferences sp;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,7 +47,14 @@ public class WelcomeActivity extends AppCompatActivity {
 
         app = (MyApplication) getApplication();
 
+        sp = getSharedPreferences("Login", MODE_PRIVATE);
+
         initView();
+
+        if (sp.getBoolean("login", false)) {
+            login(sp.getString("username","1"),sp.getString("password","2"));
+        }
+
 /*        startActivity(new Intent(this,MainActivity.class));
         finish();*/
     }
@@ -64,48 +75,19 @@ public class WelcomeActivity extends AppCompatActivity {
         loginBT = (Button) findViewById(R.id.welcomeActivityBTLogin);
         registerTV = (TextView) findViewById(R.id.welcomeActivityRegiter);
         remeberCB = (AppCompatCheckBox) findViewById(R.id.welcomeActivityCBRemeberCipher);
+
+        usernameET.setText(sp.getString("username",""));
+        remeberCB.setChecked(sp.getBoolean("remeberPW",false));
+        if (sp.getBoolean("remeberPW",false)){
+            passportET.setText(sp.getString("password",""));
+        }else {
+            passportET.setText("");
+        }
+
         loginBT.setOnClickListener(new View.OnClickListener() {
                                        @Override
                                        public void onClick(View v) {
-
-                                           showPro();
-
-                                           String un = usernameET.getText().toString();
-                                           String pw = passportET.getText().toString();
-
-                                           User user = new User();
-                                           user.setUsername(un);
-                                           user.setPassword(pw);
-
-                                           try {
-                                               new LoginRequest(user, WelcomeActivity.this).setOnLoginInCallback(new LoginRequest.OnLoginInCallback() {
-                                                   @Override
-                                                   public void onError(int errorCode) {
-                                                       disPro();
-                                                   }
-
-                                                   @Override
-                                                   public void onSuccess() {
-                                                       if (remeberCB.isChecked()) {
-                                                           //记录密码
-                                                       }
-
-                                                       startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
-                                                       disPro();
-                                                       finish();
-
-                                                   }
-
-                                                   @Override
-                                                   public void onFail(int errorCode) {
-                                                       disPro();
-                                                   }
-                                               });
-                                           } catch (Exception e) {
-                                               e.printStackTrace();
-                                           }
-
-
+                                           login(usernameET.getText().toString(), passportET.getText().toString());
                                        }
                                    }
 
@@ -114,6 +96,7 @@ public class WelcomeActivity extends AppCompatActivity {
         registerTV.setOnClickListener(new View.OnClickListener() {
                                           @Override
                                           public void onClick(View v) {
+                                              StaticObject.appCompatActivity=WelcomeActivity.this;
                                               startActivity(new Intent(WelcomeActivity.this, SigninActivity.class));
                                           }
                                       }
@@ -153,6 +136,52 @@ public class WelcomeActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    private void login(String username, String password) {
+        showPro();
+
+
+        final User user = new User();
+        user.setUsername(username);
+        user.setPassword(password);
+
+        try {
+            new LoginRequest(user, WelcomeActivity.this).setOnLoginInCallback(new LoginRequest.OnLoginInCallback() {
+                @Override
+                public void onError(int errorCode) {
+                    disPro();
+                    sp.edit().putBoolean("login", false).commit();
+                }
+
+                @Override
+                public void onSuccess() {
+                    sp.edit().putString("username", user.getUsername()).commit();
+                    sp.edit().putString("password", user.getPassword()).commit();
+                    if (remeberCB.isChecked()) {
+                        //记录密码
+                        sp.edit().putBoolean("remeberPW", true).commit();
+                    } else {
+                        sp.edit().putBoolean("remeberPW", false).commit();
+                    }
+
+                    sp.edit().putBoolean("login", true).commit();
+
+                    startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
+                    disPro();
+                    finish();
+
+                }
+
+                @Override
+                public void onFail(int errorCode) {
+                    disPro();
+                }
+            });
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
     }
 
     public void showPro() {

@@ -113,7 +113,7 @@ public class ShopWebViewActivity extends AppCompatActivity {
             }
         });
 
-        web.loadUrl("http://www.jianianle.com/");
+        web.loadUrl("http://wap.jianianle.com/");
   //      web.loadUrl(t);
 
 

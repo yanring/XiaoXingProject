@@ -4,49 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="match_parent">
 
 
     <fragment
-        android:id="@+id/fragment1"
         android:name="com.mygps.unrelated_to_function.moreInfo.fragment.AppAboutBlockFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:layout="@layout/fragment_moreinfo_appabout_block"
         android:layout_marginTop="8dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp" />
-
-    <android.support.v7.widget.CardView
+        android:layout_marginRight="16dp"
+        android:id="@+id/MoreInfoAppAboutFragment" />
+    <fragment
+        android:id="@+id/MoreInfoLoginoutFragment"
+        android:name="com.mygps.unrelated_to_function.moreInfo.fragment.LoginOutFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-        android:layout_marginBottom="4dp"
-        android:layout_marginLeft="100dip"
-        android:layout_marginRight="100dip"
+        tools:layout="@layout/fragment_moreinfo_loginout"
         android:layout_marginTop="8dp"
-        android:elevation="4dp"
-        app:cardBackgroundColor="#a8f10a0a"
-        app:cardCornerRadius="2dp"
-        android:foreground="?android:attr/selectableItemBackground"
-        app:cardElevation="2dp"
-        android:id="@+id/MoreInfoLoginOut">
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:text="退出登录"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="false"
-                android:layout_centerVertical="false"
-                android:layout_centerInParent="true"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:padding="12dip" />
-        </RelativeLayout>
-    </android.support.v7.widget.CardView>
 
 </LinearLayout>

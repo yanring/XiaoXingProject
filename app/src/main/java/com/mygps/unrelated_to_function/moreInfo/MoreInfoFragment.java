@@ -32,12 +32,7 @@ public class MoreInfoFragment extends Fragment {
     }
 
     private void initLoginOut(){
-        ((CardView)layoutView.findViewById(R.id.MoreInfoLoginOut)).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //login out
-            }
-        });
+
     }
 
     @Override

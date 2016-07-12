@@ -1,6 +1,12 @@
 package com.mygps.unrelated_to_function.start;
 
+import android.app.ProgressDialog;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
+import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.Editable;
@@ -8,6 +14,7 @@ import android.text.TextWatcher;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.mygps.R;
 import com.mygps.unrelated_to_function.start.HttpRequest.SigninUserPost;
@@ -29,6 +36,7 @@ public class SigninActivity extends AppCompatActivity {
 
     Toolbar mToolBar;
 
+    Handler handler;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,6 +46,16 @@ public class SigninActivity extends AppCompatActivity {
 
         initView();
 
+        handler=new Handler(){
+            @Override
+            public void handleMessage(Message msg) {
+                switch (msg.what){
+                    case 0: Toast.makeText(SigninActivity.this,"出错啦。。。",Toast.LENGTH_LONG).show();break;
+                    case 1:  Toast.makeText(SigninActivity.this,"注册失败，已存在该用户。",Toast.LENGTH_LONG).show();break;
+                }
+                super.handleMessage(msg);
+            }
+        };
     }
 
     private void initView() {
@@ -107,24 +125,39 @@ public class SigninActivity extends AppCompatActivity {
 
                 switch (UserCheck.check(un,pw)){
                     case UserCheck.OK:
-                        User user=new User();
+                        final User user=new User();
                         user.setUsername(un);
                         user.setPassword(pw);
                         try {
+                            final ProgressDialog progressDialog=ProgressDialog.show(SigninActivity.this,null,"注册中...");
+
                             new SigninUserPost(user).setOnSignInCallback(new SigninUserPost.OnSignInCallback() {
                                 @Override
                                 public void onError(int errorCode) {
+
+                                    progressDialog.dismiss();
+
+                                    handler.sendEmptyMessage(0);
 
                                 }
 
                                 @Override
                                 public void onSuccess() {
+                                    progressDialog.dismiss();
+                                    StaticObject.appCompatActivity.finish();
+                                    SharedPreferences sp=getSharedPreferences("Login",MODE_PRIVATE);
+                                    sp.edit().putString("username",user.getUsername()).commit();
+                                    sp.edit().putString("password",user.getPassword()).commit();
+                                    sp.edit().putBoolean("remeberPW",true).commit();
+                                    sp.edit().putBoolean("login",true).commit();
+                                    startActivity(new Intent(SigninActivity.this,WelcomeActivity.class));
                                     finish();
                                 }
 
                                 @Override
                                 public void onFail() {
-
+                                    progressDialog.dismiss();
+                                    handler.sendEmptyMessage(1);
                                 }
                             });
                         } catch (Exception e) {

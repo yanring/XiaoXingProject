@@ -5,7 +5,6 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.Build;
 import android.support.v4.app.FragmentManager;
-import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.android.volley.RequestQueue;
@@ -39,8 +38,10 @@ public class FeedbackServer {
     }
     private void initFeedback(){
         feedback=new Feedback();
-        feedback.setApi_level(InfoUtils.getAppVersionCode(context));
+        feedback.setAppVersionCode(InfoUtils.getAppVersionCode(context));
         feedback.setMODEL(Build.MODEL);
+        feedback.setAPIVersion(Build.VERSION.SDK_INT);
+        feedback.setROMInfo(Build.VERSION.INCREMENTAL);
         feedback.setSystemVersion(Build.VERSION.RELEASE);
 
     }

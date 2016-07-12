@@ -149,5 +149,4 @@ public class LoginRequest extends BaseRequest {
         return map;
     }
 
-
 }

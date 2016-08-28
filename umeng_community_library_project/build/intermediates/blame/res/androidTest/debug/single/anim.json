@@ -1,66 +1,130 @@
 [
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_translate_down.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_translate_down.xml"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_image_browser_in.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_image_browser_in.xml"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_fade_out.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_fade_out.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_image_browser_out.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_image_browser_out.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_translate_up_current.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_translate_up_current.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_shareboard_animation_in.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_shareboard_animation_in.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_image_browser_in.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_image_browser_in.xml"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_pb_default.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_pb_default.xml"
     },
     {
         "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_activity_alpha_action_in.xml",
         "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_activity_alpha_action_in.xml"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_translate_up.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_translate_up.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_pb_default.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_pb_default.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_translate_down_current.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_translate_down_current.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_slide_out_from_bottom.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_slide_out_from_bottom.xml"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_translate_down.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_translate_down.xml"
     },
     {
         "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_shareboard_layout_animation.xml",
         "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_shareboard_layout_animation.xml"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_fade_in.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_fade_in.xml"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_slide_out_from_bottom.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_slide_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_shareboard_animation_out.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_shareboard_animation_out.xml"
     },
     {
         "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_slide_in_from_bottom.xml",
         "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_slide_in_from_bottom.xml"
     },
     {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_slide_in_from_bottom.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_pb_default.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_pb_default.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_shareboard_layout_animation.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_shareboard_layout_animation.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_shareboard_item_anim.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_shareboard_item_anim.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_fade_in.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_fade_in.xml"
+    },
+    {
         "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_shareboard_animation_out.xml",
         "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_shareboard_animation_out.xml"
     },
     {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_shareboard_animation_in.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_shareboard_animation_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_translate_down.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_translate_down.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_translate_up_current.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_translate_up_current.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_activity_alpha_action_in.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_activity_alpha_action_in.xml"
+    },
+    {
         "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_shareboard_item_anim.xml",
         "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_shareboard_item_anim.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_shareboard_animation_in.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_shareboard_animation_in.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_image_browser_out.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_image_browser_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_fade_in.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_translate_up.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_translate_up.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_slide_out_from_bottom.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_slide_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_image_browser_out.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_image_browser_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_fade_out.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_fade_out.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_translate_up.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_translate_up.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_translate_down_current.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_translate_down_current.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_translate_down_current.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_translate_down_current.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_translate_up_current.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_translate_up_current.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_fade_out.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_comm_image_browser_in.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_comm_image_browser_in.xml"
     }
 ]

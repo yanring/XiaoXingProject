@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.baidu.mapapi.map.Text;
 import com.mygps.R;
 import com.mygps.related_to_device.chiyao.Entity.chiyao_addremind_entity;
 
@@ -53,11 +55,14 @@ public class chiyao_addremind_adapter extends BaseAdapter {
         TextView time= (TextView) convertView.findViewById(R.id.chiyao_addremind_item_text1);
         TextView medision= (TextView) convertView.findViewById(R.id.chiyao_addremind_item_text2);
         TextView id_text= (TextView) convertView.findViewById(R.id.id_text);
+        TextView equip_name_text= (TextView) convertView.findViewById(R.id.equip_name_text);
+        TextView equip_id_text= (TextView) convertView.findViewById(R.id.equip_id_text);
         LinearLayout change_information= (LinearLayout) convertView.findViewById(R.id.change_info);
         time.setText(entity.getTime());
         medision.setText(entity.getMedision_name());
-        id_text.setText(entity.getId().toString());
-
+        id_text.setText(String.valueOf(entity.getId()));
+        equip_name_text.setText(entity.getEquip_name());
+        equip_id_text.setText(entity.getEquip_id());
         return convertView;
     }
 }

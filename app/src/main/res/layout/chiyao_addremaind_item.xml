@@ -49,6 +49,18 @@
                 android:textSize="0.3dp"
                 android:layout_width="2dp"
                 android:layout_height="2dp"/>
+            <TextView
+                android:id="@+id/equip_name_text"
+                android:textColor="@color/baise"
+                android:textSize="0.05dp"
+                android:layout_width="1dp"
+                android:layout_height="1dp" />
+            <TextView
+                android:id="@+id/equip_id_text"
+                android:textColor="@color/baise"
+                android:textSize="0.05dp"
+                android:layout_width="1dp"
+                android:layout_height="1dp" />
             <ImageView
                 android:layout_gravity="center"
                 android:src="@mipmap/iconfontqianji"

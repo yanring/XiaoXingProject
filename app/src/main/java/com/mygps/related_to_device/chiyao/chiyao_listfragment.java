@@ -85,7 +85,7 @@ public class chiyao_listfragment extends android.app.Fragment{
             @Override
             protected List<chiyao_addremind_entity> doInBackground(Void... arg0) {
                 chiyao_service mService=new chiyao_service();
-                return chiyao_service.downloadUserInfo("shen", "zheng");
+                return chiyao_service.downloadUserInfoall("shen", "zheng");
             }
 
             @Override

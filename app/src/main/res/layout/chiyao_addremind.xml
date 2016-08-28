@@ -35,7 +35,13 @@
             android:src="@mipmap/iconfontjiahao" />
     </RelativeLayout>
 -->
-
+    <Spinner
+        android:id="@+id/chiyaoaddremind_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:prompt="@string/equip_name"
+        android:spinnerMode="dialog">
+    </Spinner>
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">

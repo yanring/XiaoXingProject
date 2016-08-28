@@ -1,415 +1,691 @@
 [
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_community_topic_bg_wb.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_community_topic_bg_wb.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_btn_black_textcolor_selector.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_btn_black_textcolor_selector.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_btn_green_selector_rectangle.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_btn_green_selector_rectangle.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_focus_user_bg.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_focus_user_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_radius_bg.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_radius_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_tx_off.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_tx_off.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_search_button_style.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_search_button_style.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_chat_send_n.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_chat_send_n.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_at_normal.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_at_normal.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_at_selected.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_at_selected.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_topic_bt.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_topic_bt.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_button_hot_btn_text_selector.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_button_hot_btn_text_selector.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_x_button.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_x_button.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_find_bt.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_find_bt.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_tab_right_pressed.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_tab_right_pressed.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_fetch_image.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_fetch_image.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_red.9.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_red.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_tab_button_right.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_tab_button_right.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_favourite_button.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_favourite_button.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_like_more_user.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_like_more_user.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_active_user_togglebutton_bg.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_active_user_togglebutton_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_oauth_check.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_oauth_check.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_right_bt.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_right_bt.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_back_bt.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_back_bt.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_default_avatar.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_default_avatar.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_location_off.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_location_off.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_qq_on.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_qq_on.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_yellow_selector.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_yellow_selector.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_sidebar_selector.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_sidebar_selector.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_send_button.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_send_button.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_wechat_gray.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_wechat_gray.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_douban_on.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_douban_on.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_blue_p.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_blue_p.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_qzone_on.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_qzone_on.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_light_bar_bg.9.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_light_bar_bg.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_facebook.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_facebook.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_qq_pressed.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_qq_pressed.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_wechat.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_wechat.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_twitter.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_twitter.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_blue_selector.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_blue_selector.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_send_btn_style.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_send_btn_style.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_tv_yellow_selector.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_tv_yellow_selector.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_login_pressed.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_login_pressed.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_circle_shape.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_circle_shape.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_location_ic.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_location_ic.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_back.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_back.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_qzone_off.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_qzone_off.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_send.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_send.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_like_bt.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_like_bt.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_hot_btn_shape_round.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_hot_btn_shape_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_qq_bt.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_qq_bt.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_back_bt_selected.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_back_bt_selected.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_login.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_login.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_tv_blue_selector.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_tv_blue_selector.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_window_shadow_pad.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_window_shadow_pad.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_share_to_button.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_share_to_button.xml"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_comment_input_cursor.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_comment_input_cursor.xml"
     },
     {
         "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_forward_bt.xml",
         "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_forward_bt.xml"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shuxianbeijing.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\shuxianbeijing.png"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_wechat_gray.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_wechat_gray.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_white.9.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_white.9.png"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_at_selected.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_at_selected.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_share_transparent_corner.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_share_transparent_corner.xml"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_forward_bt.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_forward_bt.xml"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_setting_bt.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_setting_bt.xml"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_qq_pressed.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_qq_pressed.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_qq_off.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_qq_off.png"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_btn_green_selector_rectangle.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_btn_green_selector_rectangle.xml"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_back_bt_normal.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_back_bt_normal.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_blue.9.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_blue.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_shape_solid_black.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_shape_solid_black.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_yellow_p.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_yellow_p.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_renren_on.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_renren_on.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_douban_off.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_douban_off.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_sina_pressed.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_sina_pressed.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_comment_frame_style.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_comment_frame_style.xml"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_tab_button_left.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_tab_button_left.xml"
     },
     {
         "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_commm_active_user_togglebutton_bg.xml",
         "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_commm_active_user_togglebutton_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_follow_check.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_follow_check.xml"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_qq_on.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_qq_on.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_image_save_bg.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_image_save_bg.xml"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_imagepicker_back_bt.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_imagepicker_back_bt.xml"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_shape_solid_grey.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_shape_solid_grey.xml"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_tab_right_normal.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_tab_right_normal.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_right_bt_normal.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_right_bt_normal.png"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_window_shadow_pad.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_window_shadow_pad.xml"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_shareboard_item_background.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_shareboard_item_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_more_radius_top.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_more_radius_top.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_sina.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_sina.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_favorite_selector.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_favorite_selector.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_bind_bg.9.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_bind_bg.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_tx_on.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_tx_on.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_search_icon.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_search_icon.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_location_on.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_location_on.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_wechat_normal.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_wechat_normal.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_btn_checkbox_selector.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_btn_checkbox_selector.xml"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_renren_on.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_renren_on.png"
     },
     {
         "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_grey.9.png",
         "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_grey.9.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_at_friend_bt.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_at_friend_bt.xml"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_yellow_n.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_yellow_n.xml"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_search_frame_style.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_search_frame_style.xml"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_new_post_btn_style.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_new_post_btn_style.xml"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_comment_comment_selector.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_comment_comment_selector.xml"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_yellow_n.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_yellow_n.xml"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_community_topic_bg.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_community_topic_bg.xml"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_red_blue.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_red_blue.xml"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_photo_pick_bt.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_photo_pick_bt.xml"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_bind_bg.9.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_bind_bg.9.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_oauth_check_off.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_oauth_check_off.png"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_like_bt.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_like_bt.xml"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_back_bt.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_back_bt.xml"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_share.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_action_back_selected.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_action_back_selected.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_tab_button_right.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_tab_button_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_topic_bt.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_topic_bt.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_tab_right_normal.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_tab_right_normal.png"
     },
     {
         "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_sina_off.png",
         "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_sina_off.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_tv_style.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_tv_style.xml"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_chat_send_p.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_chat_send_p.xml"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_edit_background.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_edit_background.xml"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_radius_bg.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_radius_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_send_bt.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_send_bt.xml"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_grey_blue.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_grey_blue.xml"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_chat_send_selector.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_chat_send_selector.xml"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_right_bt_normal.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_right_bt_normal.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_tab_left_normal.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_tab_left_normal.png"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_follow_on.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_follow_on.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_location_bt.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_location_bt.xml"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_wechat_pressed.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_wechat_pressed.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_button_hot_btn_text_selector.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_button_hot_btn_text_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_comment.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_like_selector.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_like_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_wechat.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_wechat.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_search_frame_style.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_search_frame_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_back_bt_selected.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_back_bt_selected.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_hot_btn_shape_round.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_hot_btn_shape_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_red.9.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_red.9.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_wxcircle_gray.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_wxcircle_gray.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_location_ic.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_location_ic.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_send_pressed.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_send_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_comment_comment_selector.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_comment_comment_selector.xml"
     },
     {
         "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_login_normal.png",
         "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_login_normal.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_at_button.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_at_button.xml"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_wxcircle_gray.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_wxcircle_gray.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_back_pressed.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_back_pressed.png"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_white_blue.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_white_blue.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_blue.9.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_blue.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_location_on.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_location_on.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_image_save_bg.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_image_save_bg.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_button_text_color.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_button_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_location_off.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_location_off.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_tab_button_left.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_tab_button_left.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_oauth_check_on.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_oauth_check_on.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_action_back.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_action_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_refersh.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_refersh.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_right_bt_selected.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_right_bt_selected.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_comment.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_comment.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_tab_left_normal.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_tab_left_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_sina_on.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_sina_on.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_camera_bt.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_camera_bt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_location_bt.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_location_bt.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_follow_off.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_follow_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_share_to_button.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_share_to_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_tab_button_right.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_tab_button_right.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_photo_pick_bt.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_photo_pick_bt.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_tab_right_pressed.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_tab_right_pressed.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_radius_bg.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_radius_bg.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_login_normal.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_login_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_tv_style.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_tv_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_search_frame_style.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_search_frame_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_douban_on.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_douban_on.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_search_icon.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_search_icon.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_right_bt.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_right_bt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_cancel_bt.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_cancel_bt.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_radio_shape.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_radio_shape.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_back.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_back.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_cancel_bt.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_cancel_bt.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_red.9.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_red.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_tab_left_normal.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_tab_left_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_wechat_gray.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_wechat_gray.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_search_icon.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_search_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_rounded_corner_backgroud.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_rounded_corner_backgroud.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_facebook.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_facebook.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_fetch_image.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_fetch_image.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_sidebar_normal.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_sidebar_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_btn_checkbox_selector.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_btn_checkbox_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_at_normal.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_at_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_radio_shape.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_radio_shape.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_hot_button_selector.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_hot_button_selector.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_selector_switch_state.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_selector_switch_state.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_chat_send_n.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_chat_send_n.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_find_bt.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_find_bt.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_shareboard_item_background.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_shareboard_item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_segment_shape.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_segment_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_x_button.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_x_button.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_action_back_selected.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_action_back_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_blue.9.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_blue.9.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_comment_comment_selector.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_comment_comment_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_button_text_color.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_button_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_tx_off.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_tx_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_setting_logout_bg.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_setting_logout_bg.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_location_on.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_location_on.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_setting_bt.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_setting_bt.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_at_normal.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_at_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_button_hot_btn_text_selector.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_button_hot_btn_text_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_blue_n.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_blue_n.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_hot_btn_shape_round.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_hot_btn_shape_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_qq_pressed.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_qq_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_facebook.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_facebook.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_blue_p.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_blue_p.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_sidebar_selector.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_sidebar_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_hot_button_selector.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_hot_button_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shuxianbeijing.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\shuxianbeijing.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_send_button.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_send_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_like_bt.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_like_bt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_sina.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_sina.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_light_bar_bg.9.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_light_bar_bg.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_blue_p.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_blue_p.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_camera_bt.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_camera_bt.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_tx_off.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_tx_off.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_active_user_togglebutton_bg.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_active_user_togglebutton_bg.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_qzone_on.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_qzone_on.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_imagepicker_back_bt.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_imagepicker_back_bt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_sina_bt.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_sina_bt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_action_back.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_action_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_right_bt_normal.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_right_bt_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_btn_green_selector_rectangle.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_btn_green_selector_rectangle.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_favorite_selector.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_favorite_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_renren_off.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_renren_off.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_segment_shape_middle.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_segment_shape_middle.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_qzone_off.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_qzone_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_btn_black_textcolor_selector.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_btn_black_textcolor_selector.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_search_button_style.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_search_button_style.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_more_radius_none.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_more_radius_none.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_like_selector.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_like_selector.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_sina_pressed.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_sina_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_white_blue.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_white_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_login.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_login.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_wechat.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_wechat.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_action_back_normal.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_action_back_normal.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_tv_style.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_tv_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_tab_left_pressed.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_tab_left_pressed.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_tab_left_pressed.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_tab_left_pressed.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_share_transparent_corner.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_share_transparent_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_qq_off.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_qq_off.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_qq_bt.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_qq_bt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_light_bar_bg.9.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_light_bar_bg.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_photo_pick_bt.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_photo_pick_bt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_window_shadow_pad.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_window_shadow_pad.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_checkbox_style.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_checkbox_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_share_transparent_corner.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_share_transparent_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_segment_shape_middle.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_segment_shape_middle.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_qq_normal.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_qq_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_right_bt_selected.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_right_bt_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_like_more_user.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_like_more_user.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_sina.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_sina.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_default_avatar.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_default_avatar.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_more_radius_top.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_more_radius_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_shape_solid_grey.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_shape_solid_grey.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_follow_check.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_follow_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_send_btn_style.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_send_btn_style.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_current_pos_bg.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_current_pos_bg.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_focus_user_bg.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_focus_user_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_tv_blue_selector.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_tv_blue_selector.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_send_bt.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_send_bt.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_login.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_login.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_community_topic_bg.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_community_topic_bg.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_tv_blue_selector.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_tv_blue_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_comment_selector.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_comment_selector.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_segment_shape.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_segment_shape.xml"
     },
     {
         "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_more_radius_none.xml",
@@ -420,223 +696,587 @@
         "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_sidebar_selected.xml"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_imagepicker_back_bt.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_imagepicker_back_bt.xml"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_at_friend_bt.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_at_friend_bt.xml"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_cancel_bt.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_cancel_bt.xml"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_sidebar_selector.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_sidebar_selector.xml"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_google.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_google.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_grey_blue.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_grey_blue.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_current_pos_bg.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_current_pos_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_oauth_check_on.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_oauth_check_on.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_camera_bt.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_camera_bt.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_follow_on.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_follow_on.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_reply_comment_bg.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_reply_comment_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_tab_right_normal.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_tab_right_normal.png"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_sina_pressed.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_sina_pressed.png"
     },
     {
         "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_action_back_normal.png",
         "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_action_back_normal.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_wxcircle_gray.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_wxcircle_gray.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_tab_left_pressed.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_tab_left_pressed.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_renren_off.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_renren_off.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_new_post_btn_style.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_new_post_btn_style.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_wechat_pressed.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_wechat_pressed.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_selector_switch_slider.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_selector_switch_slider.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_like_selector.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_like_selector.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_hot_button_selector.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_hot_button_selector.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_rounded_corner_backgroud.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_rounded_corner_backgroud.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_comment_like_selector.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_comment_like_selector.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_refersh.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_refersh.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_checkbox_style.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_checkbox_style.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_share.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_share.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_tab_button_left.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_tab_button_left.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_chat_send_p.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_chat_send_p.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_action_back_selected.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_action_back_selected.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_topic_togglebutton.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_topic_togglebutton.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_action_back.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_action_back.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_red_blue.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_red_blue.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_send_pressed.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_send_pressed.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_wechat_bt.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_wechat_bt.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_segment_shape_middle.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_segment_shape_middle.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_more_radius_bottom.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_more_radius_bottom.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_white_blue.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_white_blue.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_nav_bar_bg.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_nav_bar_bg.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_radio_shape.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_radio_shape.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_blue_n.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_blue_n.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_yellow_n.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_yellow_n.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_button_text_color.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_button_text_color.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_sina_bt.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_sina_bt.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_right_bt_selected.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_right_bt_selected.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_sina_on.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_sina_on.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_qq_normal.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_qq_normal.png"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_shape_solid_grey.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_shape_solid_grey.xml"
     },
     {
         "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_sidebar_normal.xml",
         "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_sidebar_normal.xml"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_comment.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_comment.xml"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_image_save_bg.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_image_save_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_comment_input_send_selector.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_comment_input_send_selector.xml"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_qq_off.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_qq_off.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_segment_shape.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_segment_shape.xml"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_chat_send_n.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_chat_send_n.xml"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_wxcircle.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_wxcircle.png"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_at_friend_bt.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_at_friend_bt.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_wxcircle.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_wxcircle.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_douban_off.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_douban_off.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_twitter.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_twitter.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_douban_off.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_douban_off.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_topic_togglebutton.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_topic_togglebutton.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_community_topic_bg_wb.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_community_topic_bg_wb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_tv_yellow_selector.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_tv_yellow_selector.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_reply_comment_bg.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_reply_comment_bg.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_comment_input_send_selector.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_comment_input_send_selector.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_commm_active_user_togglebutton_bg.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_commm_active_user_togglebutton_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_white.9.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_white.9.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_oauth_check.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_oauth_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_favourite_button.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_favourite_button.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_comment_like_selector.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_comment_like_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_comment_frame_style.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_comment_frame_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_send.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_send.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_back_bt.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_back_bt.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_yellow_p.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_yellow_p.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_wechat_normal.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_wechat_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_qq_bt.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_qq_bt.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_blue_n.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_blue_n.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_wechat_pressed.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_wechat_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_location_ic.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_location_ic.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_send_btn_style.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_send_btn_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_community_topic_bg_wb.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_community_topic_bg_wb.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_grey.9.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_grey.9.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_sina_on.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_sina_on.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_favorite_selector.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_favorite_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_qzone_off.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_qzone_off.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_grey_blue.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_grey_blue.xml"
     },
     {
         "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_comment_input_cursor.xml",
         "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_comment_input_cursor.xml"
     },
     {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_twitter.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_twitter.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_checkbox_style.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_checkbox_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_topic_togglebutton.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_topic_togglebutton.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_nav_bar_bg.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_nav_bar_bg.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_oauth_check_off.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_oauth_check_off.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_new_post_btn_style.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_new_post_btn_style.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_sina_off.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_sina_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_send_bt.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_send_bt.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_send.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_send.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_back_bt.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_back_bt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_find_bt.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_find_bt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_qq_normal.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_qq_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_follow_check.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_follow_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_more_radius_bottom.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_more_radius_bottom.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_shape_solid_black.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_shape_solid_black.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_x_button.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_x_button.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_btn_black_textcolor_selector.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_btn_black_textcolor_selector.xml"
+    },
+    {
         "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_round_image.xml",
         "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_round_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_oauth_check_off.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_oauth_check_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_setting_bt.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_setting_bt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_shareboard_item_background.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_shareboard_item_background.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_chat_send_selector.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_chat_send_selector.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shuxianbeijing.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\shuxianbeijing.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_login_pressed.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_login_pressed.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_google.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_google.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_back_pressed.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_back_pressed.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_comment_selector.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_comment_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_google.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_google.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_edit_background.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_edit_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_oauth_check_on.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_oauth_check_on.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_fetch_image.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_fetch_image.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_qq_on.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_qq_on.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_edit_background.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_edit_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_current_pos_bg.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_current_pos_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_more_radius_top.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_more_radius_top.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_setting_logout_bg.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_setting_logout_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_back_bt.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_back_bt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_qzone_on.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_qzone_on.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_reply_comment_bg.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_reply_comment_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_tx_on.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_tx_on.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_btn_checkbox_selector.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_btn_checkbox_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_chat_send_p.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_chat_send_p.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_wxcircle.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_wxcircle.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_at_button.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_at_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_back.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_back.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_blue_selector.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_blue_selector.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_wechat_bt.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_wechat_bt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_send_pressed.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_send_pressed.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_location_bt.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_location_bt.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_sina_bt.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_sina_bt.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_circle_shape.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_circle_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_tab_right_pressed.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_tab_right_pressed.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_share_to_button.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_share_to_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_back_bt_normal.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_back_bt_normal.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_selector_switch_slider.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_selector_switch_slider.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_favourite_button.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_favourite_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_circle_shape.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_circle_shape.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_at_button.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_at_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_active_user_togglebutton_bg.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_active_user_togglebutton_bg.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_wechat_normal.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_wechat_normal.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_tx_on.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_tx_on.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_comment_like_selector.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_comment_like_selector.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_like_more_user.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_like_more_user.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_red_blue.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_red_blue.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_refersh.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_refersh.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_white.9.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_white.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_search_button_style.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_search_button_style.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_topic_bt.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_topic_bt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_button_login_pressed.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_button_login_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_chat_send_selector.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_chat_send_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_wechat_bt.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_wechat_bt.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_back_pressed.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_back_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_community_topic_bg.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_community_topic_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_yellow_selector.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_yellow_selector.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_more_radius_bottom.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_more_radius_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_selector_switch_state.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_selector_switch_state.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_tv_yellow_selector.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_tv_yellow_selector.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_default_avatar.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_default_avatar.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_back_bt.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_back_bt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_share.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_bind_bg.9.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_bind_bg.9.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_location_off.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_location_off.png"
     },
     {
         "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_follow_off.png",
         "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_follow_off.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_comment_selector.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_comment_selector.xml"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_send_button.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_send_button.xml"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_setting_logout_bg.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_setting_logout_bg.xml"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_comment_frame_style.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_comment_frame_style.xml"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_selector_switch_state.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_selector_switch_state.xml"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_douban_on.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_douban_on.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_sidebar_selected.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_sidebar_selected.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_renren_on.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_renren_on.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_back_bt_selected.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_back_bt_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_oauth_check.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_oauth_check.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_yellow_selector.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_yellow_selector.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_rounded_corner_backgroud.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_rounded_corner_backgroud.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_follow_on.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_follow_on.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_selector_switch_slider.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_selector_switch_slider.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_round_image.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_round_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_comment_input_send_selector.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_comment_input_send_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_yellow_p.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_yellow_p.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_feed_detail_blue_selector.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_feed_detail_blue_selector.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_nav_bar_bg.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_nav_bar_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_shape_solid_black.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_shape_solid_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_comm_focus_user_bg.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_comm_focus_user_bg.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_back_bt_normal.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_back_bt_normal.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_at_selected.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_at_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_right_bt.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_title_right_bt.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_renren_off.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_renren_off.png"
     }
 ]

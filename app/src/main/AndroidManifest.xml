@@ -94,6 +94,7 @@
         <activity android:name=".related_to_device.chiyao.chiyao"></activity>
         <activity android:name=".related_to_device.chiyao.chiyao_addremind"></activity>
         <activity android:name=".related_to_device.chiyao.chiyao_addremind_additem"></activity>
+        <activity android:name=".related_to_device.chiyao.chiyao_Shop"></activity>
         <activity android:name=".unrelated_to_function.start.SigninActivity" />
         <activity android:name=".unrelated_to_function.main.MainActivity" />
         <activity android:name=".related_to_extra_function.community.TestForumActivity" />

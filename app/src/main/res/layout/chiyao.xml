@@ -168,6 +168,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent" />
             <TextView
+                android:id="@+id/chiyao_shop"
                 android:gravity="right|center_vertical"
                 android:text="在线药店"
                 android:textSize="16dp"

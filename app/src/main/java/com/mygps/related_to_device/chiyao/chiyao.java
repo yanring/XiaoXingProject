@@ -33,7 +33,9 @@ public class chiyao extends AppCompatActivity implements View.OnClickListener {
     private ImageView xiala_image;
     private TextView add_chiyao;
     private TextView positionTextView;
-
+    private TextView test;
+    private TextView chiyao_shop;
+    MyApplication app;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,6 +45,7 @@ public class chiyao extends AppCompatActivity implements View.OnClickListener {
         chiyao_xiala.setOnClickListener(this);
         mAdapter = new xiala_adapter(this);
         add_chiyao.setOnClickListener(this);
+        chiyao_shop.setOnClickListener(this);
     }
 
     private void init() {
@@ -51,7 +54,10 @@ public class chiyao extends AppCompatActivity implements View.OnClickListener {
         add_chiyao = (TextView) findViewById(R.id.add_chiyao);
         xiala_image.setImageResource(R.mipmap.iconfonticonfonti2copy);
         positionTextView = (TextView) findViewById(R.id.takeMedicinePositionTextView);
-        positionTextView.setText("无位置信息");
+        chiyao_shop= (TextView) findViewById(R.id.chiyao_shop);
+        app= (MyApplication) getApplication();
+        //positionTextView.setText(app.getEquips().get(0).getName());
+
         LocationService locationService = new LocationService();
         if (((MyApplication) getApplication()).getEquips().size()>0) {
             locationService.getAddress(((MyApplication) getApplication()).getEquips().get(0).geteId(), this);
@@ -95,6 +101,11 @@ public class chiyao extends AppCompatActivity implements View.OnClickListener {
             }
             case R.id.add_chiyao: {
                 Intent intent = new Intent(chiyao.this, chiyao_addremind.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.chiyao_shop: {
+                Intent intent = new Intent(chiyao.this, chiyao_Shop.class);
                 startActivity(intent);
                 break;
             }

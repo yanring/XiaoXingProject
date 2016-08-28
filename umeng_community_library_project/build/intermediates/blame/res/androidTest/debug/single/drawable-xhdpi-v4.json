@@ -1,682 +1,1362 @@
 [
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_emoji_keyboard.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_emoji_keyboard.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_like_white.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_like_white.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_nearby_recommend.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_nearby_recommend.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_bg_album_border.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_bg_album_border.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_topic.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_topic.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\sousuo.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\sousuo.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_notification.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_notification.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_msg_chat.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_msg_chat.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_topic_icon.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_topic_icon.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pinglunph.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pinglunph.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_comment_pressed.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_comment_pressed.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_switch_state_mask.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_switch_state_mask.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_favorites_pressed.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_favorites_pressed.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xietiezi.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xietiezi.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pinglun.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pinglun.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_find_setting.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_find_setting.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\quxiaoguanzhu.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\quxiaoguanzhu.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\tiezipinglunc.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\tiezipinglunc.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_back_pressed.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_back_pressed.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_more.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_more.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\sixin2.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\sixin2.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_gender_male.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_gender_male.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_copy.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_copy.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_switch_slider_normal.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_switch_slider_normal.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_female.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_female.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_back_white.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_back_white.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\kuangh.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\kuangh.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_more.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_more.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_item_comment.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_item_comment.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_realtime_icon.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_realtime_icon.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\huatizu.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\huatizu.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_reply_comment.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_reply_comment.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_like_more_user_normal.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_like_more_user_normal.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_user_add_follow_btn.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_user_add_follow_btn.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_user_info_female.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_user_info_female.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\dibiao.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\dibiao.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_topic_recommend.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_topic_recommend.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_emojipoint_pressed.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_emojipoint_pressed.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_title_back.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_title_back.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\tiezizanh.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\tiezizanh.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_like_icon.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_like_icon.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_at_friend.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_at_friend.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\yishoucang.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\yishoucang.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_pop_bg.9.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_pop_bg.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_user_center.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_user_center.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\tiezizanc.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\tiezizanc.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_gender_female.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_gender_female.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xialakuang.9.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xialakuang.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_like_normal.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_like_normal.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_emojipoint_normal.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_emojipoint_normal.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_comment_n.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_comment_n.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xiangce.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xiangce.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_delete.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_delete.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_item_top.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_item_top.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_not_found.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_not_found.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\nv.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\nv.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_item_like.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_item_like.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_user_topic.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_user_topic.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_user_info_male.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_user_info_male.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xiaolian.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xiaolian.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_like_n.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_like_n.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pinglunzanc.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pinglunzanc.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xialalan.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xialalan.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\jiaguanzhu.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\jiaguanzhu.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_switch_frame.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_switch_frame.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_ic_choice_green.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_ic_choice_green.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_remove.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_remove.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_bg_dark_translucent.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_bg_dark_translucent.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_male.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_male.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_notify.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_notify.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_report.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_report.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_ic_checkbox_normal.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_ic_checkbox_normal.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\jia.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\jia.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_emoji.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_emoji.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_favorite_p.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_favorite_p.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_item_location.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_item_location.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xianghu.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xianghu.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_share_normal.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_share_normal.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\weishoucang.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\weishoucang.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_forward_pressed.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_forward_pressed.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\zan.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\zan.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\duihuakuang2.9.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\duihuakuang2.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_cancel_pressed.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_cancel_pressed.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\nan.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\nan.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_comment_like_n.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_comment_like_n.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_pop_arrow.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_pop_arrow.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_setting.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_setting.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\gengduo.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\gengduo.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_loc.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_loc.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_like_more_user_pressed.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_like_more_user_pressed.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_switch_slider_disable.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_switch_slider_disable.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\jiantou.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\jiantou.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_favorites_normal.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_favorites_normal.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_comment_normal.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_comment_normal.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\kuangc.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\kuangc.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\jifen.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\jifen.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\huati.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\huati.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_new_post_pressed.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_new_post_pressed.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\faxian.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\faxian.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_comment_comment_n.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_comment_comment_n.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_favorite_n.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_favorite_n.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_loc_pressed.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_loc_pressed.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\zhaopian.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\zhaopian.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_album.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_album.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\jiaw.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\jiaw.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_user_recommend.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_user_recommend.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_item_essential.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_item_essential.png"
-    },
-    {
         "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xuanzhong.png",
         "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xuanzhong.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\shoucang.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\shoucang.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\shantu.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\shantu.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_uncheck.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_uncheck.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\blue_line_for_tv.9.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\blue_line_for_tv.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_camera.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_camera.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_search.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_search.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_comment_p.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_comment_p.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_msg_arrow.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_msg_arrow.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_photo.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_photo.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\fanhui.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\fanhui.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\yiguanzhu.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\yiguanzhu.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_top.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_top.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xie.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xie.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_camera_pressed.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_camera_pressed.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_like_pressed.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_like_pressed.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_announce.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_announce.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_setting_pressed.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_setting_pressed.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\tiezipinglunh.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\tiezipinglunh.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_photo_pressed.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_photo_pressed.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_msg_like.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_msg_like.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_discuss_announce.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_discuss_announce.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\duihuakuang1.9.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\duihuakuang1.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\sixin.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\sixin.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_switch_state_normal.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_switch_state_normal.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_topic_pressed.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_topic_pressed.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_msg_comment.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_msg_comment.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xialakuang_right.9.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xialakuang_right.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_image_delete.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_image_delete.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_comment_comment_p.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_comment_comment_p.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_new_post.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_new_post.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_add_image.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_add_image.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xialahui.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xialahui.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_ic_spinner_white.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_ic_spinner_white.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_find_pressed.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_find_pressed.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_switch_state_disable.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_switch_state_disable.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_comment_like_p.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_comment_like_p.png"
-    },
-    {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_find_normal.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_find_normal.png"
     },
     {
         "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_tick.png",
         "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_tick.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_recommend_friends.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_recommend_friends.png"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xialalan.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xialalan.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_chat_btn.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_chat_btn.png"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_new_post.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_new_post.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\v.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\v.png"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\tiezizanh.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\tiezizanh.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_share_pressed.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_share_pressed.png"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\jiaw.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\jiaw.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_title_back.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_title_back.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_like_more_user_normal.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_like_more_user_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_camera.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_camera.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_photo.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_photo.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_ic_spinner_white.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_ic_spinner_white.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_ic_checkbox_normal.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_ic_checkbox_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_camera_pressed.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_camera_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\duihuakuang2.9.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\duihuakuang2.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_reply_comment.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_reply_comment.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_comment_p.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_comment_p.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_user_add_follow_btn.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_user_add_follow_btn.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_notification.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_notification.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_pop_arrow.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_pop_arrow.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_add_image.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_add_image.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_find_normal.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_find_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_switch_frame.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_switch_frame.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_gender_male.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_gender_male.png"
     },
     {
         "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\tongzhi.png",
         "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\tongzhi.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_community_location.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_community_location.png"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_switch_state_disable.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_switch_state_disable.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_cancel.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_cancel.png"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_my_msg_arrow.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_my_msg_arrow.png"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pinglunzanh.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pinglunzanh.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pinglunpc.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pinglunpc.png"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_user_info_male.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_user_info_male.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_top_announce.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_top_announce.png"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\fanhui.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\fanhui.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_like_p.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_like_p.png"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_forward_normal.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_forward_normal.png"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_report.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_report.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_ic_loading_white.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_ic_loading_white.png"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_like_normal.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_like_normal.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\morentuf.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\morentuf.png"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_favorite_p.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_favorite_p.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pinglunzanh.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pinglunzanh.png"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\duihuakuang2.9.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\duihuakuang2.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_cancel_pressed.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_cancel_pressed.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_at_friend.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_at_friend.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_realtime_icon.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_realtime_icon.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_back_white.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_back_white.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xialakuang_right.9.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xialakuang_right.9.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_item_top.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_item_top.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\sixin2.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\sixin2.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\jiantou.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\jiantou.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xialakuang_right.9.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xialakuang_right.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_comment_pressed.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_comment_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_back_white.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_back_white.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_item_location.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_item_location.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_like_white.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_like_white.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_emoji.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_emoji.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xianghu.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xianghu.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xie.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xie.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_comment_comment_p.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_comment_comment_p.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_switch_slider_disable.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_switch_slider_disable.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_remove.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_remove.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_bg_dark_translucent.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_bg_dark_translucent.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_switch_slider_normal.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_switch_slider_normal.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\tiezipinglunh.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\tiezipinglunh.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_user_info_female.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_user_info_female.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_item_location.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_item_location.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_album.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_album.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_back.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_back.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_switch_state_normal.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_switch_state_normal.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\weishoucang.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\weishoucang.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_announce.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_announce.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_user_recommend.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_user_recommend.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_emoji.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_emoji.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_camera.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_camera.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_like_icon.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_like_icon.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_back.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_back.png"
     },
     {
         "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_msg_notice.png",
         "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_msg_notice.png"
     },
     {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_like_pressed.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_like_pressed.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_notify.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_notify.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\morentuf.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\morentuf.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xiaolian.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xiaolian.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_share_pressed.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_share_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xiaolian.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xiaolian.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_switch_state_mask.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_switch_state_mask.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_more.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_more.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_item_essential.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_item_essential.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xialakuang.9.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xialakuang.9.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xuanzhong.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xuanzhong.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\shantu.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\shantu.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_bg_album_border.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_bg_album_border.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_female.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_female.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_ic_loading_white.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_ic_loading_white.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_topic_icon.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_topic_icon.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_favorite_n.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_favorite_n.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_uncheck.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_uncheck.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xianghu.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xianghu.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_topic_pressed.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_topic_pressed.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_setting.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_setting.png"
+    },
+    {
         "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_send_pressed.png",
         "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_send_pressed.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_forward_bg.9.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_forward_bg.9.png"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_not_found.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_not_found.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_reply.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_reply.png"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_forward_pressed.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_forward_pressed.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_at_friend_pressed.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_at_friend_pressed.png"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pinglunpc.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pinglunpc.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xialakuang.9.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xialakuang.9.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_switch_frame.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_switch_frame.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_comment_comment_n.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_comment_comment_n.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_item_comment.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_item_comment.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\sousuo.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\sousuo.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xie.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xie.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\blue_line_for_tv.9.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\blue_line_for_tv.9.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_msg_arrow.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_msg_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_item_like.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_item_like.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xietiezi.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xietiezi.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\nv.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\nv.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_gender_male.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_gender_male.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\jiaw.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\jiaw.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_at_friend.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_at_friend.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_ic_loading_white.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_ic_loading_white.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_user_center.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_user_center.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_female.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_female.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\shoucang.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\shoucang.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\duihuakuang1.9.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\duihuakuang1.9.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_more.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_more.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_chat_btn.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_chat_btn.png"
     },
     {
         "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_send.png",
         "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_send.png"
     },
     {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_copy.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_copy.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\jifen.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\jifen.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\blue_line_for_tv.9.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\blue_line_for_tv.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_top.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_top.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_forward_pressed.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_forward_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_user_topic.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_user_topic.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\tiezizanc.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\tiezizanc.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_photo_pressed.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_photo_pressed.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_new_post_pressed.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_new_post_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\jiantou.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\jiantou.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\tiezipinglunh.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\tiezipinglunh.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_more.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_more.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\yiguanzhu.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\yiguanzhu.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\yiguanzhu.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\yiguanzhu.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_top_announce.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_top_announce.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_topic.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_topic.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_like_more_user_pressed.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_like_more_user_pressed.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_loc.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_loc.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\jiaguanzhu.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\jiaguanzhu.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_at_friend_pressed.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_at_friend_pressed.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_new_post.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_new_post.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_comment_comment_n.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_comment_comment_n.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_user_info_female.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_user_info_female.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_like_bg.9.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_like_bg.9.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_search.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_search.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\huati.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\huati.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_forward_normal.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_forward_normal.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_photo_pressed.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_photo_pressed.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_pop_arrow.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_pop_arrow.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_send_pressed.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_send_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_find_setting.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_find_setting.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\kuangh.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\kuangh.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_msg_comment.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_msg_comment.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_back_pressed.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_back_pressed.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_send.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_send.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_like_pressed.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_like_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pinglunzanc.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pinglunzanc.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_loc.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_loc.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_notification.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_notification.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\jia.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\jia.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_reply.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_reply.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\v.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\v.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_like_icon.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_like_icon.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_topic_recommend.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_topic_recommend.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_discuss_announce.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_discuss_announce.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_add_image.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_add_image.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\gengduo.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\gengduo.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_like_n.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_like_n.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\quxiaoguanzhu.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\quxiaoguanzhu.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_share_pressed.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_share_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_remove.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_remove.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_setting_pressed.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_setting_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_topic_recommend.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_topic_recommend.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_cancel_pressed.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_cancel_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_setting_pressed.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_setting_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_realtime_icon.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_realtime_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_bg_album_border.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_bg_album_border.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_uncheck.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_uncheck.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_favorite_p.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_favorite_p.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_at_friend_pressed.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_at_friend_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_delete.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_delete.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\duihuakuang1.9.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\duihuakuang1.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\tiezizanh.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\tiezizanh.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_msg_arrow.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_msg_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_not_found.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_not_found.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_male.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_male.png"
+    },
+    {
         "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_like_bg.9.png",
         "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_like_bg.9.png"
     },
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_back.png",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_back.png"
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\v.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\v.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_comment_pressed.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_comment_pressed.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_ic_choice_green.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_ic_choice_green.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_emojipoint_normal.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_emojipoint_normal.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_switch_slider_normal.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_switch_slider_normal.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\shantu.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\shantu.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xiangce.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xiangce.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_nearby_recommend.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_nearby_recommend.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_like_more_user_normal.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_like_more_user_normal.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_comment_normal.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_comment_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_topic_pressed.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_topic_pressed.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_loc_pressed.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_loc_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_search.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_search.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_user_add_follow_btn.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_user_add_follow_btn.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\nv.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\nv.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_item_top.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_item_top.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_like_n.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_like_n.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\fanhui.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\fanhui.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_nearby_recommend.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_nearby_recommend.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_camera_pressed.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_camera_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_more.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_more.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_comment_like_p.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_comment_like_p.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_notify.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_notify.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_community_location.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_community_location.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\huatizu.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\huatizu.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xietiezi.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xietiezi.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_forward_bg.9.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_forward_bg.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pinglun.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pinglun.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_bg_dark_translucent.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_bg_dark_translucent.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_user_center.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_user_center.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_image_delete.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_image_delete.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_user_recommend.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_user_recommend.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_find_pressed.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_find_pressed.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_cancel.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_cancel.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_ic_choice_green.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_ic_choice_green.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_favorites_normal.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_favorites_normal.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_msg_comment.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_msg_comment.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pinglunzanh.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pinglunzanh.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_emojipoint_pressed.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_emojipoint_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\kuangh.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\kuangh.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_user_topic.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_user_topic.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\tiezipinglunc.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\tiezipinglunc.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_favorites_normal.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_favorites_normal.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_switch_state_mask.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_switch_state_mask.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\kuangc.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\kuangc.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_new_post_pressed.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_new_post_pressed.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xialalan.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xialalan.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_comment_n.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_comment_n.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_msg_notice.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_msg_notice.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_cancel.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_cancel.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_top_announce.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_top_announce.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_gender_female.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_gender_female.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\zhaopian.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\zhaopian.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\dibiao.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\dibiao.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_item_essential.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_item_essential.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_ic_spinner_white.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_ic_spinner_white.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_top.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_top.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\tongzhi.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\tongzhi.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_reply_comment.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_reply_comment.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\nan.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\nan.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_switch_state_disable.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_switch_state_disable.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_chat_btn.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_chat_btn.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_like_p.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_like_p.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_delete.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_delete.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_copy.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_copy.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\zhaopian.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\zhaopian.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pinglunph.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pinglunph.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\faxian.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\faxian.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_forward_bg.9.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_forward_bg.9.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xiangce.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xiangce.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_find_setting.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_find_setting.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_msg_like.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_msg_like.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\yishoucang.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\yishoucang.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_comment_comment_p.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_comment_comment_p.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_my_msg_arrow.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_my_msg_arrow.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_image_delete.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_image_delete.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pinglunph.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pinglunph.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\weishoucang.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\weishoucang.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_find_normal.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_find_normal.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_item_like.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_item_like.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_switch_slider_disable.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_switch_slider_disable.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\sousuo.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\sousuo.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\tiezipinglunc.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\tiezipinglunc.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_pop_bg.9.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_pop_bg.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\kuangc.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\kuangc.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_report.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_report.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_male.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_male.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_emojipoint_pressed.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_emojipoint_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_comment_like_p.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_comment_like_p.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_comment_normal.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_comment_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_gender_female.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_gender_female.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\morentuf.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\morentuf.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\sixin2.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\sixin2.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_msg_chat.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_msg_chat.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_photo.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_photo.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_loc_pressed.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_loc_pressed.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_community_location.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_community_location.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\huatizu.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\huatizu.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\sixin.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\sixin.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\zan.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\zan.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_forward_normal.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_forward_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\tiezizanc.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\tiezizanc.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_comment_like_n.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_comment_like_n.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xialahui.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xialahui.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_share_normal.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_share_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\quxiaoguanzhu.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\quxiaoguanzhu.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_topic_icon.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_topic_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\xialahui.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\xialahui.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pinglunzanc.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pinglunzanc.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_recommend_friends.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_recommend_friends.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_announce.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_announce.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\zan.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\zan.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\gengduo.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\gengduo.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_comment_like_n.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_comment_like_n.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_title_back.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_title_back.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_back_pressed.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_back_pressed.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_favorites_pressed.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_favorites_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_favorite_n.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_favorite_n.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_setting.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_setting.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_switch_state_normal.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_switch_state_normal.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_like_p.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_like_p.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_album.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_album.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_reply.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_reply.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_emoji_keyboard.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_emoji_keyboard.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_user_info_male.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_user_info_male.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_share_normal.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_share_normal.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pinglunpc.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pinglunpc.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_recommend_friends.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_recommend_friends.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\huati.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\huati.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\faxian.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\faxian.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_comment_p.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_comment_p.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_msg_like.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_msg_like.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\shoucang.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\shoucang.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_topic.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_topic.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_emojipoint_normal.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_emojipoint_normal.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\pinglun.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\pinglun.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_favorites_pressed.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_favorites_pressed.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_find_pressed.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_find_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\jia.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\jia.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_pop_bg.9.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_pop_bg.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\dibiao.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\dibiao.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\nan.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\nan.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\sixin.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\sixin.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_like_normal.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_like_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\yishoucang.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\yishoucang.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_item_comment.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_item_comment.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_tick.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_tick.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_discuss_announce.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_discuss_announce.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\jifen.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\jifen.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_msg_chat.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_msg_chat.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_like_white.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_like_white.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_emoji_keyboard.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_emoji_keyboard.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_ic_checkbox_normal.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_ic_checkbox_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_my_msg_arrow.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_my_msg_arrow.png"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\jiaguanzhu.png",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\jiaguanzhu.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_like_more_user_pressed.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_like_more_user_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\umeng_comm_feed_detail_comment_n.png",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\umeng_comm_feed_detail_comment_n.png"
     }
 ]

@@ -1,11 +1,23 @@
 [
     {
-        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\umeng_comm_topic_toogle_color.xml",
-        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\color\\umeng_comm_topic_toogle_color.xml"
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\umeng_comm_toogle_color.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\color\\umeng_comm_toogle_color.xml"
     },
     {
         "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\umeng_comm_location_text.xml",
         "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\color\\umeng_comm_location_text.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\umeng_comm_location_text.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\color\\umeng_comm_location_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\umeng_comm_topic_toogle_color.xml",
+        "source": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\color\\umeng_comm_topic_toogle_color.xml"
+    },
+    {
+        "merged": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\umeng_comm_topic_toogle_color.xml",
+        "source": "D:\\XiaoXingProject\\umeng_community_library_project\\build\\intermediates\\bundles\\debug\\res\\color\\umeng_comm_topic_toogle_color.xml"
     },
     {
         "merged": "C:\\Users\\Yanring\\Desktop\\MyGPS\\MyGPS\\umeng_community_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\umeng_comm_toogle_color.xml",

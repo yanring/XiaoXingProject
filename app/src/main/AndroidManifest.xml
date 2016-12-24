@@ -65,23 +65,22 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
-            android:value="PKk8Ko2VH2GoDP3RLSHPZ5CR" />
-
+            android:value="71ZQGHWLvK3CPhG9ePP8BPcfochds5cs" />
 
         <provider
-            android:authorities="com.mygps"
-            android:name=".related_to_device.map.provider.ContentProvider"/>
+            android:name=".related_to_device.map.provider.ContentProvider"
+            android:authorities="com.mygps" />
 
-            <!--
+        <!--
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            -->
-        <activity android:name=".related_to_device.map.MyEquipDetailActivity"/>
+        -->
+        <activity android:name=".related_to_device.map.MyEquipDetailActivity" />
         <activity android:name=".related_to_extra_function.shopping.ShopWebViewActivity" />
-        <activity android:name=".related_to_device.map.MyHistoryPathActivity"/>
+        <activity android:name=".related_to_device.map.MyHistoryPathActivity" />
         <activity android:name=".unrelated_to_function.start.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -89,17 +88,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".unrelated_to_function.feedback.FeedbackActivity"/>
-        <activity android:name=".unrelated_to_function.moreInfo.MoreInfoActivity"/>
-        <activity android:name=".related_to_device.chiyao.chiyao"></activity>
-        <activity android:name=".related_to_device.chiyao.chiyao_addremind"></activity>
-        <activity android:name=".related_to_device.chiyao.chiyao_addremind_additem"></activity>
-        <activity android:name=".related_to_device.chiyao.chiyao_Shop"></activity>
+        <activity android:name=".unrelated_to_function.feedback.FeedbackActivity" />
+        <activity android:name=".unrelated_to_function.moreInfo.MoreInfoActivity" />
+        <activity android:name=".related_to_device.chiyao.chiyao" />
+        <activity android:name=".related_to_device.chiyao.chiyao_addremind" />
+        <activity android:name=".related_to_device.chiyao.chiyao_addremind_additem" />
+        <activity android:name=".related_to_device.chiyao.chiyao_Shop" />
         <activity android:name=".unrelated_to_function.start.SigninActivity" />
         <activity android:name=".unrelated_to_function.main.MainActivity" />
         <activity android:name=".related_to_extra_function.community.TestForumActivity" />
         <activity android:name=".related_to_device.map.MyEquipListActivity" />
-        <activity android:name=".related_to_device.map.MyEquipPenActivity"/>
+        <activity android:name=".related_to_device.map.MyEquipPenActivity" />
         <!-- 微博版activity组件 start -->
 
 
@@ -271,10 +270,12 @@
 
         <meta-data
             android:name="UMENG_APPKEY"
-            android:value="56f52893e0f55a79c8002cea"></meta-data>
+            android:value="56f52893e0f55a79c8002cea" />
         <meta-data
             android:name="UMENG_MESSAGE_SECRET"
-            android:value="ed66bfd59f8d9d3c1e8baa2447212721"></meta-data>
+            android:value="ed66bfd59f8d9d3c1e8baa2447212721" />
+
+        <activity android:name=".unrelated_to_function.moreInfo.Activity.IllnessTestActivity"></activity>
     </application>
 
 </manifest>

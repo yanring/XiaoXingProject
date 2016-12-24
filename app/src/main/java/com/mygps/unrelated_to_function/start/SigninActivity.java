@@ -114,7 +114,7 @@ public class SigninActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // TODO: Implement this method
+
         switch (item.getItemId()) {
             case android.R.id.home:
                 finish();

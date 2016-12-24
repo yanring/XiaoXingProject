@@ -171,7 +171,8 @@ public class MyEquipListActivity extends AppCompatActivity {
 
                     String nameStr = name.getText().toString();
                     String id = eIdET.getText().toString();
-                    final int phoneInt=Integer.parseInt(phone.getText().toString());
+
+                    final long phoneInt=Long.parseLong(phone.getText().toString());
 
 
                     /**
@@ -274,8 +275,16 @@ public class MyEquipListActivity extends AppCompatActivity {
             }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError error) {
-                    Toast.makeText(MyEquipListActivity.this, "请求失败！", Toast.LENGTH_LONG).show();
+
+                    // TODO:测试，改，删除280、281，283取消注释
+
+                    equips.remove(equips.get(position));
+                    adp.notifyDataSetChanged();
+
+                   // Toast.makeText(MyEquipListActivity.this, "请求失败！", Toast.LENGTH_LONG).show();
                     Log.i("aa", "get请求失败" + error);
+
+
                     //deleteLocalEquips();
                     //adp.notifyDataSetChanged();
                 }

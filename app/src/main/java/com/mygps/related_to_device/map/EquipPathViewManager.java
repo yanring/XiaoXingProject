@@ -79,7 +79,7 @@ public class EquipPathViewManager {
         textureList.add(mRedTexture);
         textureList.add(mRedTexture);
 
-        OverlayOptions ooPolyline = new PolylineOptions().width(30)
+        OverlayOptions ooPolyline = new PolylineOptions().width(20)
                 .points(points).dottedLine(true).customTexture(mRedTexture).keepScale(false);
         pathOverlay = baiduMap.addOverlay(ooPolyline);
     }

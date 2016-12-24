@@ -16,7 +16,6 @@ public class Position {
 
     @Override
     public String toString() {
-        // TODO Auto-generated method stub
         return "Position[id:" + id + "][time:" + time + "][lat:" + lat + "][lng:" + lng + "][speed:" + speed + "][eId:" + eId + "]";
     }
 

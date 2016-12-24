@@ -3,7 +3,9 @@ package com.mygps.related_to_extra_function.shopping;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Bitmap;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -67,6 +69,17 @@ public class ShopWebViewActivity extends AppCompatActivity {
 
                 web.loadUrl(removeHeaderJSAtBack);
                 web.loadUrl(removePageModeJSAtBack);
+            }
+
+            @Override
+            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                if(url.toLowerCase().trim().startsWith("tel:")){
+                    Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                    startActivity(intent);
+                    return true;
+                }
+                view.loadUrl(url);
+                return true;
             }
         });
 

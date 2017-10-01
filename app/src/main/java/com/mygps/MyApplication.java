@@ -4,6 +4,7 @@ import android.app.Application;
 
 import com.baidu.mapapi.SDKInitializer;
 import com.mygps.related_to_device.map.model.Equipment;
+import com.mygps.unrelated_to_function.profile.model.Profile;
 import com.mygps.unrelated_to_function.start.model.User;
 
 import java.util.ArrayList;
@@ -19,6 +20,8 @@ public class MyApplication extends Application {
     public static final String APPID = "e8f985a4ee26e26e5de22dbcc947a30e";
 
     List<Equipment> equips = new ArrayList<>();
+
+    List<Profile> profiles=new ArrayList<>();
 
     Long sleepTime = 60000L;
 
@@ -38,6 +41,13 @@ public class MyApplication extends Application {
 
     public void setEquips(List<Equipment> equips) {
         this.equips = equips;
+    }
+
+    public List<Profile> getProfiles(){
+        return  profiles;
+    }
+    public void setProfiles(List<Profile> profiles){
+        this.profiles=profiles;
     }
 
     public User getUser() {

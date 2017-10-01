@@ -7,8 +7,8 @@ android {
         applicationId "com.mygps"
         minSdkVersion 15
         targetSdkVersion 22
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName '2.0'
         multiDexEnabled true
     }
     buildTypes {
@@ -48,5 +48,6 @@ dependencies {
     compile 'com.baidu.mapapi:radar:3.7.1'
     compile 'com.baidu.mapapi:search:3.7.1'
     compile 'com.baidu.mapapi:util:3.7.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-beta5'
     testCompile 'junit:junit:4.12'
 }

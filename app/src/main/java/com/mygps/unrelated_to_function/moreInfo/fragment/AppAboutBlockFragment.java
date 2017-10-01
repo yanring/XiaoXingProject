@@ -36,15 +36,15 @@ public class AppAboutBlockFragment extends Fragment {
             "检查更新"
     };
     private static final int drawableId[]={
-            R.drawable.abc_ic_star_black_48dp,
-            R.drawable.abc_ic_star_black_48dp,
-            R.drawable.abc_ic_star_black_48dp
+            R.mipmap.feedback,
+            R.mipmap.about,
+            R.mipmap.update
     };
 
     private String moreInfo[] ={
             null,
             null,
-            "v1.0"
+            "v2.0"
     };
 
 

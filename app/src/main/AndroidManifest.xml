@@ -276,7 +276,8 @@
             android:value="ed66bfd59f8d9d3c1e8baa2447212721" />
 
         <activity android:name=".unrelated_to_function.moreInfo.Activity.IllnessTestActivity" />
-        <activity android:name=".unrelated_to_function.moreInfo.Activity.GameDisplayActivity"></activity>
+        <activity android:name=".unrelated_to_function.moreInfo.Activity.GameDisplayActivity" />
+        <activity android:name=".unrelated_to_function.profile.Activity.ProfileDisplayActivity"></activity>
     </application>
 
 </manifest>

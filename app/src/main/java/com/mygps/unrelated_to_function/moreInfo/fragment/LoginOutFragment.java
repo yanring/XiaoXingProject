@@ -39,7 +39,8 @@ public class LoginOutFragment extends Fragment {
     }
 
     private void init() {
-        ((ImageView) layoutView.findViewById(R.id.MoreInfoBlockItemImageView)).setImageResource(ImageViewResource);
+        ((ImageView) layoutView.findViewById(R.id.MoreInfoBlockItemImageView)).setImageDrawable(null);
+        //setImageResource(ImageViewResource);
         ((TextView) layoutView.findViewById(R.id.MoreInfoBlockItemTitleTV)).setText(((MyApplication) getActivity().getApplication()).getUser().getUsername());
         ((TextView) layoutView.findViewById(R.id.MoreInfoBlockItemtInfoTV)).setText("退出登录");
         layoutView.setOnClickListener(new View.OnClickListener() {

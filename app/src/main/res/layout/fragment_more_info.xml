@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+<!--
     <fragment
         android:name="com.mygps.unrelated_to_function.moreInfo.fragment.ProfileManage"
         android:layout_width="match_parent"
@@ -15,7 +16,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:id="@+id/ProfileManageFragment" />
-<!--
+-->
     <fragment
         android:name="com.mygps.unrelated_to_function.moreInfo.fragment.RelateBlockFragment"
         android:layout_width="match_parent"
@@ -24,7 +25,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:id="@+id/RelateBlockFragment" />-->
+        android:id="@+id/RelateBlockFragment" />
 
     <fragment
         android:name="com.mygps.unrelated_to_function.moreInfo.fragment.AppAboutBlockFragment"
